@@ -9,6 +9,7 @@ import { detectCompetition } from "../../data/competitions";
 export default function SetupTab() {
   const { state, setCompetition, setCustom, setSide, setCounsel, setCompromisText, parseNow, runAnalysis, runPipeline, generateMemorialBoth, generateOralsBoth } = useApp();
   const fileRef = useRef<HTMLInputElement>(null);
+  const [uploadStatus, setUploadStatus] = useState<string>("");
   const comp = competitionById(state.competition);
   const [sampleId, setSampleId] = useState(SAMPLE_COMPROMISES[0].id);
 
@@ -21,12 +22,18 @@ export default function SetupTab() {
   };
 
   const onUpload = async (f: File) => {
+    setUploadStatus("Reading " + f.name + "…");
     try {
       const t = await extractTextFromFile(f);
+      if (!t || !t.trim()) {
+        setUploadStatus("No text found in " + f.name + ". It may be a scanned/image PDF. Paste the text instead.");
+        return;
+      }
       setCompromisText(t);
       setCompetition(detectCompetition(t));
+      setUploadStatus("Loaded " + t.trim().split(/\s+/).length + " words from " + f.name + ".");
     } catch (e: any) {
-      alert(e?.message ?? "Could not read file.");
+      setUploadStatus("Could not read " + f.name + ": " + (e?.message ?? "unknown error") + ". Paste the text instead.");
     }
   };
 
@@ -93,10 +100,11 @@ export default function SetupTab() {
         />
         <div style={{ display: "flex", gap: 10, marginTop: 12, flexWrap: "wrap" }}>
           <Button onClick={() => fileRef.current?.click()} variant="ghost">Upload fact pattern (.txt/.md/.pdf)</Button>
-          <input ref={fileRef} type="file" accept=".txt,.md,.pdf" style={{ display: "none" }} onChange={(e) => { const f = e.target.files?.[0]; if (f) onUpload(f); e.target.value = ""; }} />
+          <input ref={fileRef} type="file" accept=".txt,.md,.pdf" style={{ position: "absolute", opacity: 0, width: 1, height: 1, pointerEvents: "none" }} onChange={(e) => { const f = e.target.files?.[0]; if (f) onUpload(f); e.target.value = ""; }} />
           <Button onClick={parseNow} variant="primary">Parse</Button>
           <Button onClick={() => { setCompromisText(""); }} variant="ghost">Clear</Button>
         </div>
+        {uploadStatus && <p style={{ fontSize: 12, color: "var(--ink-muted)", marginTop: 6, marginBottom: 0 }}>{uploadStatus}</p>}
 
         <div style={{ marginTop: 16, padding: 14, background: "rgba(11,18,32,0.45)", border: "1px solid var(--border)", borderRadius: "var(--radius-sm)" }}>
           <div style={{ fontSize: 12, color: "var(--brass-400)", fontWeight: 600, marginBottom: 8, letterSpacing: "0.12em", textTransform: "uppercase" }}>Generate (rely on uploaded benchmarks as the standard)</div>

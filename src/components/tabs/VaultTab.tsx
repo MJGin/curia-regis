@@ -88,7 +88,7 @@ export default function VaultTab() {
               <Button onClick={() => fileRef.current?.click()} variant="ghost" disabled={busy}>
                 {busy ? "Reading…" : "Choose file"}
               </Button>
-              <input ref={fileRef} type="file" accept=".txt,.md,.pdf" style={{ display: "none" }} onChange={(e) => { const f = e.target.files?.[0]; if (f) onFile(f); e.target.value = ""; }} />
+              <input ref={fileRef} type="file" accept=".txt,.md,.pdf" style={{ position: "absolute", opacity: 0, width: 1, height: 1, pointerEvents: "none" }} onChange={(e) => { const f = e.target.files?.[0]; if (f) onFile(f); e.target.value = ""; }} />
               <Button onClick={seed} variant="ghost">Load demo benchmarks</Button>
             </div>
             <textarea value={text} onChange={(e) => setText(e.target.value)} placeholder="…or paste the text of the memorial / script here" style={{ minHeight: 160 }} />
