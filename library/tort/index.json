@@ -1,0 +1,133 @@
+{
+  "topic": "tort",
+  "name": "Tort",
+  "count": 6,
+  "entries": [
+    {
+      "id": "poole",
+      "kind": "authority",
+      "title": "Poole Borough Council v GN",
+      "citation": "[2019] UKSC 25, [2020] AC 780",
+      "court": "Supreme Court of the United Kingdom",
+      "year": 2019,
+      "system": "UK",
+      "tags": [
+        "negligence",
+        "common-law",
+        "reasonableness"
+      ],
+      "topic": "tort",
+      "principle": "A public authority does not owe a duty of care merely by exercising its statutory functions; liability requires an assumption of responsibility or a special relationship.",
+      "facts": "A claim by children who suffered abuse in foster care against the local authority.",
+      "holding": "A public authority does not owe a duty of care merely by exercising its statutory functions; liability requires an assumption of responsibility or a special relationship.",
+      "judges": "Lord Reed (Supreme Court)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "robinson",
+      "kind": "authority",
+      "title": "Robinson v Chief Constable of West Yorkshire Police",
+      "citation": "[2018] UKSC 4, [2018] AC 736",
+      "court": "Supreme Court of the United Kingdom",
+      "year": 2018,
+      "system": "UK",
+      "tags": [
+        "negligence",
+        "common-law",
+        "reasonableness"
+      ],
+      "topic": "tort",
+      "principle": "The police owe a duty of care in the ordinary way when their positive conduct creates a foreseeable risk of injury; the Caparo test applies to novel categories, not to established ones.",
+      "facts": "A bystander was injured during a police chase of a suspect.",
+      "holding": "The police owe a duty of care in the ordinary way when their positive conduct creates a foreseeable risk of injury.",
+      "judges": "Lord Reed (Supreme Court)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "michael",
+      "kind": "authority",
+      "title": "Michael v Chief Constable of South Wales Police",
+      "citation": "[2015] UKSC 2, [2015] AC 1732",
+      "court": "Supreme Court of the United Kingdom",
+      "year": 2015,
+      "system": "UK",
+      "tags": [
+        "negligence",
+        "common-law",
+        "reasonableness"
+      ],
+      "topic": "tort",
+      "principle": "The police owe no duty of care to protect an individual from the criminal acts of a third party in the absence of an assumption of responsibility or a special relationship.",
+      "facts": "A claim by the family of a woman murdered by her ex-partner after police failures.",
+      "holding": "The police owe no duty of care to protect an individual from the criminal acts of a third party in the absence of an assumption of responsibility or a special relationship.",
+      "judges": "Lord Toulson (Supreme Court)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "caparo",
+      "kind": "authority",
+      "title": "Caparo Industries plc v Dickman",
+      "citation": "[1990] 2 AC 605 (House of Lords)",
+      "court": "House of Lords",
+      "year": 1990,
+      "system": "UK",
+      "tags": [
+        "negligence",
+        "common-law",
+        "reasonableness"
+      ],
+      "topic": "tort",
+      "principle": "A duty of care arises only where damage is reasonably foreseeable, the relationship is sufficiently proximate, and it is fair, just and reasonable to impose the duty.",
+      "facts": "Shareholders relied on an auditor's report to buy shares; the company collapsed and they sued the auditors.",
+      "holding": "A duty of care arises only where damage is reasonably foreseeable, the relationship is sufficiently proximate, and it is fair, just and reasonable to impose the duty.",
+      "judges": "Lord Bridge (House of Lords)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "hill",
+      "kind": "authority",
+      "title": "Hill v Chief Constable of West Yorkshire",
+      "citation": "[1989] AC 53 (House of Lords)",
+      "court": "House of Lords",
+      "year": 1989,
+      "system": "UK",
+      "tags": [
+        "negligence",
+        "common-law",
+        "reasonableness"
+      ],
+      "topic": "tort",
+      "principle": "The police owe no general duty of care to individual members of the public in the investigation and suppression of crime; policy considerations preclude such a duty.",
+      "facts": "A claim by the mother of a victim of the Yorkshire Ripper against the police.",
+      "holding": "The police owe no general duty of care to individual members of the public in the investigation and suppression of crime; policy considerations preclude such a duty.",
+      "judges": "Lord Keith (House of Lords)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "donoghue",
+      "kind": "authority",
+      "title": "Donoghue v Stevenson",
+      "citation": "[1932] AC 562 (House of Lords)",
+      "court": "House of Lords",
+      "year": 1932,
+      "system": "UK",
+      "tags": [
+        "negligence",
+        "common-law",
+        "tort"
+      ],
+      "topic": "tort",
+      "principle": "A manufacturer owes a duty of care to the ultimate consumer to take reasonable care that goods are free from defects likely to cause injury, the neighbour principle being the foundation of the tort.",
+      "facts": "A consumer became ill after drinking ginger beer containing a decomposed snail; she sued the manufacturer.",
+      "holding": "A manufacturer owes a duty of care to the ultimate consumer to take reasonable care that goods are free from defects likely to cause injury.",
+      "judges": "Lord Atkin (House of Lords)",
+      "sourceUrl": null,
+      "note": ""
+    }
+  ]
+}

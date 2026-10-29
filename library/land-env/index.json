@@ -1,0 +1,290 @@
+{
+  "topic": "land-env",
+  "name": "Land & Environment",
+  "count": 13,
+  "entries": [
+    {
+      "id": "mitu-bell-sc",
+      "kind": "authority",
+      "title": "Mitu-Bell Welfare Society v Kenya Airports Authority & 2 Others",
+      "citation": "[2021] KESC 21 (KLR) (Petition 3 of 2018)",
+      "court": "Supreme Court of Kenya",
+      "year": 2021,
+      "system": "KE",
+      "tags": [
+        "land",
+        "human-rights",
+        "remedy",
+        "proportionality",
+        "public-participation"
+      ],
+      "topic": "land-env",
+      "principle": "Forced evictions must be carried out in a manner consistent with human dignity; the State must provide adequate notice, consultation and resettlement.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kesc/2021/21/eng@2021-02-02",
+      "note": ""
+    },
+    {
+      "id": "australia-plain",
+      "kind": "authority",
+      "title": "Australia — Certain Measures Concerning Trademarks, Geographical Indications and Other Plain Packaging Requirements Applicable to Tobacco Products and Packaging",
+      "citation": "WT/DS435/AB/R, WT/DS441/AB/R (9 June 2020)",
+      "court": "WTO Appellate Body",
+      "year": 2020,
+      "system": "WTO",
+      "tags": [
+        "environment",
+        "necessity",
+        "trade-discrimination",
+        "treaty-interpretation"
+      ],
+      "topic": "land-env",
+      "principle": "A tobacco control measure can be justified under Article XX(b) where it makes a material contribution to public health and the chapeau is satisfied; the measure need not be perfect, only proportionate.",
+      "facts": "Australia required plain packaging for tobacco products.",
+      "holding": "A tobacco control measure can be justified under Article XX(b) where it makes a material contribution to public health and the chapeau is satisfied.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "china-rare",
+      "kind": "authority",
+      "title": "China — Measures Related to the Exportation of Rare Earths, Tungsten and Molybdenum",
+      "citation": "WT/DS431/AB/R, WT/DS432/AB/R, WT/DS433/AB/R (7 August 2014)",
+      "court": "WTO Appellate Body",
+      "year": 2014,
+      "system": "WTO",
+      "tags": [
+        "trade-discrimination",
+        "necessity",
+        "environment"
+      ],
+      "topic": "land-env",
+      "principle": "Export restrictions on raw materials must be justified under the general exceptions; the conservation of exhaustible natural resources must be applied even-handedly.",
+      "facts": "China imposed export restrictions on rare earths, tungsten and molybdenum.",
+      "holding": "Export restrictions on raw materials must be justified under the general exceptions; the conservation of exhaustible natural resources must be applied even-handedly.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "ec-seals",
+      "kind": "authority",
+      "title": "European Communities — Measures Prohibiting the Importation and Marketing of Seal Products",
+      "citation": "WT/DS400/AB/R, WT/DS401/AB/R (22 May 2014)",
+      "court": "WTO Appellate Body",
+      "year": 2014,
+      "system": "WTO",
+      "tags": [
+        "tbt",
+        "trade-discrimination",
+        "environment",
+        "necessity"
+      ],
+      "topic": "land-env",
+      "principle": "A measure protecting animal welfare may be justified under Article XX(a) where it is necessary and the chapeau is satisfied; arbitrary or unjustifiable discrimination is prohibited.",
+      "facts": "The EU banned the importation and marketing of seal products.",
+      "holding": "A measure protecting animal welfare may be justified under Article XX(a) where it is necessary and the chapeau is satisfied.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "whaling",
+      "kind": "authority",
+      "title": "Whaling in the Antarctic (Australia v Japan: New Zealand intervening)",
+      "citation": "[2014] ICJ Rep 226",
+      "court": "International Court of Justice",
+      "year": 2014,
+      "system": "ICJ",
+      "tags": [
+        "treaty-interpretation",
+        "environment",
+        "necessity",
+        "standard-of-review"
+      ],
+      "topic": "land-env",
+      "principle": "Treaty interpretation under the VCLT is an objective exercise; the Court will not defer to a party's own characterisation of its measures where the text and context point otherwise.",
+      "facts": "Australia claimed that Japan's whaling programme was not for scientific purposes.",
+      "holding": "Treaty interpretation under the VCLT is an objective exercise; the Court will not defer to a party's own characterisation of its measures where the text and context point otherwise.",
+      "judges": "Owada, President (International Court of Justice)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "china-raw",
+      "kind": "authority",
+      "title": "China — Measures Related to the Exportation of Various Raw Materials",
+      "citation": "WT/DS394/AB/R (30 January 2012)",
+      "court": "WTO Appellate Body",
+      "year": 2012,
+      "system": "WTO",
+      "tags": [
+        "trade-discrimination",
+        "necessity",
+        "environment"
+      ],
+      "topic": "land-env",
+      "principle": "Export duties and quotas must be consistent with the Member's WTO commitments; general exceptions must be applied without arbitrary or unjustifiable discrimination.",
+      "facts": "China imposed export duties and quotas on various raw materials.",
+      "holding": "Export duties and quotas must be consistent with the Member's WTO commitments; general exceptions must be applied without arbitrary or unjustifiable discrimination.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "us-tuna",
+      "kind": "authority",
+      "title": "United States — Measures Concerning the Importation, Marketing and Sale of Tuna and Tuna Products (Tuna II)",
+      "citation": "WT/DS381/AB/R (16 May 2012)",
+      "court": "WTO Appellate Body",
+      "year": 2012,
+      "system": "WTO",
+      "tags": [
+        "tbt",
+        "trade-discrimination",
+        "necessity",
+        "environment"
+      ],
+      "topic": "land-env",
+      "principle": "A measure that is more trade-restrictive than necessary to fulfil a legitimate objective is inconsistent with Article 2.2 of the TBT Agreement.",
+      "facts": "The United States required dolphin-safe labelling for tuna products.",
+      "holding": "A measure that is more trade-restrictive than necessary to fulfil a legitimate objective is inconsistent with Article 2.2 of the TBT Agreement.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "brazil-tyres",
+      "kind": "authority",
+      "title": "Brazil — Measures Affecting Imports of Retreaded Tyres",
+      "citation": "WT/DS332/AB/R (3 December 2007)",
+      "court": "WTO Appellate Body",
+      "year": 2007,
+      "system": "WTO",
+      "tags": [
+        "environment",
+        "necessity",
+        "trade-discrimination"
+      ],
+      "topic": "land-env",
+      "principle": "A measure protecting human health or the environment may be justified under Article XX(b) where it is necessary and the chapeau is satisfied; the measure must not constitute arbitrary or unjustifiable discrimination.",
+      "facts": "Brazil banned imports of retreaded tyres.",
+      "holding": "A measure protecting human health or the environment may be justified under Article XX(b) where it is necessary and the chapeau is satisfied.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "ec-asbestos",
+      "kind": "authority",
+      "title": "European Communities — Measures Affecting Asbestos and Asbestos-Containing Products",
+      "citation": "WT/DS135/AB/R (12 March 2001)",
+      "court": "WTO Appellate Body",
+      "year": 2001,
+      "system": "WTO",
+      "tags": [
+        "trade-likeness",
+        "trade-discrimination",
+        "environment",
+        "necessity"
+      ],
+      "topic": "land-env",
+      "principle": "Like products are determined by competitive relationship; a measure protecting human health may be justified under Article XX(b) where necessary and the chapeau is satisfied.",
+      "facts": "France banned asbestos and asbestos-containing products.",
+      "holding": "Like products are determined by competitive relationship; a measure protecting human health may be justified under Article XX(b).",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "serac",
+      "kind": "authority",
+      "title": "Social and Economic Rights Action Center (SERAC) and Another v Nigeria",
+      "citation": "Communication 155/96, (2001) AHRLR 60 (ACHPR 2001)",
+      "court": "African Commission on Human and Peoples' Rights",
+      "year": 2001,
+      "system": "AF",
+      "tags": [
+        "human-rights",
+        "expression",
+        "remedy",
+        "environment"
+      ],
+      "topic": "land-env",
+      "principle": "The African Charter protects economic, social and cultural rights, including the right to health and to a satisfactory environment; States must take reasonable measures to protect those rights.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "us-shrimp",
+      "kind": "authority",
+      "title": "United States — Import Prohibition of Certain Shrimp and Shrimp Products",
+      "citation": "WT/DS58/AB/R (6 November 1998)",
+      "court": "WTO Appellate Body",
+      "year": 1998,
+      "system": "WTO",
+      "tags": [
+        "environment",
+        "trade-discrimination",
+        "necessity"
+      ],
+      "topic": "land-env",
+      "principle": "The chapeau requires a balancing of the right to invoke an exception and the duty not to abuse it; arbitrary or unjustifiable discrimination between countries where the same conditions prevail is prohibited.",
+      "facts": "The United States banned shrimp imports from countries not using turtle-excluder devices.",
+      "holding": "The chapeau requires a balancing of the right to invoke an exception and the duty not to abuse it; the US measure constituted arbitrary and unjustifiable discrimination.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "us-gasoline",
+      "kind": "authority",
+      "title": "United States — Standards for Reformulated and Conventional Gasoline",
+      "citation": "WT/DS2/AB/R (29 April 1996)",
+      "court": "WTO Appellate Body",
+      "year": 1996,
+      "system": "WTO",
+      "tags": [
+        "environment",
+        "trade-discrimination",
+        "necessity",
+        "treaty-interpretation"
+      ],
+      "topic": "land-env",
+      "principle": "Article XX permits measures necessary to protect human, animal or plant life or exhaustible natural resources, provided the chapeau is satisfied; the chapeau guards against abuse of the exceptions.",
+      "facts": "The United States imposed emissions standards on imported gasoline that were stricter than those for domestic gasoline.",
+      "holding": "The chapeau of Article XX requires that measures not constitute arbitrary or unjustifiable discrimination; the US measure violated Article XX(g) as applied.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "gatt-1994",
+      "kind": "authority",
+      "title": "General Agreement on Tariffs and Trade 1994",
+      "citation": "General Agreement on Tariffs and Trade 1994, Marrakesh Agreement Establishing the WTO, Annex 1A, 1867 UNTS 187",
+      "court": "WTO covered agreement",
+      "year": 1994,
+      "system": "INSTRUMENT",
+      "tags": [
+        "trade-likeness",
+        "trade-discrimination",
+        "necessity",
+        "environment"
+      ],
+      "topic": "land-env",
+      "principle": "Members may not discriminate between like products or accord less favourable treatment to imports; Article XX permits otherwise inconsistent measures that satisfy the chapeau and a listed policy ground.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": null,
+      "note": ""
+    }
+  ]
+}

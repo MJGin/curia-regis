@@ -1,0 +1,113 @@
+{
+  "topic": "equity",
+  "name": "Equity & Trusts",
+  "count": 5,
+  "entries": [
+    {
+      "id": "twinsectra",
+      "kind": "authority",
+      "title": "Twinsectra Ltd v Yardley",
+      "citation": "[2002] 2 AC 164 (House of Lords)",
+      "court": "House of Lords",
+      "year": 2002,
+      "system": "UK",
+      "tags": [
+        "equity",
+        "common-law",
+        "remedy"
+      ],
+      "topic": "equity",
+      "principle": "Dishonesty for accessory liability is judged by the combined subjective and objective test: the defendant must have acted dishonestly by the standards of reasonable people and must have realised that.",
+      "facts": "A claim against a solicitor who paid trust money to a client in breach of trust.",
+      "holding": "Dishonesty for accessory liability is judged by the combined subjective and objective test.",
+      "judges": "Lord Hoffmann (House of Lords)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "foskett",
+      "kind": "authority",
+      "title": "Foskett v McKeown",
+      "citation": "[2001] 1 AC 102 (House of Lords)",
+      "court": "House of Lords",
+      "year": 2001,
+      "system": "UK",
+      "tags": [
+        "equity",
+        "remedy",
+        "common-law"
+      ],
+      "topic": "equity",
+      "principle": "Beneficial ownership is a proprietary matter: a claimant who can trace property into its substitute may assert a proprietary claim in priority to the wrongdoer's creditors.",
+      "facts": "A trustee misapplied trust funds to purchase a life insurance policy; beneficiaries claimed the proceeds.",
+      "holding": "Beneficial ownership is a proprietary matter: a claimant who can trace property into its substitute may assert a proprietary claim in priority to the wrongdoer's creditors.",
+      "judges": "Lord Browne-Wilkinson (House of Lords)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "royal-brunei",
+      "kind": "authority",
+      "title": "Royal Brunei Airlines Sdn Bhd v Tan",
+      "citation": "[1995] 2 AC 378 (Privy Council)",
+      "court": "Privy Council",
+      "year": 1995,
+      "system": "UK",
+      "tags": [
+        "equity",
+        "common-law",
+        "remedy"
+      ],
+      "topic": "equity",
+      "principle": "Accessory liability for breach of trust requires dishonesty; negligence or knowledge of the breach is insufficient.",
+      "facts": "A claim against a company director who assisted in a breach of trust.",
+      "holding": "Accessory liability for breach of trust requires dishonesty; negligence or knowledge of the breach is insufficient.",
+      "judges": "Lord Nicholls (Privy Council)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "judicature-act",
+      "kind": "authority",
+      "title": "Judicature Act (Cap 8)",
+      "citation": "Judicature Act (Cap 8) (Kenya), section 3",
+      "court": "National statute",
+      "year": 1967,
+      "system": "INSTRUMENT",
+      "tags": [
+        "constitutional-interpretation",
+        "common-law",
+        "equity",
+        "statutory-purpose"
+      ],
+      "topic": "equity",
+      "principle": "Kenyan courts apply the Constitution, statutes, and the substance of the common law, doctrines of equity and statutes of general application in force in England on 12 August 1897, so far as local circumstances permit.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "barnes-addy",
+      "kind": "authority",
+      "title": "Barnes v Addy",
+      "citation": "(1874) LR 9 Ch App 244",
+      "court": "Court of Appeal in Chancery",
+      "year": 1874,
+      "system": "UK",
+      "tags": [
+        "equity",
+        "common-law",
+        "remedy"
+      ],
+      "topic": "equity",
+      "principle": "A stranger to a trust is liable as a constructive trustee where he dishonestly assists in a breach of trust or knowingly receives trust property.",
+      "facts": "A claim against solicitors who assisted a trustee in breaching the trust.",
+      "holding": "A stranger to a trust is liable as a constructive trustee where he dishonestly assists in a breach of trust or knowingly receives trust property.",
+      "judges": "Sir George Jessel MR (Court of Appeal in Chancery)",
+      "sourceUrl": null,
+      "note": ""
+    }
+  ]
+}

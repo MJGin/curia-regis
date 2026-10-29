@@ -1,0 +1,309 @@
+{
+  "topic": "commercial",
+  "name": "Commercial & Corporate",
+  "count": 14,
+  "entries": [
+    {
+      "id": "russia-traffic",
+      "kind": "authority",
+      "title": "Russia — Measures Concerning Traffic in Transit",
+      "citation": "WT/DS512/R (5 April 2019)",
+      "court": "WTO Panel",
+      "year": 2019,
+      "system": "WTO",
+      "tags": [
+        "necessity",
+        "legality",
+        "trade-discrimination",
+        "proportionality"
+      ],
+      "topic": "commercial",
+      "principle": "The security exception (GATT Article XXI) requires an emergency in international relations, an essential security interest and a plausible connection between the measure and that interest.",
+      "facts": "Ukraine challenged Russian transit restrictions on Ukrainian goods.",
+      "holding": "The security exception (GATT Article XXI) requires an emergency in international relations, an essential security interest and a plausible connection between the measure and that interest.",
+      "judges": "WTO Panel",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "bat-uganda",
+      "kind": "authority",
+      "title": "British American Tobacco (U) Ltd v Attorney General of Uganda",
+      "citation": "Reference No 2 of 2017 (EACJ)",
+      "court": "East African Court of Justice",
+      "year": 2017,
+      "system": "ICJ",
+      "tags": [
+        "trade-discrimination",
+        "human-rights",
+        "reasonableness",
+        "proportionality"
+      ],
+      "topic": "commercial",
+      "principle": "Differential treatment does not necessarily constitute unlawful discrimination; discrimination requires that like products be treated differently without reasonable justification.",
+      "facts": "British American Tobacco challenged Ugandan tax measures before the EACJ.",
+      "holding": "Differential treatment does not necessarily constitute unlawful discrimination; discrimination requires that like products be treated differently without reasonable justification.",
+      "judges": "East African Court of Justice",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "canada-renewable",
+      "kind": "authority",
+      "title": "Canada — Certain Measures Affecting the Renewable Energy Generation Sector",
+      "citation": "WT/DS412/AB/R, WT/DS426/AB/R (6 May 2013)",
+      "court": "WTO Appellate Body",
+      "year": 2013,
+      "system": "WTO",
+      "tags": [
+        "subsidy",
+        "trade-discrimination",
+        "necessity"
+      ],
+      "topic": "commercial",
+      "principle": "Local content requirements in the renewable energy sector are prohibited subsidies under the SCM Agreement where they confer a benefit conditional on the use of domestic goods.",
+      "facts": "Ontario's feed-in tariff programme required local content for renewable energy.",
+      "holding": "Local content requirements in the renewable energy sector are prohibited subsidies under the SCM Agreement where they confer a benefit conditional on the use of domestic goods.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "us-cool",
+      "kind": "authority",
+      "title": "United States — Certain Country of Origin Labelling (COOL) Requirements",
+      "citation": "WT/DS384/AB/R, WT/DS386/AB/R (29 June 2012)",
+      "court": "WTO Appellate Body",
+      "year": 2012,
+      "system": "WTO",
+      "tags": [
+        "trade-discrimination",
+        "trade-likeness",
+        "treaty-interpretation"
+      ],
+      "topic": "commercial",
+      "principle": "A measure that accords less favourable treatment to imported livestock and meat than to like domestic products is inconsistent with Article 2.1 of the TBT Agreement.",
+      "facts": "The United States required country of origin labelling for livestock and meat.",
+      "holding": "A measure that accords less favourable treatment to imported livestock and meat than to like domestic products is inconsistent with Article 2.1 of the TBT Agreement.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "us-clove",
+      "kind": "authority",
+      "title": "United States — Measures Affecting the Production and Sale of Clove Cigarettes",
+      "citation": "WT/DS406/AB/R (4 April 2012)",
+      "court": "WTO Appellate Body",
+      "year": 2012,
+      "system": "WTO",
+      "tags": [
+        "tbt",
+        "trade-likeness",
+        "trade-discrimination"
+      ],
+      "topic": "commercial",
+      "principle": "Under the TBT Agreement, like products are those that are identical or similar in terms of their characteristics, end-use and consumer tastes, assessed as a whole.",
+      "facts": "The United States banned clove cigarettes but not menthol cigarettes.",
+      "holding": "Under the TBT Agreement, like products are those identical or similar in terms of characteristics, end-use and consumer tastes.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "china-publications",
+      "kind": "authority",
+      "title": "China — Measures Affecting Trading Rights and Distribution Services for Certain Publications and Audiovisual Entertainment Products",
+      "citation": "WT/DS363/AB/R (19 December 2009)",
+      "court": "WTO Appellate Body",
+      "year": 2009,
+      "system": "WTO",
+      "tags": [
+        "gats",
+        "trade-discrimination",
+        "necessity"
+      ],
+      "topic": "commercial",
+      "principle": "Trading rights obligations are commitments under China's Accession Protocol; regulatory measures must be administered reasonably, objectively and impartially.",
+      "facts": "China restricted the importation and distribution of publications and audiovisual products.",
+      "holding": "Trading rights obligations are commitments under China's Accession Protocol; regulatory measures must be administered reasonably, objectively and impartially.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "eac-common-market",
+      "kind": "authority",
+      "title": "Protocol on the Establishment of the East African Community Common Market",
+      "citation": "EAC Common Market Protocol (2009), arts 4, 30, 43 and 124",
+      "court": "Multilateral treaty",
+      "year": 2009,
+      "system": "INSTRUMENT",
+      "tags": [
+        "trade-discrimination",
+        "human-rights",
+        "legality",
+        "proportionality"
+      ],
+      "topic": "commercial",
+      "principle": "Partner states guarantee free movement of goods, services, labour and capital, and undertake to promote science and technology through the protection of intellectual property (art 103, read with art 43 of the Protocol).",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "korea-beef",
+      "kind": "authority",
+      "title": "Korea — Measures Affecting Imports of Fresh, Chilled and Frozen Beef",
+      "citation": "WT/DS161/AB/R, WT/DS169/AB/R (11 December 2000)",
+      "court": "WTO Appellate Body",
+      "year": 2000,
+      "system": "WTO",
+      "tags": [
+        "necessity",
+        "trade-discrimination",
+        "trade-likeness"
+      ],
+      "topic": "commercial",
+      "principle": "A measure is necessary under Article XX only where it makes a material contribution to the objective and is the least trade-restrictive alternative reasonably available.",
+      "facts": "Korea applied a dual retail system for beef that disadvantaged imports.",
+      "holding": "A measure is necessary under Article XX only where it makes a material contribution and is the least trade-restrictive alternative reasonably available.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "eac-treaty",
+      "kind": "authority",
+      "title": "Treaty for the Establishment of the East African Community",
+      "citation": "EAC Treaty (1999), arts 5, 6, 7, 8, 27, 28, 30, 38, 43, 72, 75, 95, 103 and 124",
+      "court": "Multilateral treaty",
+      "year": 1999,
+      "system": "INSTRUMENT",
+      "tags": [
+        "jurisdiction",
+        "legality",
+        "trade-discrimination",
+        "human-rights",
+        "proportionality",
+        "reasonableness",
+        "remedy"
+      ],
+      "topic": "commercial",
+      "principle": "The Treaty establishes the Community's objectives (art 5), fundamental principles (art 6) and operational principles (art 7); partner states undertake to abstain from measures likely to jeopardise achievement of the objectives (art 8(1)(c)) and to cooperate in good faith.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "japan-alcohol",
+      "kind": "authority",
+      "title": "Japan — Taxes on Alcoholic Beverages",
+      "citation": "WT/DS8/AB/R (1 November 1996)",
+      "court": "WTO Appellate Body",
+      "year": 1996,
+      "system": "WTO",
+      "tags": [
+        "trade-likeness",
+        "trade-discrimination",
+        "treaty-interpretation"
+      ],
+      "topic": "commercial",
+      "principle": "Like products are determined by competitive relationship, not by the measure's own criteria; likeness is assessed by physical characteristics, end-use, consumer tastes and tariff classification.",
+      "facts": "Japan taxed imported alcoholic beverages at higher rates than domestic shochu.",
+      "holding": "Like products are determined by competitive relationship; the Japanese tax violated Article III:2.",
+      "judges": "Appellate Body",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "scm-agreement",
+      "kind": "authority",
+      "title": "Agreement on Subsidies and Countervailing Measures",
+      "citation": "Agreement on Subsidies and Countervailing Measures, Marrakesh Agreement Establishing the WTO, Annex 1A, 1867 UNTS 479",
+      "court": "WTO covered agreement",
+      "year": 1994,
+      "system": "INSTRUMENT",
+      "tags": [
+        "subsidy",
+        "trade-discrimination",
+        "necessity"
+      ],
+      "topic": "commercial",
+      "principle": "A subsidy exists where a financial contribution by government confers a benefit; only specific subsidies are actionable, and prohibited export subsidies fall under Article 3.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "sps-agreement",
+      "kind": "authority",
+      "title": "Agreement on the Application of Sanitary and Phytosanitary Measures",
+      "citation": "Agreement on the Application of Sanitary and Phytosanitary Measures, Marrakesh Agreement Establishing the WTO, Annex 1A, 1867 UNTS 493",
+      "court": "WTO covered agreement",
+      "year": 1994,
+      "system": "INSTRUMENT",
+      "tags": [
+        "sps",
+        "necessity",
+        "trade-discrimination"
+      ],
+      "topic": "commercial",
+      "principle": "SPS measures must be based on scientific principles and a risk assessment, be no more trade-restrictive than required, and may depart from international standards only with scientific justification under Article 3.3.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "gats",
+      "kind": "authority",
+      "title": "General Agreement on Trade in Services",
+      "citation": "General Agreement on Trade in Services, Marrakesh Agreement Establishing the WTO, Annex 1B, 1869 UNTS 183",
+      "court": "WTO covered agreement",
+      "year": 1994,
+      "system": "INSTRUMENT",
+      "tags": [
+        "gats",
+        "trade-discrimination",
+        "necessity"
+      ],
+      "topic": "commercial",
+      "principle": "Market access and national treatment obligations apply to scheduled sectors subject to the Member's commitments and limitations; domestic regulation must be administered reasonably, objectively and impartially.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "dsu",
+      "kind": "authority",
+      "title": "Understanding on Rules and Procedures Governing the Settlement of Disputes",
+      "citation": "Understanding on Rules and Procedures Governing the Settlement of Disputes, Marrakesh Agreement Establishing the WTO, Annex 2, 1869 UNTS 401",
+      "court": "WTO covered agreement",
+      "year": 1994,
+      "system": "INSTRUMENT",
+      "tags": [
+        "jurisdiction",
+        "remedy",
+        "treaty-interpretation",
+        "trade-discrimination"
+      ],
+      "topic": "commercial",
+      "principle": "The dispute settlement system preserves Members' rights under the covered agreements and clarifies them in accordance with customary rules of interpretation; recommendations must not add to or diminish those rights.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": null,
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "topic": "tax",
+  "name": "Tax",
+  "count": 4,
+  "entries": [
+    {
+      "id": "kanyago-tax",
+      "kind": "authority",
+      "title": "Commissioner of Investigations and Enforcement v Kanyago (Income Tax Appeal E069 of 2025)",
+      "citation": "[2025] KEHC 15484 (KLR) (16 July 2025) (Commercial and Tax)",
+      "court": "High Court of Kenya",
+      "year": 2025,
+      "system": "KE",
+      "tags": [
+        "tax",
+        "legality",
+        "reasonableness",
+        "remedy"
+      ],
+      "topic": "tax",
+      "principle": "Tax appeals are determined on the evidence; the Commissioner must prove the assessment and the taxpayer may challenge it on the facts and the law.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/15484/eng@2025-07-16",
+      "note": ""
+    },
+    {
+      "id": "highway-furniture-vat",
+      "kind": "authority",
+      "title": "Highway Furniture Mart Limited v Commissioner of Value Added Tax & Another",
+      "citation": "[2015] KECA 566 (KLR) (3 July 2015)",
+      "court": "Court of Appeal of Kenya",
+      "year": 2015,
+      "system": "KE",
+      "tags": [
+        "tax",
+        "legality",
+        "reasonableness",
+        "remedy"
+      ],
+      "topic": "tax",
+      "principle": "VAT assessments must be based on the correct application of the Act; the taxpayer bears the burden of proving that an assessment is excessive.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/keca/2015/566/eng@2015-07-03",
+      "note": ""
+    },
+    {
+      "id": "nakumatt-vat",
+      "kind": "authority",
+      "title": "Nakumatt Holdings Limited v Commissioner of Value Added Tax",
+      "citation": "[2011] KECA 295 (KLR) (8 April 2011)",
+      "court": "Court of Appeal of Kenya",
+      "year": 2011,
+      "system": "KE",
+      "tags": [
+        "tax",
+        "legality",
+        "reasonableness",
+        "remedy"
+      ],
+      "topic": "tax",
+      "principle": "VAT assessments must comply with the Value Added Tax Act; the taxpayer may challenge the assessment on the facts and the law.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/keca/2011/295/eng@2011-04-08",
+      "note": ""
+    },
+    {
+      "id": "westmont-tax",
+      "kind": "authority",
+      "title": "Commissioner of Income Tax v Westmont Power (K) Ltd (Income Tax Appeal 626 of 2002)",
+      "citation": "[2006] KEHC 3474 (KLR) (30 January 2006)",
+      "court": "High Court of Kenya",
+      "year": 2006,
+      "system": "KE",
+      "tags": [
+        "tax",
+        "legality",
+        "reasonableness",
+        "remedy"
+      ],
+      "topic": "tax",
+      "principle": "Tax assessments must be based on the correct application of the Income Tax Act; the taxpayer bears the burden of proving that an assessment is excessive.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2006/3474/eng@2006-01-30",
+      "note": ""
+    }
+  ]
+}

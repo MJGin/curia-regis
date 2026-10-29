@@ -1,0 +1,105 @@
+{
+  "topics": [
+    {
+      "id": "jurisdiction",
+      "name": "Jurisdiction & Admissibility",
+      "count": 23
+    },
+    {
+      "id": "constitutional",
+      "name": "Constitutional Interpretation",
+      "count": 12
+    },
+    {
+      "id": "impeachment",
+      "name": "Impeachment",
+      "count": 13
+    },
+    {
+      "id": "administrative",
+      "name": "Administrative Law",
+      "count": 43
+    },
+    {
+      "id": "human-rights",
+      "name": "Human Rights",
+      "count": 19
+    },
+    {
+      "id": "privacy",
+      "name": "Privacy & Data Protection",
+      "count": 80
+    },
+    {
+      "id": "criminal",
+      "name": "Criminal Law",
+      "count": 8
+    },
+    {
+      "id": "contract",
+      "name": "Contract",
+      "count": 8
+    },
+    {
+      "id": "tort",
+      "name": "Tort",
+      "count": 6
+    },
+    {
+      "id": "equity",
+      "name": "Equity & Trusts",
+      "count": 5
+    },
+    {
+      "id": "international",
+      "name": "International Law",
+      "count": 13
+    },
+    {
+      "id": "refugee",
+      "name": "Refugee & Migration",
+      "count": 19
+    },
+    {
+      "id": "evidence",
+      "name": "Evidence & Procedure",
+      "count": 34
+    },
+    {
+      "id": "land-env",
+      "name": "Land & Environment",
+      "count": 13
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial & Corporate",
+      "count": 14
+    },
+    {
+      "id": "employment",
+      "name": "Employment & Labour",
+      "count": 5
+    },
+    {
+      "id": "ip",
+      "name": "Intellectual Property",
+      "count": 4
+    },
+    {
+      "id": "family",
+      "name": "Family Law",
+      "count": 3
+    },
+    {
+      "id": "tax",
+      "name": "Tax",
+      "count": 4
+    },
+    {
+      "id": "general",
+      "name": "General / Other",
+      "count": 38
+    }
+  ],
+  "total_entries": 364
+}

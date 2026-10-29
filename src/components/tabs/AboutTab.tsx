@@ -6,6 +6,12 @@ export default function AboutTab() {
     <div>
       <SectionHeader eyebrow="About" title="Sources, method and how to expand" body="How this library is built and how to grow it." />
 
+      <Card title="Folders in the repository" style={{ marginBottom: 16 }}>
+        <p style={{ fontSize: 13, color: "var(--ink-soft)", lineHeight: 1.6 }}>
+          Each topic is also a real folder under <code>library/</code> in the repo, containing an <code>index.json</code> and a <code>README.md</code> listing every entry (citation, court, year, facts, holding, judges, source link). Browse them on GitHub: <a className="auth-link" href="https://github.com/MJGin/curia-regis/tree/main/library" target="_blank" rel="noreferrer">library/ ↗</a>.
+        </p>
+      </Card>
+
       <Card title="What's in the library" style={{ marginBottom: 16 }}>
         <p style={{ fontSize: 13, color: "var(--ink-soft)", lineHeight: 1.6 }}>
           A curated collection of case law, statutes, treaties, regulations, rules, guidance notes and study resources, drawn from Kenya Law (new.kenyalaw.org), official treaty texts (UN, WTO, AU, Council of Europe, EUR-Lex), ICJ, WTO, BAILII, HUDOC, CURIA, and academic sources. Every entry carries a citation, court, year, topic, summary and a link to the official source where available.

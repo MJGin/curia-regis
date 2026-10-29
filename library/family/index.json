@@ -1,0 +1,72 @@
+{
+  "topic": "family",
+  "name": "Family Law",
+  "count": 3,
+  "entries": [
+    {
+      "id": "mark-kubai-marriage",
+      "kind": "authority",
+      "title": "Mark Kubai Kariuki & 2 Others v Attorney General & 2 Others",
+      "citation": "[2015] KEHC 1527 (KLR) (28 October 2015)",
+      "court": "High Court of Kenya",
+      "year": 2015,
+      "system": "KE",
+      "tags": [
+        "family",
+        "constitutional-interpretation",
+        "human-rights",
+        "legality"
+      ],
+      "topic": "family",
+      "principle": "The right to marry and found a family is protected under the Constitution; restrictions must be reasonable and justifiable.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2015/1527/eng@2015-10-28",
+      "note": ""
+    },
+    {
+      "id": "ggw-rmw",
+      "kind": "authority",
+      "title": "G G W v R M W W",
+      "citation": "[2004] KEHC 2654 (KLR) (18 November 2004)",
+      "court": "High Court of Kenya",
+      "year": 2004,
+      "system": "KE",
+      "tags": [
+        "family",
+        "legality",
+        "remedy"
+      ],
+      "topic": "family",
+      "principle": "Divorce and matrimonial property disputes are governed by the Matrimonial Property Act and the Marriage Act; the court distributes property equitably.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2004/2654/eng@2004-11-18",
+      "note": ""
+    },
+    {
+      "id": "rnm-rcm",
+      "kind": "authority",
+      "title": "R N M v R C M",
+      "citation": "[2004] KEHC 747 (KLR) (6 December 2004)",
+      "court": "High Court of Kenya",
+      "year": 2004,
+      "system": "KE",
+      "tags": [
+        "family",
+        "legality",
+        "remedy",
+        "human-rights"
+      ],
+      "topic": "family",
+      "principle": "The best interests of the child are paramount in all matters concerning children, including custody and maintenance.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": "https://new.kenyalaw.org/akn/ke/judgment/kehc/2004/747/eng@2004-12-06",
+      "note": ""
+    }
+  ]
+}

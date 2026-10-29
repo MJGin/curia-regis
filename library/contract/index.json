@@ -1,0 +1,176 @@
+{
+  "topic": "contract",
+  "name": "Contract",
+  "count": 8,
+  "entries": [
+    {
+      "id": "triple-point",
+      "kind": "authority",
+      "title": "Triple Point Technology Inc v PTT Public Company Ltd",
+      "citation": "[2021] UKSC 29, [2021] 3 WLR 527",
+      "court": "Supreme Court of the United Kingdom",
+      "year": 2021,
+      "system": "UK",
+      "tags": [
+        "contract",
+        "common-law",
+        "remedy"
+      ],
+      "topic": "contract",
+      "principle": "Liquidated damages clauses are construed by their terms; the entitlement to liquidated damages accrues up to the date of termination, not beyond.",
+      "facts": "A dispute over liquidated damages in a software contract.",
+      "holding": "Liquidated damages clauses are construed by their terms; the entitlement to liquidated damages accrues up to the date of termination, not beyond.",
+      "judges": "Lady Arden (Supreme Court)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "wood-capita",
+      "kind": "authority",
+      "title": "Wood v Capita Insurance Services Ltd",
+      "citation": "[2017] UKSC 24, [2017] AC 1173",
+      "court": "Supreme Court of the United Kingdom",
+      "year": 2017,
+      "system": "UK",
+      "tags": [
+        "contract",
+        "common-law",
+        "statutory-purpose"
+      ],
+      "topic": "contract",
+      "principle": "Interpretation is a unitary exercise: the court considers the language, the context and the commercial purpose, without privileging one over the other.",
+      "facts": "A dispute over the interpretation of an indemnity clause in a share purchase agreement.",
+      "holding": "Interpretation is a unitary exercise: the court considers the language, the context and the commercial purpose, without privileging one over the other.",
+      "judges": "Lord Hodge (Supreme Court)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "arnold",
+      "kind": "authority",
+      "title": "Arnold v Britton",
+      "citation": "[2015] UKSC 36, [2015] AC 1619",
+      "court": "Supreme Court of the United Kingdom",
+      "year": 2015,
+      "system": "UK",
+      "tags": [
+        "contract",
+        "common-law",
+        "statutory-purpose"
+      ],
+      "topic": "contract",
+      "principle": "Contractual interpretation begins with the natural and ordinary meaning of the words; commercial common sense cannot override clear language.",
+      "facts": "A dispute over service charges in a lease of holiday chalets.",
+      "holding": "Contractual interpretation begins with the natural and ordinary meaning of the words; commercial common sense cannot override clear language.",
+      "judges": "Lord Neuberger (Supreme Court)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "cavendish",
+      "kind": "authority",
+      "title": "Cavendish Square Holding BV v Talal El Makdessi",
+      "citation": "[2015] UKSC 67, [2016] AC 1172",
+      "court": "Supreme Court of the United Kingdom",
+      "year": 2015,
+      "system": "UK",
+      "tags": [
+        "contract",
+        "equity",
+        "remedy"
+      ],
+      "topic": "contract",
+      "principle": "A penalty clause is unenforceable where it imposes a detriment out of proportion to any legitimate interest of the innocent party in performance, viewed as at the time of contracting.",
+      "facts": "A dispute over penalty clauses in a share purchase agreement.",
+      "holding": "A penalty clause is unenforceable where it imposes a detriment out of proportion to any legitimate interest of the innocent party in performance.",
+      "judges": "Lord Neuberger (Supreme Court)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "kcb-suntra",
+      "kind": "authority",
+      "title": "Kenya Commercial Bank v Suntra Investment Bank",
+      "citation": "[2014] KECA 500 (KLR)",
+      "court": "Court of Appeal of Kenya",
+      "year": 2014,
+      "system": "KE",
+      "tags": [
+        "commercial",
+        "contract",
+        "legality",
+        "remedy"
+      ],
+      "topic": "contract",
+      "principle": "Commercial disputes are resolved on the evidence; the court will enforce contractual obligations and award damages for breach.",
+      "facts": "",
+      "holding": "",
+      "judges": "",
+      "sourceUrl": null,
+      "note": "Verify the neutral citation on Kenya Law before relying on it."
+    },
+    {
+      "id": "rainy-sky",
+      "kind": "authority",
+      "title": "Rainy Sky SA v Kookmin Bank",
+      "citation": "[2011] UKSC 50, [2011] 1 WLR 2900",
+      "court": "Supreme Court of the United Kingdom",
+      "year": 2011,
+      "system": "UK",
+      "tags": [
+        "contract",
+        "common-law",
+        "statutory-purpose"
+      ],
+      "topic": "contract",
+      "principle": "Where contractual language admits of two meanings, the court prefers the construction consistent with business common sense.",
+      "facts": "A dispute over the interpretation of a refund guarantee in a shipbuilding contract.",
+      "holding": "Where contractual language admits of two meanings, the court prefers the construction consistent with business common sense.",
+      "judges": "Lord Clarke (Supreme Court)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "chartbrook",
+      "kind": "authority",
+      "title": "Chartbrook Ltd v Persimmon Homes Ltd",
+      "citation": "[2009] UKHL 38, [2009] 1 AC 1101",
+      "court": "House of Lords",
+      "year": 2009,
+      "system": "UK",
+      "tags": [
+        "contract",
+        "common-law",
+        "equity"
+      ],
+      "topic": "contract",
+      "principle": "The court may correct an obvious drafting error where the parties' objective intention is clear, applying the principle of construction against the draftsman.",
+      "facts": "A dispute over the meaning of a price formula in a development agreement.",
+      "holding": "The court may correct an obvious drafting error where the parties' objective intention is clear, applying the principle of construction against the draftsman.",
+      "judges": "Lord Hoffmann (House of Lords)",
+      "sourceUrl": null,
+      "note": ""
+    },
+    {
+      "id": "investors",
+      "kind": "authority",
+      "title": "Investors Compensation Scheme Ltd v West Bromwich Building Society",
+      "citation": "[1998] 1 WLR 896 (House of Lords)",
+      "court": "House of Lords",
+      "year": 1998,
+      "system": "UK",
+      "tags": [
+        "contract",
+        "common-law",
+        "statutory-purpose"
+      ],
+      "topic": "contract",
+      "principle": "Contractual interpretation seeks the meaning the document would convey to a reasonable person with the relevant background knowledge, giving effect to commercial common sense.",
+      "facts": "A dispute over the meaning of an indemnity clause in a compensation scheme.",
+      "holding": "Contractual interpretation seeks the meaning the document would convey to a reasonable person with the relevant background knowledge, giving effect to commercial common sense.",
+      "judges": "Lord Hoffmann (House of Lords)",
+      "sourceUrl": null,
+      "note": ""
+    }
+  ]
+}
