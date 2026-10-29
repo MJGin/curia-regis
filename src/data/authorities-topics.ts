@@ -339,4 +339,23 @@ export const TOPIC_AUTHORITIES: Authority[] = [
     useFor: "both",
     note: "Verify the neutral citation on Kenya Law before relying on it.",
   },
+
+  {
+    id: "gichuru-package",
+    title: "Package Insurance Brokers Limited v Gichuru",
+    citation: "[2019] KECA 477 (KLR) (19 July 2019) (Civil Appeal 307 of 2018)",
+    court: "Court of Appeal of Kenya",
+    year: 2019,
+    system: "KE",
+    tags: ["employment", "human-rights", "reasonableness", "legality", "remedy"],
+    principle:
+      "Indirect discrimination is assessed by identifying the relevant policy or practice, its disparate impact, the disadvantage suffered by the claimant, and whether it is objectively justified and proportionate.",
+    facts:
+      "Simon Gitau Gichuru, an operations manager at Package Insurance Brokers Ltd, underwent spinal surgery and was later suspended and dismissed, allegedly due to his disability and medical condition.",
+    holding:
+      "The Court of Appeal found that his dismissal amounted to indirect discrimination and was unfair because the employer failed to accommodate his condition and provide a fair hearing. It partly allowed his appeal and awarded compensation.",
+    judges: "PN Waki, MS Asike-Makhandia and F Sichale JJA",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/2019/477/eng@2019-07-19",
+  },
 ];

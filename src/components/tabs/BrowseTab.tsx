@@ -63,7 +63,12 @@ export default function BrowseTab() {
               <div style={{ fontSize: 12, color: "var(--ink-muted)", marginBottom: 8 }}>
                 {selected.court}{selected.year ? " · " + selected.year : ""} · {selected.type}
               </div>
-              <div className="auth-principle" style={{ marginBottom: 10 }}>{selected.summary}</div>
+              {selected.summary && (
+                <div style={{ marginBottom: 10 }}>
+                  <div style={{ fontSize: 11.5, fontWeight: 600, color: "var(--teal-dark)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 2 }}>Principle (ratio)</div>
+                  <div className="auth-principle">{selected.summary}</div>
+                </div>
+              )}
               {selected.facts && (
                 <div style={{ marginBottom: 8 }}>
                   <div style={{ fontSize: 11.5, fontWeight: 600, color: "var(--teal-dark)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 2 }}>Facts</div>
