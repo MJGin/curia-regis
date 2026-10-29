@@ -372,3 +372,57 @@ JUDGE FEEDBACK (PATTERNS TO EMULATE)
 
 Be concise, be precise. Don't lecture; make your case. Be flexible with time. You are not the future of the law; you are the present. Keep the flame of international criminal law alive.
 `;
+
+
+export const BENCHMARK_ORAL_SC = `BENCHMARK ORAL SCRIPT EXCERPT (demo, Supreme Court of Kenya style — replace with a real mooter's transcript)
+
+OPENING AND WELCOME
+
+The Honourable Chief Justice, my lords, my ladies, run counsel, all the participants, those present here in court and those joining us online, good morning. Before us is one of the very consequential cases coming for hearing: the Nyota Refugee Coalition v the Minister for Homeland Security and the Department of Refugee Services. We have allocated time to the appellants to share among themselves the forty-five minutes.
+
+APPELLANT'S ROADMAP AND TIME ALLOCATION
+
+May it please the Court, as earlier introduced, my name is Saras Karaoke, the lead counsel appearing for the appellant. I am joined by my co-counsel, Miss Na Akin Opio and Mr James Kenya. Together we are Team SC016. We intend to use the forty-five minutes allocated to us as follows: I will use the first fifteen minutes to converse our client's position as it regards the first and second issues; my co-counsel Miss Nara will use fifteen minutes to dispense with the merits of the third issue; and finally Mr James Kenya will use fifteen minutes to address the merits of the fourth issue. With the Court's permission, I would like to proceed.
+
+Before proceeding to our substantive argument, members of the bench, I must indeed acknowledge what an honour and privilege it is to be submitting before such an esteemed panel of judges. It is indeed an honour of my life. With that being said, I wish to proceed to the merits of the case.
+
+SUBSTANTIVE ARGUMENT WITH JUDICIAL INTERACTION
+
+Members of the bench, at a time when the Zephyrian refugees have been confronted by mass persecution, enforced disappearances, sexual violence targeting women and girls and ethnic persecution, the respondents have gone on to do the unthinkable. Not only have they trampled on the refugee rights of the Zephyrians, they have also done so with the slightest of remorse. This, we submit, is repugnant to justice and morality.
+
+Turning to the first issue, we indeed assert before this Honourable Court that the use of artificial intelligence in refugee status determination violates the rights under Article 47 and Article 50 of the Constitution of Nyota, as well as international refugee law. This position will be conversed in one head of argument to demonstrate to this court that the aforementioned provisions were indeed violated.
+
+Members of the bench, how does the use of artificial intelligence in refugee status determination violate Article 47? We submit it does so in one way: it lacks sufficient human oversight. Human oversight, members of the bench, is a legal obligation created under Section 12 of the Refugee Act, as read together with Regulation 9 and Regulation 10 of the General Refugee Regulations.
+
+Could you please clarify what terrorism or terrorist acts are, and the difference between terrorist acts and acts of political opinion?
+
+Much obliged. We did not submit that Wido and his family are indeed a terrorist group. We submitted that they are not, and that the respondents, pursuant to paragraph 196 of the UNHCR Handbook, did not ascertain the facts. We place reliance on the OAU Convention on the Prevention and Combating of Terrorism, Article 3, and on United Nations Security Council Resolution 1566 of 2004.
+
+CONCESSIONS AND PIVOTS
+
+We do not wish to contest legality and necessity; however, we have a bone to chew with the respondents with regards to proportionality. In considering proportionality, allow me to rely on Kandie v Alassane BA, decided before this Honourable Court in 2017, where under paragraph 63 the Court acknowledged that the limitation of any right needs to adhere to the least restrictive means. The question then begs: was the least restrictive means adhered to? We submit it was not. The government of Nyota should have employed another least restrictive means. We wish to place reliance on the International Detention Coalition's Captured Childhood report, Chapter 6, which proposes that when the principle of non-refoulement and national security are at play, states should consider taking the people who are being refouled to another region or to another state where they are not a threat to the national security of that state.
+
+TIME MANAGEMENT
+
+Seeing my time has really elapsed, I ask for discretionary minutes from the Court. The bench gave me discretionary minutes and I had requested that my time be calculated individually. Much obliged. So that your colleague can also address us on the issues, we are very particular on time.
+
+DISTINGUISHING ADVERSE AUTHORITY
+
+This is distinguishable from the case of Attorney General v Kituo cha Sheria, where a similar encampment directive was invalidated for being speculative and unsupported by evidence. Here, the nexus between refugee mobility and the attacks was concrete and substantiated. Unlike that case, where security forces rounded up and humiliated refugees, here refugees were given ten days to relocate voluntarily.
+
+REBUTTAL AND CLOSING
+
+Members of the bench, in conclusion we submit and pray that this Honourable Court allows this appeal and find that the Court of Appeal erred in the following four aspects: first, in upholding the use of AI without adequate human oversight contrary to due process; second, in finding no violation of the principle of non-refoulement despite a clear risk of persecution; third, in disregarding the best interests of the child contrary to Article 53(2) of the Constitution; and lastly, in failing to recognise that the state violated the principles that define our constitutional order, that is dignity, equality and freedom of movement.
+
+We urge this Honourable Court to vindicate the promise that even the most vulnerable individuals like Wido and his family deserve constitutional protection. We further wish this Court to grant our client the following remedies: first, to compel the state to release all individuals from the camp; second, to compel the respondent to improve the conditions within the camp; and third, to award damages within reasonable means of compensation.
+
+Thus, we humbly contend. Dated this day. Advocates for the Appellants.
+
+RESPONDENT'S OPENING
+
+May it please this Honourable Court, good morning. As earlier introduced, my name is Tracy Jerop, appearing as the lead counsel for the respondents, with me today are my colleagues and friends, Mr Libatim Shindi and Miss Ashley Ngeno. In fifteen minutes I will be addressing the first and second issues on the use of artificial intelligence in refugee status determination. My colleague Mr Shindi will then step in for the next ten minutes to address the third issue concerning the best interests of the child principle, and finally Miss Ashley will address the fourth issue. If it pleases this Honourable Court, I will now proceed.
+
+JUDICIAL FEEDBACK PATTERNS (TO EMULATE)
+
+Be concise, be precise. Don't lecture; make your case. Be flexible with time. You are not the future of the law; you are the present. Keep the flame alive. The clarity of your reasoning and the sophistication of your advocacy are essential skills to pursue. Each party was passionately pitching a case for their client, and that is what is supposed to happen in court.
+`;

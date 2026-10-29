@@ -15,7 +15,7 @@ import { buildMemorial } from "./lib/memorial";
 import { buildOrals } from "./lib/orals";
 import { generateBench } from "./lib/bench";
 import { extractStyle } from "./lib/style";
-import { BENCHMARK_MEMORIAL, BENCHMARK_ORAL, BENCHMARK_ORAL_EAC, BENCHMARK_ORAL_ICC } from "./data/samples";
+import { BENCHMARK_MEMORIAL, BENCHMARK_ORAL, BENCHMARK_ORAL_EAC, BENCHMARK_ORAL_ICC, BENCHMARK_ORAL_SC } from "./data/samples";
 
 export type TabId = "setup" | "vault" | "memorial" | "authorities" | "orals" | "sparring";
 
@@ -288,7 +288,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       const o = extractStyle("Championship Oralist (demo)", "oral", BENCHMARK_ORAL, true);
       const e = extractStyle("EAC Oral Round (demo)", "oral", BENCHMARK_ORAL_EAC, true);
       const i = extractStyle("ICC Moot Round (demo)", "oral", BENCHMARK_ORAL_ICC, true);
-      return { ...s, styleProfiles: [m, o, e, i, ...s.styleProfiles] };
+      const sc = extractStyle("Supreme Court of Kenya Moot (demo)", "oral", BENCHMARK_ORAL_SC, true);
+      return { ...s, styleProfiles: [m, o, e, i, sc, ...s.styleProfiles] };
     });
   }, []);
 
