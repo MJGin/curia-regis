@@ -32,7 +32,13 @@ export default function SetupTab() {
 
   return (
     <div>
-      <SectionHeader eyebrow="Chambers" title={comp.name} body={comp.notes} />
+      <SectionHeader eyebrow="Start" title="Upload your fact pattern and generate everything" body="One upload. One click. Memorials for both sides, oral scripts, bench questions, and the authority matrix — all built on your uploaded benchmarks as the standard." />
+
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 12, marginBottom: 20 }}>
+        {["1. Upload or paste your moot question", "2. Pick the moot type (auto-detected)", "3. Click Run full pipeline"].map((t, i) => (
+          <div key={i} style={{ padding: 12, background: "var(--white)", border: "1px solid var(--border)", borderRadius: "var(--radius-sm)", fontSize: 13, color: "var(--ink-soft)", textAlign: "center" }}>{t}</div>
+        ))}
+      </div>
 
       <div className="grid-2" style={{ marginBottom: 20 }}>
         <Card title="Competition parameters" subtitle="The selector in the top bar drives everything below.">
@@ -107,66 +113,69 @@ export default function SetupTab() {
 
       {state.parsed && (
         <>
-          <div className="grid-2" style={{ marginTop: 20 }}>
-            <Card title="Parsed structure" subtitle={`${state.parsed.parties.applicant} v ${state.parsed.parties.respondent}`}>
-              <div style={{ display: "grid", gap: 8, fontSize: 13 }}>
-                <div><Badge tone="brass">Parties</Badge> {state.parsed.parties.applicant} (Applicant) v {state.parsed.parties.respondent} (Respondent)</div>
-                {state.parsed.forum && <div><Badge tone="brass">Forum</Badge> {state.parsed.forum}</div>}
-                <div><Badge tone="brass">Agreed facts</Badge> {state.parsed.agreed.length}</div>
-                <div><Badge tone="brass">Disputed facts</Badge> {state.parsed.disputed.length}</div>
-                <div><Badge tone="brass">Procedural</Badge> {state.parsed.procedural.length}</div>
-                <div><Badge tone="brass">Issues</Badge> {state.parsed.issues.length}</div>
-                <div><Badge tone="brass">Prayers</Badge> {state.parsed.prayers.length}</div>
-              </div>
-            </Card>
-            <Card title="Issues identified" subtitle="These drive the memorial, authority matching and oral scripts.">
-              <ol style={{ margin: 0, paddingLeft: 18, fontSize: 13, lineHeight: 1.6 }}>
-                {state.parsed.issues.map((iss, i) => <li key={i}>{iss}</li>)}
-              </ol>
-            </Card>
-          </div>
-
-          <Card title="Fact analysis" subtitle="Identify good and bad facts for each side, then generate questions with direct answers and supporting authority." style={{ marginTop: 20 }}>
-            <div style={{ display: "flex", gap: 10, marginBottom: 14, flexWrap: "wrap" }}>
-              <Button onClick={() => runAnalysis("applicant")} variant="outline">Analyse for Applicant</Button>
-              <Button onClick={() => runAnalysis("respondent")} variant="outline">Analyse for Respondent</Button>
-            </div>
-            {(["applicant", "respondent"] as const).map((side) => {
-              const a = state.analyses[side];
-              if (!a) return null;
-              return (
-                <div key={side} style={{ marginBottom: 18 }}>
-                  <h4 style={{ fontFamily: "Playfair Display, serif", color: "var(--brass-300)", marginBottom: 8 }}>
-                    {side === "applicant" ? "Applicant" : "Respondent"} — fact analysis
-                  </h4>
-                  <div className="grid-2">
-                    <div>
-                      <div style={{ fontSize: 12, color: "var(--ok)", fontWeight: 600, marginBottom: 6 }}>Good facts</div>
-                      <div className="fact-list">
-                        {a.good.map((f, i) => <div key={i} className="fact-item fact-good">{f.text}<span className="cite">{f.cite}</span></div>)}
-                      </div>
-                    </div>
-                    <div>
-                      <div style={{ fontSize: 12, color: "var(--danger)", fontWeight: 600, marginBottom: 6 }}>Bad facts</div>
-                      <div className="fact-list">
-                        {a.bad.map((f, i) => <div key={i} className="fact-item fact-bad">{f.text}<span className="cite">{f.cite}</span></div>)}
-                      </div>
-                    </div>
-                  </div>
-                  <div style={{ marginTop: 12 }}>
-                    <div style={{ fontSize: 12, color: "var(--brass-400)", fontWeight: 600, marginBottom: 6 }}>Questions and direct answers</div>
-                    {a.qa.map((q, i) => (
-                      <div key={i} className="qa">
-                        <div className="qa-q">Q. {q.question}</div>
-                        <div className="qa-a">A. {q.answer}</div>
-                        <div className="qa-meta">{q.authority} {q.cite && `· ${q.cite}`}</div>
-                      </div>
-                    ))}
-                  </div>
+          <details style={{ marginTop: 20 }} open>
+            <summary style={{ cursor: "pointer", color: "var(--teal-dark)", fontWeight: 600, marginBottom: 12 }}>Parsed details (optional)</summary>
+            <div className="grid-2" style={{ marginTop: 12 }}>
+              <Card title="Parsed structure" subtitle={`${state.parsed.parties.applicant} v ${state.parsed.parties.respondent}`}>
+                <div style={{ display: "grid", gap: 8, fontSize: 13 }}>
+                  <div><Badge tone="brass">Parties</Badge> {state.parsed.parties.applicant} (Applicant) v {state.parsed.parties.respondent} (Respondent)</div>
+                  {state.parsed.forum && <div><Badge tone="brass">Forum</Badge> {state.parsed.forum}</div>}
+                  <div><Badge tone="brass">Agreed facts</Badge> {state.parsed.agreed.length}</div>
+                  <div><Badge tone="brass">Disputed facts</Badge> {state.parsed.disputed.length}</div>
+                  <div><Badge tone="brass">Procedural</Badge> {state.parsed.procedural.length}</div>
+                  <div><Badge tone="brass">Issues</Badge> {state.parsed.issues.length}</div>
+                  <div><Badge tone="brass">Prayers</Badge> {state.parsed.prayers.length}</div>
                 </div>
-              );
-            })}
-          </Card>
+              </Card>
+              <Card title="Issues identified" subtitle="These drive the memorial, authority matching and oral scripts.">
+                <ol style={{ margin: 0, paddingLeft: 18, fontSize: 13, lineHeight: 1.6 }}>
+                  {state.parsed.issues.map((iss, i) => <li key={i}>{iss}</li>)}
+                </ol>
+              </Card>
+            </div>
+
+            <Card title="Fact analysis" subtitle="Identify good and bad facts for each side, then generate questions with direct answers and supporting authority." style={{ marginTop: 20 }}>
+              <div style={{ display: "flex", gap: 10, marginBottom: 14, flexWrap: "wrap" }}>
+                <Button onClick={() => runAnalysis("applicant")} variant="outline">Analyse for Applicant</Button>
+                <Button onClick={() => runAnalysis("respondent")} variant="outline">Analyse for Respondent</Button>
+              </div>
+              {(["applicant", "respondent"] as const).map((side) => {
+                const a = state.analyses[side];
+                if (!a) return null;
+                return (
+                  <div key={side} style={{ marginBottom: 18 }}>
+                    <h4 style={{ fontFamily: "Playfair Display, serif", color: "var(--teal-dark)", marginBottom: 8 }}>
+                      {side === "applicant" ? "Applicant" : "Respondent"} — fact analysis
+                    </h4>
+                    <div className="grid-2">
+                      <div>
+                        <div style={{ fontSize: 12, color: "var(--green)", fontWeight: 600, marginBottom: 6 }}>Good facts</div>
+                        <div className="fact-list">
+                          {a.good.map((f, i) => <div key={i} className="fact-item fact-good">{f.text}<span className="cite">{f.cite}</span></div>)}
+                        </div>
+                      </div>
+                      <div>
+                        <div style={{ fontSize: 12, color: "var(--red)", fontWeight: 600, marginBottom: 6 }}>Bad facts</div>
+                        <div className="fact-list">
+                          {a.bad.map((f, i) => <div key={i} className="fact-item fact-bad">{f.text}<span className="cite">{f.cite}</span></div>)}
+                        </div>
+                      </div>
+                    </div>
+                    <div style={{ marginTop: 12 }}>
+                      <div style={{ fontSize: 12, color: "var(--teal-dark)", fontWeight: 600, marginBottom: 6 }}>Questions and direct answers</div>
+                      {a.qa.map((q, i) => (
+                        <div key={i} className="qa">
+                          <div className="qa-q">Q. {q.question}</div>
+                          <div className="qa-a">A. {q.answer}</div>
+                          <div className="qa-meta">{q.authority} {q.cite && `· ${q.cite}`}</div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </Card>
+          </details>
         </>
       )}
 

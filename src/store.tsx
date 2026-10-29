@@ -17,7 +17,7 @@ import { generateBench } from "./lib/bench";
 import { extractStyle } from "./lib/style";
 import { BENCHMARK_MEMORIAL, BENCHMARK_ORAL, BENCHMARK_ORAL_EAC, BENCHMARK_ORAL_ICC, BENCHMARK_ORAL_SC } from "./data/samples";
 
-export type TabId = "setup" | "vault" | "memorial" | "authorities" | "orals" | "sparring";
+export type TabId = "start" | "results" | "practice" | "tools";
 
 interface BenchState {
   questions: ReturnType<typeof generateBench>;
@@ -54,7 +54,7 @@ const defaultCustom = {
 };
 
 const defaultState: State = {
-  tab: "setup",
+  tab: "start",
   competition: "jessup",
   custom: defaultCustom,
   side: "applicant",
@@ -264,7 +264,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         activeMemorialId: appMem.id,
         orals,
         bench,
-        tab: "memorial",
+        tab: "results",
       };
     });
   }, []);

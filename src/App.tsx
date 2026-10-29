@@ -4,11 +4,9 @@ import { COMPETITIONS, competitionById } from "./data/competitions";
 import { TopBar } from "./components/TopBar";
 import { TabRail } from "./components/TabRail";
 import SetupTab from "./components/tabs/SetupTab";
-import VaultTab from "./components/tabs/VaultTab";
-import MemorialTab from "./components/tabs/MemorialTab";
-import AuthoritiesTab from "./components/tabs/AuthoritiesTab";
-import OralsTab from "./components/tabs/OralsTab";
+import ResultsTab from "./components/ResultsTab";
 import SparringTab from "./components/tabs/SparringTab";
+import ToolsTab from "./components/ToolsTab";
 
 export default function App() {
   const { state, setTab, setCompetition, seedBenchmarks } = useApp();
@@ -27,12 +25,10 @@ export default function App() {
       <TabRail active={state.tab} onChange={setTab} />
       <main className="main">
         <div className="tab-content" key={state.tab}>
-          {state.tab === "setup" && <SetupTab />}
-          {state.tab === "vault" && <VaultTab />}
-          {state.tab === "memorial" && <MemorialTab />}
-          {state.tab === "authorities" && <AuthoritiesTab />}
-          {state.tab === "orals" && <OralsTab />}
-          {state.tab === "sparring" && <SparringTab />}
+          {state.tab === "start" && <SetupTab />}
+          {state.tab === "results" && <ResultsTab />}
+          {state.tab === "practice" && <SparringTab />}
+          {state.tab === "tools" && <ToolsTab />}
         </div>
       </main>
       <footer className="footnote">
