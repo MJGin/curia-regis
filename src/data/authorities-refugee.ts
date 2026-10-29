@@ -13,7 +13,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "Supreme Court of Kenya",
     year: 2023,
     system: "KE",
-    tags: ["reasonableness", "constitutional-interpretation", "legality", "proportionality"],
+    tags: ["reasonableness", "constitutional-interpretation", "legality", "proportionality", "refugee"],
     principle:
       "Administrative action must be lawful, reasonable and procedurally fair; the analysis asks whether the decision was unreasonable, unlawful or disproportionate.",
     useFor: "respondent",
@@ -25,7 +25,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "Court of Appeal of Kenya",
     year: 2015,
     system: "KE",
-    tags: ["natural-justice", "proportionality", "reasonableness", "legality"],
+    tags: ["natural-justice", "proportionality", "reasonableness", "legality", "refugee"],
     principle:
       "Procedural fairness is preserved where the affected person is heard, reasons are given and independent review is available; fairness is balanced with the wider public interest.",
     useFor: "respondent",
@@ -37,7 +37,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "Supreme Court of Kenya",
     year: 2023,
     system: "KE",
-    tags: ["natural-justice", "remedy", "access-to-justice", "legality"],
+    tags: ["natural-justice", "remedy", "access-to-justice", "legality", "refugee"],
     principle:
       "Fairness is secured where parties retain meaningful access to remedies capable of review; an administrative process is not unfair merely because it is efficient.",
     useFor: "respondent",
@@ -49,7 +49,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "Supreme Court of Kenya",
     year: 2021,
     system: "KE",
-    tags: ["natural-justice", "legality", "reasonableness"],
+    tags: ["natural-justice", "legality", "reasonableness", "refugee"],
     principle:
       "The justiciable elements of a fair hearing are an opportunity to be heard that is reasonable; administrative determinations are governed by Article 47, not the full trial guarantees of Article 50.",
     useFor: "respondent",
@@ -61,7 +61,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "Supreme Court of Kenya",
     year: 2017,
     system: "KE",
-    tags: ["proportionality", "reasonableness", "legality", "constitutional-interpretation"],
+    tags: ["proportionality", "reasonableness", "legality", "constitutional-interpretation", "refugee"],
     principle:
       "The test for limiting rights is one of reasonableness and justification, requiring a balancing of competing interests rather than a mechanical approach.",
     useFor: "respondent",
@@ -73,7 +73,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "High Court of Kenya",
     year: 2022,
     system: "KE",
-    tags: ["human-rights", "remedy", "reasonableness"],
+    tags: ["human-rights", "remedy", "reasonableness", "refugee"],
     principle:
       "The best interests of the child enshrine the right to parental care; the concept is a primary, not exclusive, consideration to be balanced against competing interests.",
     useFor: "respondent",
@@ -85,7 +85,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "Court of Appeal of Kenya",
     year: 2017,
     system: "KE",
-    tags: ["proportionality", "reasonableness", "legality", "human-rights"],
+    tags: ["proportionality", "reasonableness", "legality", "human-rights", "refugee"],
     principle:
       "A security measure must be supported by concrete evidence; an encampment directive that is speculative and unsupported by evidence is unlawful.",
     useFor: "applicant",
@@ -98,7 +98,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "High Court of Kenya",
     year: 2015,
     system: "KE",
-    tags: ["human-rights", "remedy", "proportionality", "reasonableness"],
+    tags: ["human-rights", "remedy", "proportionality", "reasonableness", "refugee"],
     principle:
       "The best interests of the child are not an absolute bar to implementing legitimate national security and refugee control measures; they are a primary consideration to be balanced.",
     useFor: "respondent",
@@ -110,7 +110,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "European Court of Human Rights",
     year: 1997,
     system: "EU",
-    tags: ["human-rights", "proportionality", "privacy", "remedy"],
+    tags: ["human-rights", "proportionality", "privacy", "remedy", "refugee"],
     principle:
       "Non-refoulement under the European Convention is absolute, but the narrower protection under the Refugee Convention permits derogations on security grounds where procedural safeguards are respected.",
     useFor: "respondent",
@@ -122,7 +122,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "Supreme Court of Canada",
     year: 2002,
     system: "EU",
-    tags: ["human-rights", "proportionality", "reasonableness", "remedy"],
+    tags: ["human-rights", "proportionality", "reasonableness", "remedy", "refugee"],
     principle:
       "States may exclude individuals from refugee protection where they are implicated in terrorism or serious threats to national security, provided procedural safeguards are respected.",
     useFor: "respondent",
@@ -134,7 +134,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "African Commission on Human and Peoples' Rights",
     year: 2008,
     system: "AF",
-    tags: ["human-rights", "remedy", "expression", "proportionality"],
+    tags: ["human-rights", "remedy", "expression", "proportionality", "refugee"],
     principle:
       "Expulsions and adverse immigration decisions must be subject to effective review mechanisms; the absence of review renders the measure unlawful.",
     useFor: "applicant",
@@ -147,7 +147,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "European Court of Human Rights",
     year: 2011,
     system: "EU",
-    tags: ["human-rights", "remedy", "proportionality", "reasonableness"],
+    tags: ["human-rights", "remedy", "proportionality", "reasonableness", "refugee"],
     principle:
       "International protection systems must be practical and effective rather than theoretical or illusory; meaningful access to protection is the governing standard.",
     useFor: "applicant",
@@ -160,7 +160,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "European Court of Human Rights",
     year: 2000,
     system: "EU",
-    tags: ["human-rights", "legality", "reasonableness"],
+    tags: ["human-rights", "legality", "reasonableness", "refugee"],
     principle:
       "Disputes concerning the entry, stay and deportation of aliens do not generally fall within the scope of the right to a fair hearing, provided that effective remedies exist elsewhere in the legal system.",
     useFor: "respondent",
@@ -172,7 +172,7 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     court: "European Court of Human Rights (Grand Chamber)",
     year: 2000,
     system: "EU",
-    tags: ["human-rights", "remedy", "proportionality"],
+    tags: ["human-rights", "remedy", "proportionality", "refugee"],
     principle:
       "Overcrowding and poor conditions of detention may amount to inhuman or degrading treatment where they exceed the threshold of severity, taking account of duration and cumulative effect.",
     useFor: "applicant",

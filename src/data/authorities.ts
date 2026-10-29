@@ -9,8 +9,9 @@ import { EAC_AUTHORITIES } from "./authorities-eac";
 import { ICC_AUTHORITIES } from "./authorities-icc";
 import { EXPANSION_AUTHORITIES } from "./authorities-expansion";
 import { IMPEACHMENT_AUTHORITIES } from "./authorities-impeachment";
+import { TOPIC_AUTHORITIES } from "./authorities-topics";
 
-export const AUTHORITIES: Authority[] = [...AUTHORITIES_A, ...KENYA_AUTHORITIES, ...AUTHORITIES_B, ...REFUGEE_AUTHORITIES, ...IHL_AUTHORITIES, ...EAC_AUTHORITIES, ...ICC_AUTHORITIES, ...EXPANSION_AUTHORITIES, ...IMPEACHMENT_AUTHORITIES];
+export const AUTHORITIES: Authority[] = [...AUTHORITIES_A, ...KENYA_AUTHORITIES, ...AUTHORITIES_B, ...REFUGEE_AUTHORITIES, ...IHL_AUTHORITIES, ...EAC_AUTHORITIES, ...ICC_AUTHORITIES, ...EXPANSION_AUTHORITIES, ...IMPEACHMENT_AUTHORITIES, ...TOPIC_AUTHORITIES];
 
 export const authorityById = (id: string): Authority | undefined =>
   AUTHORITIES.find((a) => a.id === id);

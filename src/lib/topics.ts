@@ -81,13 +81,24 @@ const TAG_TO_TOPIC: Record<string, string> = {
   "common-law": "general",
   "open-justice": "administrative",
   refugee: "refugee",
+  criminal: "criminal",
+  employment: "employment",
+  ip: "ip",
+  family: "family",
+  tax: "tax",
+  land: "land-env",
+  commercial: "commercial",
 };
 
+const TOPIC_PRIORITY = ["impeachment", "refugee", "privacy", "criminal", "ip", "family", "tax", "employment", "contract", "tort", "equity", "evidence", "land-env", "commercial", "jurisdiction", "administrative", "constitutional", "human-rights", "international", "general"];
+
 export function topicOf(tags: string[]): string {
-  for (const t of tags) {
-    if (TAG_TO_TOPIC[t]) return TAG_TO_TOPIC[t];
+  const candidates = tags.map((t) => TAG_TO_TOPIC[t]).filter(Boolean) as string[];
+  if (!candidates.length) return "general";
+  for (const tp of TOPIC_PRIORITY) {
+    if (candidates.includes(tp)) return tp;
   }
-  return "general";
+  return candidates[0];
 }
 
 export const topicById = (id: string): Topic => TOPICS.find((t) => t.id === id) ?? TOPICS[TOPICS.length - 1];

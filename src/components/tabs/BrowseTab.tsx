@@ -2,10 +2,12 @@ import React from "react";
 import { useApp } from "../../store";
 import { SectionHeader, Button, Card, EmptyState, Badge } from "../ui";
 import { topicById } from "../../lib/topics";
+import Reader from "../Reader";
 
 export default function BrowseTab() {
   const { state, filteredEntries, topics, setTopic, setSearch, setTypeFilter, setCourtFilter, setYearFrom, setYearTo, clearFilters, toggleSaved, isSaved, setSelected } = useApp();
   const selected = filteredEntries.find((e) => e.id === state.selectedId) ?? filteredEntries[0];
+  const [showReader, setShowReader] = React.useState(false);
 
   return (
     <div>
@@ -65,12 +67,22 @@ export default function BrowseTab() {
               <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 10 }}>
                 {selected.tags.map((t) => <Badge key={t} tone="neutral">{t}</Badge>)}
               </div>
-              <div style={{ display: "flex", gap: 8 }}>
-                {selected.url && <a className="auth-link" href={selected.url} target="_blank" rel="noreferrer">Open source ↗</a>}
+              <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+                {selected.url && (
+                  <Button onClick={() => setShowReader((v) => !v)} variant={showReader ? "primary" : "outline"} size="sm">
+                    {showReader ? "Hide reader" : "Read in page"}
+                  </Button>
+                )}
+                {selected.url && <a className="auth-link" href={selected.url} target="_blank" rel="noreferrer" style={{ alignSelf: "center" }}>Open in new tab ↗</a>}
                 <Button onClick={() => toggleSaved(selected.id)} variant={isSaved(selected.id) ? "primary" : "ghost"} size="sm">
                   {isSaved(selected.id) ? "Saved" : "Save"}
                 </Button>
               </div>
+              {showReader && selected.url && (
+                <div style={{ marginTop: 12 }}>
+                  <Reader url={selected.url} title={selected.title} />
+                </div>
+              )}
             </Card>
           ) : (
             <EmptyState title="Select an entry" body="Click an entry on the left to see details and the source link." />
