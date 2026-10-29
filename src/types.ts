@@ -8,7 +8,8 @@ export type CompetitionId =
   | "african"
   | "kenya-moots"
   | "custom"
-  | "ihl";
+  | "ihl"
+  | "eac";
 
 export interface OralBlock {
   label: string;

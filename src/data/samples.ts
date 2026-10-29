@@ -264,3 +264,45 @@ For those reasons, the Applicant respectfully requests the Court to adjudge and 
 REBUTTAL (2 minutes)
 
 On the Respondent's first point, we accept that the cyber operation caused damage. We do not accept that it is attributable to the Applicant. Attribution requires effective control; the Respondent has not shown effective control.`;
+
+
+export const BENCHMARK_ORAL_EAC = `BENCHMARK ORAL SCRIPT EXCERPT (demo, EAC-style — replace with a real mooter's transcript)
+
+OPENING APPEARANCE AND ROADMAP
+
+May it please this Honourable Court. Appearing before you is counsel Muriki Keith, appearing for the Petitioner, the Republic of Tangazeni, alongside my co-counsel, Miss Lucy Mau. Of the thirty minutes graciously allocated to us by this Honourable Court, I will use the first sixteen minutes to dispense on the merits of the preliminary issues, proceeded by merit issue number three and merit issue number four. My co-counsel will use the subsequent twelve minutes on merit issue number one and merit issue number two, alongside our prayers. We shall reserve two minutes for rebuttals. If it pleases this Honourable Court, and if this Court grants me latitude, I wish to proceed. Much obliged.
+
+Members of the bench, this is not the very first time in history that a creature by the name of the East Pandarian Community has come into existence. Post-independence, a community was established to ensure regional integration; unfortunately, due to non-cooperation and political issues, that creature collapsed. The community could not exist by itself; it required the consent of States. Much obliged.
+
+JURISDICTION AND ADMISSIBILITY
+
+May it please the Court. Unlike domestic legal systems, this Court's jurisdiction cannot be stipulated by a constitution or a statute alone. This being a regional and international court, this Court's jurisdiction flows from one word, and that word is consent. State parties must consent to being bound. Under Article 23 of the Treaty, this Court shall ensure observance of the law in the interpretation and application of the Treaty; and under Article 27, this Court shall have jurisdiction to interpret and ensure observance and compliance with the Treaty. If you look at the four issues tabled before you, they move this Honourable Court to interpret various provisions of the Treaty.
+
+Counsel, quick questions. Does this Court have jurisdiction over human-rights violations? Is there an express provision giving this Tribunal jurisdiction over this matter?
+
+Much obliged. The response can be derived from this Court's own determination in James Katabazi and 21 Others v Attorney General of Uganda, where the Court asked itself whether it had jurisdiction to respond to human-rights violations and answered: the simple answer is no; however, we will not abdicate our jurisdiction to interpret the Treaty merely because, when asked to interpret its provisions, we might have to answer questions touching on human rights. We are not asking the Court to determine whether human rights were violated, but whether the actions of the Respondent fell within the confines of their legal obligation under Article 6(2)(d) on good governance, which includes transparency, democracy and the rule of law. Much obliged.
+
+STANDING AND CUSTOMARY INTERNATIONAL LAW
+
+Members of the bench, the Petitioner is alive to the argument that we may lack locus standi to institute issue number three. We are not here on behalf of Mr. Tabaki or the Republic of Zalendo. We are here as a result of a violation of customary international law, under the doctrine of obligations owed erga omnes, which is totally different from the doctrine of diplomatic protection. The general rule is that, as long as you have not been injured, you should not approach an international court; this is provided for under Article 48 of the ILC Draft Articles on State Responsibility. However, a party may institute a claim where there is a violation of a treaty itself, or a violation of an obligation owed to the entire international community. The right to property has gained the status of customary international law, having met the requirements espoused in United States v Nicaragua: opinio juris and State practice, shown through duration, uniformity and generality. Much obliged.
+
+TIME MANAGEMENT AND JUDICIAL INTERACTION
+
+Seeing my time has really elapsed, I ask for discretionary minutes from the Court. The bench gave me discretionary minutes and I had requested that my time be calculated individually. Yes, they can confirm that. It is not really the clerk's time; it is our time. Apologies. So that your colleague can also address us on the issues, we are very particular on time. Much obliged.
+
+CONCESSIONS AND PIVOTS
+
+We accept that the cyber operation caused damage. We do not accept that it is attributable to the Applicant. Attribution requires effective control; the Respondent has not shown effective control. With respect, we concede that the measure caused hardship; however, the necessity defence is unavailable where the State contributed to the crisis. Even if the Court were to accept the Respondent's characterisation, the Petitioner submits that the measure was disproportionate.
+
+DISTINGUISHING ADVERSE AUTHORITY
+
+This is distinguishable from the case of Attorney General v Kituo cha Sheria, where a similar encampment directive was invalidated for being speculative and unsupported by evidence. Here, the nexus between refugee mobility and the attacks was concrete and substantiated. Unlike that case, where security forces rounded up and humiliated refugees, here refugees were given ten days to relocate voluntarily.
+
+CONCLUSION
+
+For those reasons, the Petitioner respectfully requests this Honourable Court to grant the declarations sought. Thus, we humbly contend. Dated this day. Advocates for the Petitioner.
+
+REBUTTAL
+
+The Respondent has kept mentioning sovereignty, sovereignty, sovereignty. However, Article 27 of the Vienna Convention on the Law of Treaties provides that a State cannot invoke its internal law or sovereignty to defend a breach of a treaty obligation. With that, we rest our case. Much obliged.
+`;

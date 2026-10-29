@@ -232,6 +232,37 @@ const IHL: Competition = {
     "Preliminary issues (standard of proof, nature of the armed conflict) precede the counts. Citation practice favours ICC document numbers with paragraph pinpoints.",
 };
 
+
+const EAC: Competition = {
+  id: "eac",
+  name: "East African Community / Regional Economic Community Moot",
+  short: "EAC / REC",
+  forum: "East African Court of Justice (or analogous regional court)",
+  law: "EAC Treaty 1999 (arts 5, 6, 7, 8, 27, 28, 30, 38, 43, 72, 75, 95, 103, 124); Common Market Protocol; Vienna Convention art 27; ILC Draft Articles",
+  citationStandard: "EACJ neutral citations and OSCOLA; pinpoint paragraphs",
+  wordLimit: 6000,
+  oralPlan: [
+    { label: "Opening & roadmap", minutes: 2, kind: "opening" },
+    { label: "Contention I", minutes: 8, kind: "contention" },
+    { label: "Contention II", minutes: 8, kind: "contention" },
+    { label: "Conclusion & prayers", minutes: 2, kind: "conclusion" },
+    { label: "Rebuttal reserve", minutes: 2, kind: "rebuttal" },
+  ],
+  jurisdictionHeading: "Jurisdiction and Admissibility",
+  factsHeading: "Statement of Facts",
+  summaryHeading: "Summary of Arguments",
+  argumentLabel: "Issue",
+  prayerHeading: "Prayers",
+  prayer: [
+    "For the foregoing reasons, the Petitioner respectfully prays that this Honourable Court find that the Respondent violated the Treaty and grant the declarations sought.",
+    "The Petitioner further prays for such other relief as the Court considers just and equitable.",
+  ],
+  doctrine: ["jurisdiction", "legality", "reasonableness", "proportionality", "natural-justice", "remedy", "trade-discrimination", "human-rights", "access-to-justice"],
+  appellateAddress: "May it please this Honourable Court",
+  notes:
+    "Regional economic community moots (EAC, COMESA, SADC) turn on treaty interpretation, member-state standing and admissibility. The court's jurisdiction flows from consent; human-rights claims are often parasitic on treaty obligations.",
+};
+
 const CUSTOM: Competition = {
   id: "custom",
   name: "Custom Moot Mode",
@@ -270,6 +301,7 @@ export const COMPETITIONS: Competition[] = [
   AFRICAN,
   KENYA_MOOTS,
   IHL,
+  EAC,
   CUSTOM,
 ];
 
@@ -280,6 +312,7 @@ export function detectCompetition(text: string): CompetitionId {
   if (/wto|gatt|gats|dsu|tariff|subsid|sps|tbt/.test(t)) return "jackson";
   if (/data protection|gdpr|privacy|personal data|cross.border transfer|odpc/.test(t)) return "odpc";
   if (/african charter|achpr|african court|african commission/.test(t)) return "african";
+  if (/east african|eac|eacj|regional economic community|common market protocol/.test(t)) return "eac";
   if (/refugee|non.refoulement|asylum/.test(t)) return "kenya-sc";
   if (/icj|international court of justice|vclt|customary international/.test(t)) return "jessup";
   if (/constitution of kenya|article 10|article 22|article 159|article 163/.test(t)) return "kenya-sc";
