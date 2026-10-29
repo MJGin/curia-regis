@@ -7,7 +7,8 @@ export type CompetitionId =
   | "odpc"
   | "african"
   | "kenya-moots"
-  | "custom";
+  | "custom"
+  | "ihl";
 
 export interface OralBlock {
   label: string;

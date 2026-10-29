@@ -200,6 +200,38 @@ const KENYA_MOOTS: Competition = {
     "Use for any Kenyan national moot (KSL, Kabarak, Kenyatta, Strathmore and specialist tribunal moots). Adjust the forum line to match the competition's own rules.",
 };
 
+
+const IHL: Competition = {
+  id: "ihl",
+  name: "International Criminal Law / IHL Moot (Rome Statute)",
+  short: "IHL / ICC",
+  forum: "International Criminal Court — Pre-Trial / Trial Chamber",
+  law: "Rome Statute 1998; Geneva Conventions Common Article 3; Additional Protocol II; customary IHL",
+  citationStandard: "OSCOLA with ICC document numbers (ICC-01/04-01/06) and paragraph pinpoints",
+  wordLimit: 4000,
+  oralPlan: [
+    { label: "Opening & preliminary issues", minutes: 3, kind: "opening" },
+    { label: "Count I", minutes: 6, kind: "contention" },
+    { label: "Count II", minutes: 6, kind: "contention" },
+    { label: "Count III", minutes: 4, kind: "contention" },
+    { label: "Conclusion & prayers", minutes: 2, kind: "conclusion" },
+    { label: "Rebuttal reserve", minutes: 2, kind: "rebuttal" },
+  ],
+  jurisdictionHeading: "Preliminary Issues",
+  factsHeading: "Statement of Facts",
+  summaryHeading: "Submissions",
+  argumentLabel: "Count",
+  prayerHeading: "Prayer for Relief",
+  prayer: [
+    "For the foregoing reasons, the Defendant respectfully requests the Court to decline to confirm the charges and to dismiss the case.",
+    "The Defendant further requests the Court to order the release of the Defendant and to award costs.",
+  ],
+  doctrine: ["jurisdiction", "use-of-force", "human-rights", "legality", "proportionality", "remedy", "evidence"],
+  appellateAddress: "May it please the Court",
+  notes:
+    "Preliminary issues (standard of proof, nature of the armed conflict) precede the counts. Citation practice favours ICC document numbers with paragraph pinpoints.",
+};
+
 const CUSTOM: Competition = {
   id: "custom",
   name: "Custom Moot Mode",
@@ -237,6 +269,7 @@ export const COMPETITIONS: Competition[] = [
   ODPC,
   AFRICAN,
   KENYA_MOOTS,
+  IHL,
   CUSTOM,
 ];
 

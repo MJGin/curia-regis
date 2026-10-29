@@ -3,8 +3,10 @@ import type { Authority, CompetitionId, Side } from "../types";
 import { AUTHORITIES_A } from "./authorities-a";
 import { KENYA_AUTHORITIES } from "./authorities-kenya";
 import { AUTHORITIES_B } from "./authorities-b";
+import { REFUGEE_AUTHORITIES } from "./authorities-refugee";
+import { IHL_AUTHORITIES } from "./authorities-ihl";
 
-export const AUTHORITIES: Authority[] = [...AUTHORITIES_A, ...KENYA_AUTHORITIES, ...AUTHORITIES_B];
+export const AUTHORITIES: Authority[] = [...AUTHORITIES_A, ...KENYA_AUTHORITIES, ...AUTHORITIES_B, ...REFUGEE_AUTHORITIES, ...IHL_AUTHORITIES];
 
 export const authorityById = (id: string): Authority | undefined =>
   AUTHORITIES.find((a) => a.id === id);

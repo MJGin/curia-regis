@@ -137,7 +137,15 @@ export function buildMemorial(input: MemorialInput): MemorialDoc {
   }
   addSection("facts", comp.factsHeading.toUpperCase(), factBlocks);
 
-  // 6. Summary
+  // 6. Issues raised
+  const issuesBlocks: DocBlock[] = [block("h1", "ISSUES RAISED")];
+  issues.forEach((iss, i) => {
+    const letter = String.fromCharCode(65 + i);
+    issuesBlocks.push(block("para", `${letter}. ${iss}`));
+  });
+  addSection("issues-raised", "ISSUES RAISED", issuesBlocks);
+
+  // 7. Summary
   const summaryBlocks: DocBlock[] = [block("h1", comp.summaryHeading.toUpperCase())];
   issues.forEach((iss, i) => {
     summaryBlocks.push(block("para", `${i + 1}. The ${sideParty} submits that ${asProposition(iss)}.`));
@@ -145,6 +153,7 @@ export function buildMemorial(input: MemorialInput): MemorialDoc {
   addSection("summary", comp.summaryHeading.toUpperCase(), summaryBlocks);
 
   // 7. Arguments
+  let paraNo = 0;
   issues.forEach((iss, i) => {
     const pi = perIssue[i];
     const matched = pi.matched;
@@ -159,14 +168,14 @@ export function buildMemorial(input: MemorialInput): MemorialDoc {
     blocks.push(
       block(
         "para",
-        `The ${sideParty} respectfully submits that ${asProposition(iss)}. This contention is dispositive and is supported by the authorities that follow.`,
+        `[${++paraNo}]. The ${sideParty} respectfully submits that ${asProposition(iss)}. This contention is dispositive and is supported by the authorities that follow.`,
       ),
     );
     blocks.push(block("h2", "B. Application to the record"));
     blocks.push(
       block(
         "para",
-        `The record establishes that ${agreed.slice(0, 3).map((p) => p.text).join(" ")} (Compromis ¶¶ ${agreedNums}). These facts are agreed and are not in dispute.`,
+        `[${++paraNo}]. The record establishes that ${agreed.slice(0, 3).map((p) => p.text).join(" ")} (Compromis ¶¶ ${agreedNums}). These facts are agreed and are not in dispute.`,
         `Compromis ¶¶ ${agreedNums}`,
       ),
     );
@@ -175,7 +184,7 @@ export function buildMemorial(input: MemorialInput): MemorialDoc {
       blocks.push(
         block(
           "para",
-          `${primary.authority.principle} (${primary.authority.title}, ${primary.authority.citation}). The present facts fall squarely within that principle, and the ${sideParty} relies on it.`,
+          `[${++paraNo}]. ${primary.authority.principle} (${primary.authority.title}, ${primary.authority.citation}). The present facts fall squarely within that principle, and the ${sideParty} relies on it.`,
           primary.authority.citation,
         ),
       );
@@ -184,7 +193,7 @@ export function buildMemorial(input: MemorialInput): MemorialDoc {
       blocks.push(
         block(
           "para",
-          `The same conclusion follows from ${matched[1].authority.title} (${matched[1].authority.citation}): ${matched[1].authority.principle}.`,
+          `[${++paraNo}]. The same conclusion follows from ${matched[1].authority.title} (${matched[1].authority.citation}): ${matched[1].authority.principle}.`,
           matched[1].authority.citation,
         ),
       );
@@ -194,21 +203,21 @@ export function buildMemorial(input: MemorialInput): MemorialDoc {
       blocks.push(
         block(
           "para",
-          `The ${opponent} is likely to rely on ${adverse.authority.title} (${adverse.authority.citation}). That authority is distinguishable: ${adverse.authority.principle} is engaged on different facts, and the conduct impugned here does not fall within its ratio.`,
+          `[${++paraNo}]. The ${opponent} is likely to rely on ${adverse.authority.title} (${adverse.authority.citation}). That authority is distinguishable: ${adverse.authority.principle} is engaged on different facts. This is distinguishable from that case, where the conduct was speculative and unsupported by evidence; here the conduct was concrete and substantiated, and the conduct impugned does not fall within its ratio.`,
           adverse.authority.citation,
         ),
       );
     } else {
-      blocks.push(block("para", `No adverse authority of comparable weight has been identified on this point.`));
+      blocks.push(block("para", `[${++paraNo}]. No adverse authority of comparable weight has been identified on this point.`));
     }
     blocks.push(block("h2", "E. In the alternative"));
     blocks.push(
       block(
         "para",
-        `In the alternative, even if the Court were to accept the ${opponent}'s characterisation, the ${sideParty} submits that ${asProposition(iss)} on the basis of ${fallbackAuth ? fallbackAuth.title + " (" + fallbackAuth.citation + ")" : "the general principle and the text of the instrument"}.`,
+        `[${++paraNo}]. In the alternative, even if the Court were to accept the ${opponent}'s characterisation, the ${sideParty} submits that ${asProposition(iss)} on the basis of ${fallbackAuth ? fallbackAuth.title + " (" + fallbackAuth.citation + ")" : "the general principle and the text of the instrument"}.`,
       ),
     );
-    blocks.push(block("para", `For these reasons, ${comp.argumentLabel} ${ROMAN[i] ?? i + 1} should be upheld.`));
+    blocks.push(block("para", `[${++paraNo}]. For these reasons, ${comp.argumentLabel} ${ROMAN[i] ?? i + 1} should be upheld.`));
     addSection(`arg-${i}`, `${comp.argumentLabel.toUpperCase()} ${ROMAN[i] ?? i + 1}`, blocks);
   });
 
@@ -222,6 +231,9 @@ export function buildMemorial(input: MemorialInput): MemorialDoc {
       ),
     );
   }
+  prayerBlocks.push(block("para", "Thus, we humbly contend."));
+  prayerBlocks.push(block("para", `DATED ${new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }).toUpperCase()}`));
+  prayerBlocks.push(block("para", `ADVOCATES FOR THE ${sideParty.toUpperCase()}`));
   addSection("prayer", comp.prayerHeading.toUpperCase(), prayerBlocks);
 
   // Patch TOC section blocks
@@ -250,3 +262,4 @@ export function buildMemorial(input: MemorialInput): MemorialDoc {
     styleProfileId: styleProfile?.id,
   };
 }
+
