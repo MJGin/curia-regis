@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useMemo } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { Button } from "./ui";
 
 interface Props { url: string | null; title: string; entryId: string; }
@@ -11,9 +11,7 @@ export default function Reader({ url, title, entryId }: Props) {
   const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const [activeQuery, setActiveQuery] = useState("");
-  const containerRef = useRef<HTMLDivElement>(null);
 
-  // load cached text on mount
   useEffect(() => {
     try {
       const cached = localStorage.getItem(CACHE_PREFIX + entryId);
@@ -43,6 +41,8 @@ export default function Reader({ url, title, entryId }: Props) {
     try { localStorage.removeItem(CACHE_PREFIX + entryId); } catch {}
     setText(null);
     setError(null);
+    setActiveQuery("");
+    setQuery("");
   };
 
   const matchCount = useMemo(() => {
@@ -92,13 +92,13 @@ export default function Reader({ url, title, entryId }: Props) {
           {activeQuery && <span style={{ fontSize: 11, color: "var(--ink-muted)" }}>{matchCount} match{matchCount === 1 ? "" : "es"}</span>}
           {activeQuery && <Button onClick={() => { setQuery(""); setActiveQuery(""); }} variant="ghost" size="sm">Clear</Button>}
         </form>
-        <a href={url} target="_blank" rel="noreferrer" style={{ fontSize: 12, color: "var(--teal-dark)", textDecoration: "none" }}>Open in new tab ↗</a>
+        <a href={url} target="_blank" rel="noreferrer" style={{ fontSize: 12, color: "var(--teal-dark)", textDecoration: "none" }}>Open on source site ↗</a>
       </div>
 
       {!text && !loading && !error && (
         <div style={{ padding: 24, textAlign: "center" }}>
           <p style={{ fontSize: 13, color: "var(--ink-muted)", marginBottom: 12 }}>
-            Load the full text of this judgment to read and search it here (no new tab).
+            Load the full text of this judgment to read and search it here — no new tab.
           </p>
           <Button onClick={load} variant="primary" size="sm">Load full text</Button>
         </div>
@@ -115,7 +115,7 @@ export default function Reader({ url, title, entryId }: Props) {
       )}
 
       {text && (
-        <div ref={containerRef} style={{ padding: "16px 20px", maxHeight: "70vh", overflow: "auto", fontSize: 13, lineHeight: 1.6, color: "var(--ink)" }}>
+        <div style={{ padding: "16px 20px", maxHeight: "70vh", overflow: "auto", fontSize: 13, lineHeight: 1.6, color: "var(--ink)" }}>
           {renderText}
           <div style={{ marginTop: 16, paddingTop: 12, borderTop: "1px solid var(--border)", display: "flex", gap: 8 }}>
             <Button onClick={clearCache} variant="ghost" size="sm">Clear cached text</Button>
