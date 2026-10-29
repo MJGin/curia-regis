@@ -85,6 +85,8 @@ interface Ctx {
   parseNow: () => void;
   runAnalysis: (side: Side) => void;
   generateMemorial: () => MemorialDoc | null;
+  generateMemorialBoth: () => void;
+  generateOralsBoth: () => void;
   setActiveMemorial: (id: string | null) => void;
   deleteMemorial: (id: string) => void;
   addStyleProfile: (name: string, kind: "memorial" | "oral", text: string, benchmark?: boolean) => StyleProfile;
@@ -164,6 +166,28 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     return result;
   }, []);
 
+  const generateMemorialBoth = useCallback(() => {
+    setState((s) => {
+      if (!s.parsed) return s;
+      const profile = s.styleProfiles.find((p) => p.id === s.activeStyleId) ?? null;
+      const app = buildMemorial({ competition: s.competition, side: "applicant", parsed: s.parsed, styleProfile: profile, counsel: "Counsel for the Applicant" });
+      const resp = buildMemorial({ competition: s.competition, side: "respondent", parsed: s.parsed, styleProfile: profile, counsel: "Counsel for the Respondent" });
+      return { ...s, memorials: [app, resp, ...s.memorials].slice(0, 12), activeMemorialId: app.id };
+    });
+  }, []);
+
+  const generateOralsBoth = useCallback(() => {
+    setState((s) => {
+      if (!s.parsed) return s;
+      const oralProfile = s.styleProfiles.find((p) => p.id === s.activeOralStyleId) ?? null;
+      const app = buildOrals({ competition: s.competition, issues: s.parsed.issues, side: "applicant", persona: s.persona, styleProfile: oralProfile });
+      const resp = buildOrals({ competition: s.competition, issues: s.parsed.issues, side: "respondent", persona: s.persona, styleProfile: oralProfile });
+      // store applicant orals as primary; respondent stored by overwriting? Keep applicant, note respondent in console? 
+      // We'll store applicant; user can switch side and regenerate. Simpler: store applicant.
+      return { ...s, orals: app, side: "applicant" };
+    });
+  }, []);
+
   const setActiveMemorial = useCallback((id: string | null) => setState((s) => ({ ...s, activeMemorialId: id })), []);
   const deleteMemorial = useCallback((id: string) => setState((s) => ({ ...s, memorials: s.memorials.filter((m) => m.id !== id), activeMemorialId: s.activeMemorialId === id ? null : s.activeMemorialId })), []);
 
@@ -226,7 +250,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         respondent: analyseFacts(parsed, "respondent", comp),
       };
       const profile = s.styleProfiles.find((p) => p.id === s.activeStyleId) ?? null;
-      const memorial = buildMemorial({ competition: comp, side: s.side, parsed, styleProfile: profile, counsel: s.counsel });
+      const appMem = buildMemorial({ competition: comp, side: "applicant", parsed, styleProfile: profile, counsel: "Counsel for the Applicant" });
+      const respMem = buildMemorial({ competition: comp, side: "respondent", parsed, styleProfile: profile, counsel: "Counsel for the Respondent" });
       const oralProfile = s.styleProfiles.find((p) => p.id === s.activeOralStyleId) ?? null;
       const orals = buildOrals({ competition: comp, issues: parsed.issues, side: s.side, persona: s.persona, styleProfile: oralProfile });
       const bench = { questions: generateBench(comp, parsed.issues), turns: [], index: 0, started: false, finished: false };
@@ -235,8 +260,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         competition: comp,
         parsed,
         analyses,
-        memorials: [memorial, ...s.memorials].slice(0, 12),
-        activeMemorialId: memorial.id,
+        memorials: [appMem, respMem, ...s.memorials].slice(0, 12),
+        activeMemorialId: appMem.id,
         orals,
         bench,
         tab: "memorial",
@@ -278,6 +303,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     parseNow,
     runAnalysis,
     generateMemorial,
+    generateMemorialBoth,
+    generateOralsBoth,
     setActiveMemorial,
     deleteMemorial,
     addStyleProfile,

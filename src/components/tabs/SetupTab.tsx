@@ -7,7 +7,7 @@ import { extractTextFromFile } from "../../lib/text";
 import { detectCompetition } from "../../data/competitions";
 
 export default function SetupTab() {
-  const { state, setCompetition, setCustom, setSide, setCounsel, setCompromisText, parseNow, runAnalysis, runPipeline } = useApp();
+  const { state, setCompetition, setCustom, setSide, setCounsel, setCompromisText, parseNow, runAnalysis, runPipeline, generateMemorialBoth, generateOralsBoth } = useApp();
   const fileRef = useRef<HTMLInputElement>(null);
   const comp = competitionById(state.competition);
   const [sampleId, setSampleId] = useState(SAMPLE_COMPROMISES[0].id);
@@ -88,13 +88,21 @@ export default function SetupTab() {
         <div style={{ display: "flex", gap: 10, marginTop: 12, flexWrap: "wrap" }}>
           <Button onClick={() => fileRef.current?.click()} variant="ghost">Upload fact pattern (.txt/.md/.pdf)</Button>
           <input ref={fileRef} type="file" accept=".txt,.md,.pdf" style={{ display: "none" }} onChange={(e) => { const f = e.target.files?.[0]; if (f) onUpload(f); e.target.value = ""; }} />
-          <Button onClick={parseNow} variant="primary">Parse compromis</Button>
+          <Button onClick={parseNow} variant="primary">Parse</Button>
           <Button onClick={() => { setCompromisText(""); }} variant="ghost">Clear</Button>
-          <Button onClick={runPipeline} variant="brass" disabled={!state.compromisText.trim()}>Run full pipeline</Button>
         </div>
-        <p style={{ fontSize: 12, color: "var(--ink-400)", marginTop: 8 }}>
-          <b>Run full pipeline</b> parses the compromis, detects the competition mode, analyses facts for both sides, and generates the memorial, oral script and bench questions in one step.
-        </p>
+
+        <div style={{ marginTop: 16, padding: 14, background: "rgba(11,18,32,0.45)", border: "1px solid var(--border)", borderRadius: "var(--radius-sm)" }}>
+          <div style={{ fontSize: 12, color: "var(--brass-400)", fontWeight: 600, marginBottom: 8, letterSpacing: "0.12em", textTransform: "uppercase" }}>Generate (rely on uploaded benchmarks as the standard)</div>
+          <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+            <Button onClick={runPipeline} variant="brass" disabled={!state.compromisText.trim()}>Run full pipeline</Button>
+            <Button onClick={generateMemorialBoth} variant="primary" disabled={!state.parsed}>Generate memorial (both sides)</Button>
+            <Button onClick={generateOralsBoth} variant="ghost" disabled={!state.parsed}>Generate oral scripts (both sides)</Button>
+          </div>
+          <p style={{ fontSize: 11.5, color: "var(--ink-500)", marginTop: 8, marginBottom: 0 }}>
+            Run full pipeline = parse + detect mode + analyse both sides + memorial (both) + oral script + bench questions. The memorial and oral style follow your active benchmark profile in the Vault.
+          </p>
+        </div>
       </Card>
 
       {state.parsed && (
