@@ -13,6 +13,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "Impeachment proceedings must comply with the Constitution and the County Governments Act; the county assembly must afford the governor a fair hearing before removal.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2014/7498/eng@2014-05-12",
+    facts: 'A challenge to the impeachment of the Governor of Embu County.',
+    holding: 'Impeachment proceedings must comply with the Constitution and the County Governments Act; the county assembly must afford the governor a fair hearing before removal.',
+    judges: 'High Court of Kenya',
   },
   {
     id: "wambora-2014-hc2",
@@ -26,6 +29,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The Senate's role in impeachment is to hear and determine the charges; procedural fairness requires adequate notice and an opportunity to be heard.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2014/7080/eng@2014-02-03",
+    facts: "A challenge to the Senate's role in the impeachment of the Governor of Embu.",
+    holding: "The Senate's role in impeachment is to hear and determine the charges; procedural fairness requires adequate notice and an opportunity to be heard.",
+    judges: 'High Court of Kenya',
   },
   {
     id: "wambora-sc",
@@ -39,6 +45,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The Supreme Court's jurisdiction over impeachment matters is limited; the Court will not interfere with the constitutional processes of the county assembly and the Senate absent illegality.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kesc/2017/19/eng@2017-03-24",
+    facts: 'An application by the Parliamentary Service Commission in the Wambora impeachment saga.',
+    holding: "The Supreme Court's jurisdiction over impeachment matters is limited; the Court will not interfere with the constitutional processes of the county assembly and the Senate absent illegality.",
+    judges: 'Supreme Court of Kenya',
   },
   {
     id: "wajir-impeachment",
@@ -52,6 +61,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The impeachment of a governor must comply with Article 181 of the Constitution and the County Governments Act; the county assembly must afford a fair hearing and follow the prescribed procedure.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2022/169/eng@2022-02-16",
+    facts: 'A challenge to the impeachment of the Governor of Wajir County.',
+    holding: 'The impeachment of a governor must comply with Article 181 of the Constitution and the County Governments Act; the county assembly must afford a fair hearing and follow the prescribed procedure.',
+    judges: 'High Court of Kenya',
   },
   {
     id: "sonko-impeachment",
@@ -65,6 +77,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The impeachment process is a constitutional mechanism; the county assembly and the Senate must act within their constitutional mandates and afford procedural fairness.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/2022/405/eng@2022-03-04",
+    facts: 'A challenge to the impeachment of the Governor of Nairobi County.',
+    holding: 'The impeachment process is a constitutional mechanism; the county assembly and the Senate must act within their constitutional mandates and afford procedural fairness.',
+    judges: 'Court of Appeal of Kenya',
   },
   {
     id: "sonko-lsk",
@@ -78,6 +93,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The impeachment of a governor and the assumption of office by the deputy governor must comply with the Constitution; the process must be lawful and transparent.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2021/449/eng@2021-02-09",
+    facts: 'A challenge to the impeachment of the Governor of Nairobi and the assumption of office by the deputy governor.',
+    holding: 'The impeachment of a governor and the assumption of office by the deputy governor must comply with the Constitution; the process must be lawful and transparent.',
+    judges: 'High Court of Kenya',
   },
   {
     id: "waititu-impeachment",
@@ -91,6 +109,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "Impeachment proceedings must be conducted in accordance with the Constitution and the County Governments Act; the courts will review procedural irregularities.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/2023/1427/eng@2023-11-24",
+    facts: 'A challenge to the impeachment of the Governor of Kiambu County.',
+    holding: 'Impeachment proceedings must be conducted in accordance with the Constitution and the County Governments Act; the courts will review procedural irregularities.',
+    judges: 'Court of Appeal of Kenya',
   },
   {
     id: "waititu-lsk",
@@ -104,6 +125,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The impeachment of a governor and the assumption of office by the deputy governor must comply with the Constitution; the process must be lawful and transparent.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2023/629/eng@2023-02-10",
+    facts: 'A challenge to the impeachment of the Governor of Kiambu and the assumption of office by the deputy governor.',
+    holding: 'The impeachment of a governor and the assumption of office by the deputy governor must comply with the Constitution; the process must be lawful and transparent.',
+    judges: 'High Court of Kenya',
   },
   {
     id: "gachagua-impeachment",
@@ -117,6 +141,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The impeachment of the Deputy President must comply with Article 145 and Article 150 of the Constitution; the process must afford procedural fairness and follow the prescribed steps.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2024/13473/eng@2024-10-31",
+    facts: 'A challenge to the impeachment of the Deputy President.',
+    holding: 'The impeachment of the Deputy President must comply with Article 145 and Article 150 of the Constitution; the process must afford procedural fairness and follow the prescribed steps.',
+    judges: 'High Court of Kenya',
   },
   {
     id: "gachagua-appeal",
@@ -130,6 +157,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The impeachment process must comply with the Constitution; the courts will review procedural irregularities and ensure that the rights of the impeached officer are respected.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/2025/790/eng@2025-05-09",
+    facts: "An appeal against the High Court's decision on the Deputy President's impeachment.",
+    holding: 'The impeachment process must comply with the Constitution; the courts will review procedural irregularities and ensure that the rights of the impeached officer are respected.',
+    judges: 'Court of Appeal of Kenya',
   },
   {
     id: "gachagua-sc",
@@ -143,6 +173,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The Supreme Court's jurisdiction over impeachment matters is limited; the Court will not interfere with the constitutional processes of the National Assembly and the Senate absent illegality.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kesc/2026/19/eng@2026-01-30",
+    facts: "An application by the National Assembly in the Deputy President's impeachment.",
+    holding: "The Supreme Court's jurisdiction over impeachment matters is limited; the Court will not interfere with the constitutional processes of the National Assembly and the Senate absent illegality.",
+    judges: 'Supreme Court of Kenya',
   },
   {
     id: "mombasa-impeachment",
@@ -156,6 +189,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The impeachment of a governor must comply with Article 181 of the Constitution and the County Governments Act; the process must afford procedural fairness and follow the prescribed steps.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/3069/eng@2025-03-14",
+    facts: 'A challenge to the impeachment of the Governor of Meru County.',
+    holding: 'The impeachment of a governor must comply with Article 181 of the Constitution and the County Governments Act; the process must afford procedural fairness and follow the prescribed steps.',
+    judges: 'High Court of Kenya',
   },
   {
     id: "ombwayo",
@@ -169,6 +205,9 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "The impeachment of a Cabinet Secretary must comply with Article 152 of the Constitution; the process must afford procedural fairness and follow the prescribed steps.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2022/12896/eng@2022-09-12",
+    facts: 'A challenge to the impeachment of a Cabinet Secretary.',
+    holding: 'The impeachment of a Cabinet Secretary must comply with Article 152 of the Constitution; the process must afford procedural fairness and follow the prescribed steps.',
+    judges: 'High Court of Kenya',
   },
   {
     id: "macharia-speaker",
@@ -182,5 +221,8 @@ export const IMPEACHMENT_AUTHORITIES: Authority[] = [
       "Jurisdiction is everything: a court must satisfy itself of its jurisdiction at the threshold; a decision reached without jurisdiction is a nullity.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/1999/104/eng@1999-05-27",
+    facts: 'A dispute between the Speaker of the National Assembly and Samuel Kamau Macharia over parliamentary privilege.',
+    holding: 'Jurisdiction is everything: a court must satisfy itself of its jurisdiction at the threshold; a decision reached without jurisdiction is a nullity.',
+    judges: 'Gicheru CJ, Kwach and Cockar JJA (Court of Appeal)',
   },
 ];

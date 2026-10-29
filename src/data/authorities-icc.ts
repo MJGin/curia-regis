@@ -12,6 +12,9 @@ export const ICC_AUTHORITIES: Authority[] = [
     principle:
       "Direct and public incitement to commit genocide requires both an actus reus (direct and public incitement) and a mens rea (intent to commit genocide and to provoke others to commit it); genocidal intent may be inferred from the content and implications of the language used.",
     useFor: "both",
+    facts: 'Jean-Paul Akayesu, a bourgmestre, was charged with genocide and crimes against humanity during the Rwandan genocide.',
+    holding: 'Direct and public incitement to commit genocide requires both an actus reus (direct and public incitement) and a mens rea (intent to commit genocide and to provoke others to commit it).',
+    judges: 'International Criminal Tribunal for Rwanda (Trial Chamber)',
   },
   {
     id: "bikindi",
@@ -24,6 +27,9 @@ export const ICC_AUTHORITIES: Authority[] = [
     principle:
       "In assessing directness, what matters is the context in which the words were spoken and how the audience understood the message; implicit remarks may constitute direct incitement where the context makes the call unmistakable.",
     useFor: "both",
+    facts: 'Simon Bikindi, a musician, was charged with direct and public incitement to commit genocide.',
+    holding: 'In assessing directness, what matters is the context in which the words were spoken and how the audience understood the message; implicit remarks may constitute direct incitement where the context makes the call unmistakable.',
+    judges: 'International Criminal Tribunal for Rwanda (Trial Chamber)',
   },
   {
     id: "nahima",
@@ -36,6 +42,9 @@ export const ICC_AUTHORITIES: Authority[] = [
     principle:
       "Direct and public incitement is an inchoate offence; a resolve to destroy in whole or in part may be inferred from the content and implications of the language used, including dehumanising language and the portrayal of a group as a threat.",
     useFor: "both",
+    facts: 'Media executives were charged with direct and public incitement to commit genocide through radio and print media.',
+    holding: 'Direct and public incitement is an inchoate offence; a resolve to destroy in whole or in part may be inferred from the content and implications of the language used.',
+    judges: 'International Criminal Tribunal for Rwanda (Trial Chamber)',
   },
   {
     id: "nahima-appeals",
@@ -61,6 +70,9 @@ export const ICC_AUTHORITIES: Authority[] = [
     principle:
       "Implicit remarks may constitute direct incitement where the specific statement made was widely understood in its cultural and linguistic context as a call to exterminate the targeted group.",
     useFor: "both",
+    facts: 'Tharcisse Muvunyi was charged with direct and public incitement to commit genocide.',
+    holding: 'Implicit remarks may constitute direct incitement where the specific statement was widely understood in its cultural and linguistic context as a call to exterminate the targeted group.',
+    judges: 'International Criminal Tribunal for Rwanda (Trial Chamber)',
   },
   {
     id: "al-hassan",
@@ -74,6 +86,9 @@ export const ICC_AUTHORITIES: Authority[] = [
       "Crimes against humanity and war crimes require proof beyond reasonable doubt; the Court weighs the evidence as a whole and acquits where the prosecution has not discharged its burden.",
     useFor: "respondent",
     adverse: true,
+    facts: 'Al Hassan Ag Abdoul Aziz Ag Mohamed Ag Mahmoud was charged with crimes against humanity and war crimes in Timbuktu.',
+    holding: 'Crimes against humanity and war crimes require proof beyond reasonable doubt; the Court weighs the evidence as a whole and acquits where the prosecution has not discharged its burden.',
+    judges: 'International Criminal Court (Trial Chamber X)',
   },
   {
     id: "abuganda",
@@ -86,6 +101,9 @@ export const ICC_AUTHORITIES: Authority[] = [
     principle:
       "Individual criminal responsibility under Article 25(3)(a) requires that the accused made a substantial contribution to the crime with knowledge of the group's criminal intention.",
     useFor: "both",
+    facts: 'Dominic Ongwen was charged with war crimes and crimes against humanity in Northern Uganda.',
+    holding: "Individual criminal responsibility under Article 25(3)(a) requires that the accused made a substantial contribution to the crime with knowledge of the group's criminal intention.",
+    judges: 'International Criminal Court (Trial Chamber IX)',
   },
   {
     id: "gaddafi-senussi",
@@ -98,6 +116,9 @@ export const ICC_AUTHORITIES: Authority[] = [
     principle:
       "A case is inadmissible where the accused has already been tried for substantially the same conduct, unless the national proceedings lacked independence or impartiality or were designed to shield the accused.",
     useFor: "respondent",
+    facts: 'Saif Al-Islam Gaddafi and Abdullah Al-Senussi were charged with crimes against humanity during the Libyan revolution.',
+    holding: 'A case is inadmissible where the accused has already been tried for substantially the same conduct, unless the national proceedings lacked independence or impartiality or were designed to shield the accused.',
+    judges: 'International Criminal Court (Pre-Trial Chamber I)',
   },
   {
     id: "congo-bemba",
@@ -110,6 +131,9 @@ export const ICC_AUTHORITIES: Authority[] = [
     principle:
       "A commander is criminally responsible under Article 28 where he knew or should have known that forces under his control were committing crimes and failed to take all necessary and reasonable measures to prevent or repress them.",
     useFor: "both",
+    facts: 'Jean-Pierre Bemba was charged with war crimes and crimes against humanity in the Central African Republic.',
+    holding: 'A commander is criminally responsible under Article 28 where he knew or should have known that forces under his control were committing crimes and failed to take all necessary and reasonable measures to prevent or repress them.',
+    judges: 'International Criminal Court (Trial Chamber III)',
   },
   {
     id: "nahima-appeals-icc",
@@ -122,5 +146,8 @@ export const ICC_AUTHORITIES: Authority[] = [
     principle:
       "The destruction of a representative fraction of a group, such as its religious leaders, may support an inference of genocidal intent.",
     useFor: "applicant",
+    facts: 'Appeals by media executives convicted of direct and public incitement to commit genocide.',
+    holding: 'The destruction of a representative fraction of a group, such as its religious leaders, may support an inference of genocidal intent.',
+    judges: 'International Criminal Tribunal for Rwanda (Appeals Chamber)',
   },
 ];

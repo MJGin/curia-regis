@@ -15,6 +15,9 @@ export const AUTHORITIES_B: Authority[] = [
     useFor: "respondent",
     adverse: true,
     note: "Often invoked against expansive jurisdictional claims; distinguish where sovereignty arguments are being made.",
+    facts: "A collision between a French and a Turkish vessel on the high seas; France challenged Turkey's jurisdiction to try the Turkish officer.",
+    holding: 'Restrictions on the exercise of jurisdiction are exceptional: a State is free to exercise jurisdiction unless a permissive rule of international law prohibits it.',
+    judges: 'Huber, President (Permanent Court of International Justice)',
   },
   {
     id: "chorzow",
@@ -27,6 +30,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Reparation must, as far as possible, wipe out all the consequences of the illegal act and re-establish the situation which would, in all probability, have existed but for it (restitutio in integrum).",
     useFor: "applicant",
+    facts: "Germany claimed reparation for Poland's unlawful expropriation of a nitrate factory.",
+    holding: 'Reparation must, as far as possible, wipe out all the consequences of the illegal act and re-establish the situation which would, in all probability, have existed but for it (restitutio in integrum).',
+    judges: 'Huber, President (Permanent Court of International Justice)',
   },
   {
     id: "corfu",
@@ -39,6 +45,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A State may not allow its territory to be used for acts contrary to the rights of other States; circumstantial evidence can establish responsibility where direct proof is unavailable.",
     useFor: "applicant",
+    facts: 'The United Kingdom claimed reparation for damage to its warships in the Corfu Channel.',
+    holding: 'A State may not allow its territory to be used for acts contrary to the rights of other States; circumstantial evidence can establish responsibility where direct proof is unavailable.',
+    judges: 'Basdevant, President (International Court of Justice)',
   },
   {
     id: "reservations-genocide",
@@ -51,6 +60,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A reservation must be compatible with the object and purpose of the treaty; the compatibility test is applied by reference to the treaty's aims, not by the reserving State's unilateral view.",
     useFor: "applicant",
+    facts: 'An advisory opinion on whether reservations to the Genocide Convention were permissible.',
+    holding: "A reservation must be compatible with the object and purpose of the treaty; the compatibility test is applied by reference to the treaty's aims.",
+    judges: 'Guerrero, President (International Court of Justice)',
   },
   {
     id: "north-sea",
@@ -64,6 +76,9 @@ export const AUTHORITIES_B: Authority[] = [
       "Customary international law requires both widespread and representative State practice and opinio juris; treaty provisions do not automatically crystallise into custom.",
     useFor: "respondent",
     adverse: true,
+    facts: 'A dispute over the delimitation of the continental shelf in the North Sea.',
+    holding: 'Customary international law requires both widespread and representative State practice and opinio juris; treaty provisions do not automatically crystallise into custom.',
+    judges: 'Tanaka, Vice-President (International Court of Justice)',
   },
   {
     id: "barcelona-traction",
@@ -76,6 +91,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Obligations erga omnes are owed to the international community as a whole; the right to protect them is not confined to the State directly injured.",
     useFor: "applicant",
+    facts: 'Belgium claimed on behalf of Belgian shareholders of a Canadian company expropriated by Spain.',
+    holding: 'Obligations erga omnes are owed to the international community as a whole; the right to protect them is not confined to the State directly injured.',
+    judges: 'Ammoun, Vice-President (International Court of Justice)',
   },
   {
     id: "nicaragua",
@@ -88,6 +106,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A State is responsible where it exercises effective control over non-State actors; the prohibition on the use of force and the principle of non-intervention are rules of customary international law.",
     useFor: "applicant",
+    facts: 'Nicaragua claimed that the United States was responsible for military and paramilitary activities against it.',
+    holding: 'A State is responsible where it exercises effective control over non-State actors; the prohibition on the use of force and the principle of non-intervention are rules of customary international law.',
+    judges: 'Nagendra Singh, President (International Court of Justice)',
   },
   {
     id: "gabcikovo",
@@ -100,6 +121,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Necessity may preclude wrongfulness only in exceptional circumstances; a State may not rely on changed circumstances to evade a treaty obligation, and good faith governs performance.",
     useFor: "respondent",
+    facts: 'A dispute over a dam project on the Danube between Hungary and Slovakia.',
+    holding: 'Necessity may preclude wrongfulness only in exceptional circumstances; a State may not rely on changed circumstances to evade a treaty obligation, and good faith governs performance.',
+    judges: 'Schwebel, President (International Court of Justice)',
   },
   {
     id: "lagrand",
@@ -112,6 +136,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Provisional measures indicated by the Court under Article 41 of the Statute are binding, and the Court may order measures to preserve rights pending judgment.",
     useFor: "applicant",
+    facts: 'Germany claimed that the United States failed to inform two German nationals of their right to consular assistance.',
+    holding: 'Provisional measures indicated by the Court under Article 41 of the Statute are binding, and the Court may order measures to preserve rights pending judgment.',
+    judges: 'Guillaume, President (International Court of Justice)',
   },
   {
     id: "genocide-bosnia",
@@ -124,6 +151,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A State is responsible for genocide where it commits, or is complicit in, acts of genocide; the duty to prevent and punish genocide is an obligation of conduct, not result.",
     useFor: "applicant",
+    facts: 'Bosnia and Herzegovina claimed that Serbia was responsible for genocide during the Bosnian war.',
+    holding: 'A State is responsible for genocide where it commits, or is complicit in, acts of genocide; the duty to prevent and punish genocide is an obligation of conduct, not result.',
+    judges: 'Higgins, President (International Court of Justice)',
   },
   {
     id: "jurisdictional-immunities",
@@ -136,6 +166,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "State immunity is a rule of customary international law; the territorial tort exception does not apply to acts of the armed forces in the conduct of armed conflict.",
     useFor: "respondent",
+    facts: 'Germany claimed that Italy violated its immunity by allowing civil claims for war crimes.',
+    holding: 'State immunity is a rule of customary international law; the territorial tort exception does not apply to acts of the armed forces in the conduct of armed conflict.',
+    judges: 'Owada, President (International Court of Justice)',
   },
   {
     id: "whaling",
@@ -148,6 +181,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Treaty interpretation under the VCLT is an objective exercise; the Court will not defer to a party's own characterisation of its measures where the text and context point otherwise.",
     useFor: "applicant",
+    facts: "Australia claimed that Japan's whaling programme was not for scientific purposes.",
+    holding: "Treaty interpretation under the VCLT is an objective exercise; the Court will not defer to a party's own characterisation of its measures where the text and context point otherwise.",
+    judges: 'Owada, President (International Court of Justice)',
   },
   {
     id: "chagos",
@@ -160,6 +196,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "The process of decolonisation must respect the right to self-determination; a detachment agreed by the administering power without the consent of the people is unlawful.",
     useFor: "applicant",
+    facts: 'An advisory opinion on the legal consequences of the separation of the Chagos Archipelago from Mauritius.',
+    holding: 'The process of decolonisation must respect the right to self-determination; a detachment agreed by the administering power without the consent of the people is unlawful.',
+    judges: 'Yusuf, President (International Court of Justice)',
   },
   {
     id: "kosovo",
@@ -172,6 +211,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "General international law does not prohibit declarations of independence; the legality of a declaration depends on the particular circumstances of each case.",
     useFor: "both",
+    facts: "An advisory opinion on the legality of Kosovo's unilateral declaration of independence.",
+    holding: 'General international law does not prohibit declarations of independence; the legality of a declaration depends on the particular circumstances of each case.',
+    judges: 'Owada, President (International Court of Justice)',
   },
 
   // ── WTO Dispute Settlement ───────────────────────────────────────────────
@@ -186,6 +228,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Article XX permits measures necessary to protect human, animal or plant life or exhaustible natural resources, provided the chapeau is satisfied; the chapeau guards against abuse of the exceptions.",
     useFor: "respondent",
+    facts: 'The United States imposed emissions standards on imported gasoline that were stricter than those for domestic gasoline.',
+    holding: 'The chapeau of Article XX requires that measures not constitute arbitrary or unjustifiable discrimination; the US measure violated Article XX(g) as applied.',
+    judges: 'Appellate Body',
   },
   {
     id: "japan-alcohol",
@@ -198,6 +243,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Like products are determined by competitive relationship, not by the measure's own criteria; likeness is assessed by physical characteristics, end-use, consumer tastes and tariff classification.",
     useFor: "applicant",
+    facts: 'Japan taxed imported alcoholic beverages at higher rates than domestic shochu.',
+    holding: 'Like products are determined by competitive relationship; the Japanese tax violated Article III:2.',
+    judges: 'Appellate Body',
   },
   {
     id: "ec-hormones",
@@ -210,6 +258,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "An SPS measure must be based on a risk assessment; a Member may maintain a higher level of protection than the international standard only where it provides a scientific justification.",
     useFor: "applicant",
+    facts: 'The EC banned imports of beef treated with growth hormones.',
+    holding: 'An SPS measure must be based on a risk assessment; the EC ban was not supported by sufficient scientific evidence.',
+    judges: 'Appellate Body',
   },
   {
     id: "us-shrimp",
@@ -222,6 +273,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "The chapeau requires a balancing of the right to invoke an exception and the duty not to abuse it; arbitrary or unjustifiable discrimination between countries where the same conditions prevail is prohibited.",
     useFor: "applicant",
+    facts: 'The United States banned shrimp imports from countries not using turtle-excluder devices.',
+    holding: 'The chapeau requires a balancing of the right to invoke an exception and the duty not to abuse it; the US measure constituted arbitrary and unjustifiable discrimination.',
+    judges: 'Appellate Body',
   },
   {
     id: "korea-beef",
@@ -234,6 +288,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A measure is necessary under Article XX only where it makes a material contribution to the objective and is the least trade-restrictive alternative reasonably available.",
     useFor: "applicant",
+    facts: 'Korea applied a dual retail system for beef that disadvantaged imports.',
+    holding: 'A measure is necessary under Article XX only where it makes a material contribution and is the least trade-restrictive alternative reasonably available.',
+    judges: 'Appellate Body',
   },
   {
     id: "brazil-aircraft",
@@ -246,6 +303,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A subsidy is a financial contribution by government that confers a benefit; the existence and quantum of the benefit are determined by reference to market benchmarks.",
     useFor: "both",
+    facts: 'Brazil provided export financing subsidies for aircraft.',
+    holding: 'A subsidy is a financial contribution by government that confers a benefit; the existence and quantum of the benefit are determined by reference to market benchmarks.',
+    judges: 'Appellate Body',
   },
   {
     id: "us-clove",
@@ -258,6 +318,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Under the TBT Agreement, like products are those that are identical or similar in terms of their characteristics, end-use and consumer tastes, assessed as a whole.",
     useFor: "applicant",
+    facts: 'The United States banned clove cigarettes but not menthol cigarettes.',
+    holding: 'Under the TBT Agreement, like products are those identical or similar in terms of characteristics, end-use and consumer tastes.',
+    judges: 'Appellate Body',
   },
   {
     id: "canada-renewable",
@@ -270,6 +333,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Local content requirements in the renewable energy sector are prohibited subsidies under the SCM Agreement where they confer a benefit conditional on the use of domestic goods.",
     useFor: "applicant",
+    facts: "Ontario's feed-in tariff programme required local content for renewable energy.",
+    holding: 'Local content requirements in the renewable energy sector are prohibited subsidies under the SCM Agreement where they confer a benefit conditional on the use of domestic goods.',
+    judges: 'Appellate Body',
   },
   {
     id: "australia-plain",
@@ -282,6 +348,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A tobacco control measure can be justified under Article XX(b) where it makes a material contribution to public health and the chapeau is satisfied; the measure need not be perfect, only proportionate.",
     useFor: "respondent",
+    facts: 'Australia required plain packaging for tobacco products.',
+    holding: 'A tobacco control measure can be justified under Article XX(b) where it makes a material contribution to public health and the chapeau is satisfied.',
+    judges: 'Appellate Body',
   },
   {
     id: "china-publications",
@@ -294,6 +363,9 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Trading rights obligations are commitments under China's Accession Protocol; regulatory measures must be administered reasonably, objectively and impartially.",
     useFor: "applicant",
+    facts: 'China restricted the importation and distribution of publications and audiovisual products.',
+    holding: "Trading rights obligations are commitments under China's Accession Protocol; regulatory measures must be administered reasonably, objectively and impartially.",
+    judges: 'Appellate Body',
   },
 
   // ── African human rights ────────────────────────────────────────────────

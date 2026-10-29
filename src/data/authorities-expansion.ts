@@ -13,6 +13,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Forced evictions must be carried out in a manner consistent with human dignity; the State must provide adequate notice, consultation and resettlement, and resource constraints cannot excuse indignity.",
     useFor: "applicant",
+    facts: 'A petition by evicted residents of Mitumba village near Wilson Airport seeking redress for forced eviction.',
+    holding: 'Forced evictions must be carried out in a manner consistent with human dignity; the State must provide adequate notice, consultation and resettlement, and resource constraints cannot excuse indignity.',
+    judges: "Mwilu DCJ, Ibrahim, Wanjala, Ndung'u and Lenaola SCJJ (Supreme Court)",
   },
   {
     id: "council-governors",
@@ -25,6 +28,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The Supreme Court's advisory jurisdiction is confined to matters concerning county government; the Senate's oversight role over county revenue is constitutionally entrenched.",
     useFor: "both",
+    facts: 'A reference by the Council of Governors on the division of revenue between national and county governments.',
+    holding: "The Supreme Court's advisory jurisdiction is confined to matters concerning county government; the Senate's oversight role over county revenue is constitutionally entrenched.",
+    judges: "Maraga CJ, Mwilu DCJ, Ibrahim, Wanjala, Ndung'u and Lenaola SCJJ (Supreme Court)",
   },
   {
     id: "speaker-senate",
@@ -37,6 +43,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Bicameralism requires that both Houses of Parliament participate in the legislative process; a Bill concerning counties must be considered by the Senate.",
     useFor: "both",
+    facts: 'An advisory opinion on the role of the Senate in the legislative process.',
+    holding: 'Bicameralism requires that both Houses of Parliament participate in the legislative process; a Bill concerning counties must be considered by the Senate.',
+    judges: "Mutunga CJ, Tunoi, Ibrahim, Ojwang, Wanjala and Ndung'u SCJJ (Supreme Court)",
   },
   {
     id: "syner-chemie",
@@ -181,6 +190,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A constitutional amendment process must comply with the Constitution's own architecture, including public participation and the allocation of constituent power.",
     useFor: "applicant",
+    facts: "An application by the Attorney General seeking a stay of the High Court's BBI judgment.",
+    holding: "A constitutional amendment process must comply with the Constitution's own architecture, including public participation and the allocation of constituent power.",
+    judges: "Mutunga CJ, Ibrahim, Ojwang, Wanjala and Ndung'u SCJJ (Supreme Court)",
   },
 
   // ── United Kingdom (additional) ────────────────────────────────────────
@@ -195,6 +207,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The prerogative power of prorogation is justiciable; a prorogation that frustrates parliamentary scrutiny without reasonable justification is unlawful.",
     useFor: "applicant",
+    facts: "A challenge to the Prime Minister's advice to prorogue Parliament.",
+    holding: 'The prerogative power of prorogation is justiciable; a prorogation that frustrates parliamentary scrutiny without reasonable justification is unlawful.',
+    judges: 'Lady Hale (Supreme Court)',
   },
   {
     id: "evans-ag",
@@ -207,6 +222,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A certificate overriding a tribunal's disclosure order must be justified by cogent evidence; executive override of judicial decisions demands the highest scrutiny.",
     useFor: "applicant",
+    facts: "A request for disclosure of Prince Charles's letters to government ministers.",
+    holding: "A certificate overriding a tribunal's disclosure order must be justified by cogent evidence; executive override of judicial decisions demands the highest scrutiny.",
+    judges: 'Lord Neuberger (Supreme Court)',
   },
   {
     id: "quintavalle",
@@ -219,6 +237,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Statutory language is interpreted by its ordinary meaning in context; where the text is ambiguous, purposive construction may extend it to new circumstances.",
     useFor: "both",
+    facts: 'A challenge to regulations permitting the creation of embryos by cell nuclear replacement.',
+    holding: 'Statutory language is interpreted by its ordinary meaning in context; where the text is ambiguous, purposive construction may extend it to new circumstances.',
+    judges: 'Lord Bingham (House of Lords)',
   },
   {
     id: "nadarajah",
@@ -231,6 +252,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A public authority must honour its published policies unless there are good reasons not to; legitimate expectations arise from clear and unambiguous representations.",
     useFor: "applicant",
+    facts: "A challenge to the Home Secretary's change of policy on removal of failed asylum seekers.",
+    holding: 'A public authority must honour its published policies unless there are good reasons not to; legitimate expectations arise from clear and unambiguous representations.',
+    judges: 'Laws LJ (Court of Appeal)',
   },
   {
     id: "lord-carlile",
@@ -243,6 +267,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "In national-security matters the court affords the executive a margin of judgment, but the decision must still be rational and supported by evidence.",
     useFor: "respondent",
+    facts: 'A challenge to the exclusion of an Iranian dissident from the UK.',
+    holding: 'In national-security matters the court affords the executive a margin of judgment, but the decision must still be rational and supported by evidence.',
+    judges: 'Lord Sumption (Supreme Court)',
   },
   {
     id: "bancoult",
@@ -255,6 +282,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The prerogative power to legislate for a colony is subject to judicial review for rationality and conformity with fundamental rights.",
     useFor: "applicant",
+    facts: 'A challenge to the removal of the Chagossians from the British Indian Ocean Territory.',
+    holding: 'The prerogative power to legislate for a colony is subject to judicial review for rationality and conformity with fundamental rights.',
+    judges: 'Lord Hoffmann (House of Lords)',
   },
   {
     id: "bridges",
@@ -267,6 +297,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The use of automated facial recognition in public spaces engages Article 8 and must be necessary, proportionate and subject to an adequate legal framework.",
     useFor: "applicant",
+    facts: 'A challenge to the use of automated facial recognition by the police.',
+    holding: 'The use of automated facial recognition in public spaces engages Article 8 and must be necessary, proportionate and subject to an adequate legal framework.',
+    judges: 'Sir Terence Etherton MR (Court of Appeal)',
   },
   {
     id: "catt",
@@ -279,6 +312,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The retention of personal data by the police must be justified by a pressing need and be proportionate; retention of data on non-violent protesters was unlawful.",
     useFor: "applicant",
+    facts: 'A challenge to the retention of data on a peaceful protester.',
+    holding: 'The retention of personal data by the police must be justified by a pressing need and be proportionate; retention of data on non-violent protesters was unlawful.',
+    judges: 'Lord Sumption (Supreme Court)',
   },
   {
     id: "gaughran",
@@ -291,6 +327,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The indefinite retention of biometric data of a person convicted of a minor offence, without review, is disproportionate and unlawful.",
     useFor: "applicant",
+    facts: 'A challenge to the indefinite retention of biometric data of a person convicted of a minor offence.',
+    holding: 'The indefinite retention of biometric data of a person convicted of a minor offence, without review, is disproportionate and unlawful.',
+    judges: 'Lord Lloyd-Jones (Supreme Court)',
   },
   {
     id: "r-t",
@@ -303,6 +342,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The blanket disclosure of minor, old or irrelevant convictions in enhanced criminal-record certificates is disproportionate and incompatible with Article 8.",
     useFor: "applicant",
+    facts: 'A challenge to the blanket disclosure of minor, old or irrelevant convictions.',
+    holding: 'The blanket disclosure of minor, old or irrelevant convictions in enhanced criminal-record certificates is disproportionate and incompatible with Article 8.',
+    judges: 'Lord Reed (Supreme Court)',
   },
   {
     id: "r-l",
@@ -315,6 +357,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The retention and disclosure of allegations of criminal conduct that did not result in conviction must be necessary and proportionate.",
     useFor: "applicant",
+    facts: 'A challenge to the retention and disclosure of allegations that did not result in conviction.',
+    holding: 'The retention and disclosure of allegations of criminal conduct that did not result in conviction must be necessary and proportionate.',
+    judges: 'Lord Hope (Supreme Court)',
   },
   {
     id: "michael",
@@ -327,6 +372,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The police owe no duty of care to protect an individual from the criminal acts of a third party in the absence of an assumption of responsibility or a special relationship.",
     useFor: "respondent",
+    facts: 'A claim by the family of a woman murdered by her ex-partner after police failures.',
+    holding: 'The police owe no duty of care to protect an individual from the criminal acts of a third party in the absence of an assumption of responsibility or a special relationship.',
+    judges: 'Lord Toulson (Supreme Court)',
   },
   {
     id: "poole",
@@ -339,6 +387,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A public authority does not owe a duty of care merely by exercising its statutory functions; liability requires an assumption of responsibility or a special relationship.",
     useFor: "respondent",
+    facts: 'A claim by children who suffered abuse in foster care against the local authority.',
+    holding: 'A public authority does not owe a duty of care merely by exercising its statutory functions; liability requires an assumption of responsibility or a special relationship.',
+    judges: 'Lord Reed (Supreme Court)',
   },
   {
     id: "hill",
@@ -351,6 +402,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The police owe no general duty of care to individual members of the public in the investigation and suppression of crime; policy considerations preclude such a duty.",
     useFor: "respondent",
+    facts: 'A claim by the mother of a victim of the Yorkshire Ripper against the police.',
+    holding: 'The police owe no general duty of care to individual members of the public in the investigation and suppression of crime; policy considerations preclude such a duty.',
+    judges: 'Lord Keith (House of Lords)',
   },
   {
     id: "arnold",
@@ -363,6 +417,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Contractual interpretation begins with the natural and ordinary meaning of the words; commercial common sense cannot override clear language.",
     useFor: "both",
+    facts: 'A dispute over service charges in a lease of holiday chalets.',
+    holding: 'Contractual interpretation begins with the natural and ordinary meaning of the words; commercial common sense cannot override clear language.',
+    judges: 'Lord Neuberger (Supreme Court)',
   },
   {
     id: "wood-capita",
@@ -375,6 +432,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Interpretation is a unitary exercise: the court considers the language, the context and the commercial purpose, without privileging one over the other.",
     useFor: "both",
+    facts: 'A dispute over the interpretation of an indemnity clause in a share purchase agreement.',
+    holding: 'Interpretation is a unitary exercise: the court considers the language, the context and the commercial purpose, without privileging one over the other.',
+    judges: 'Lord Hodge (Supreme Court)',
   },
   {
     id: "chartbrook",
@@ -387,6 +447,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The court may correct an obvious drafting error where the parties' objective intention is clear, applying the principle of construction against the draftsman.",
     useFor: "both",
+    facts: 'A dispute over the meaning of a price formula in a development agreement.',
+    holding: "The court may correct an obvious drafting error where the parties' objective intention is clear, applying the principle of construction against the draftsman.",
+    judges: 'Lord Hoffmann (House of Lords)',
   },
   {
     id: "rainy-sky",
@@ -399,6 +462,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Where contractual language admits of two meanings, the court prefers the construction consistent with business common sense.",
     useFor: "both",
+    facts: 'A dispute over the interpretation of a refund guarantee in a shipbuilding contract.',
+    holding: 'Where contractual language admits of two meanings, the court prefers the construction consistent with business common sense.',
+    judges: 'Lord Clarke (Supreme Court)',
   },
   {
     id: "triple-point",
@@ -411,6 +477,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Liquidated damages clauses are construed by their terms; the entitlement to liquidated damages accrues up to the date of termination, not beyond.",
     useFor: "both",
+    facts: 'A dispute over liquidated damages in a software contract.',
+    holding: 'Liquidated damages clauses are construed by their terms; the entitlement to liquidated damages accrues up to the date of termination, not beyond.',
+    judges: 'Lady Arden (Supreme Court)',
   },
   {
     id: "barnes-addy",
@@ -423,6 +492,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A stranger to a trust is liable as a constructive trustee where he dishonestly assists in a breach of trust or knowingly receives trust property.",
     useFor: "applicant",
+    facts: 'A claim against solicitors who assisted a trustee in breaching the trust.',
+    holding: 'A stranger to a trust is liable as a constructive trustee where he dishonestly assists in a breach of trust or knowingly receives trust property.',
+    judges: 'Sir George Jessel MR (Court of Appeal in Chancery)',
   },
   {
     id: "royal-brunei",
@@ -435,6 +507,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Accessory liability for breach of trust requires dishonesty; negligence or knowledge of the breach is insufficient.",
     useFor: "respondent",
+    facts: 'A claim against a company director who assisted in a breach of trust.',
+    holding: 'Accessory liability for breach of trust requires dishonesty; negligence or knowledge of the breach is insufficient.',
+    judges: 'Lord Nicholls (Privy Council)',
   },
   {
     id: "twinsectra",
@@ -447,6 +522,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Dishonesty for accessory liability is judged by the combined subjective and objective test: the defendant must have acted dishonestly by the standards of reasonable people and must have realised that.",
     useFor: "both",
+    facts: 'A claim against a solicitor who paid trust money to a client in breach of trust.',
+    holding: 'Dishonesty for accessory liability is judged by the combined subjective and objective test.',
+    judges: 'Lord Hoffmann (House of Lords)',
   },
 
   // ── International Court of Justice (additional) ───────────────────────
@@ -461,6 +539,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "An incumbent Minister for Foreign Affairs enjoys absolute immunity from criminal jurisdiction in foreign States, even for alleged war crimes or crimes against humanity.",
     useFor: "respondent",
+    facts: "The DRC challenged Belgium's issuance of an arrest warrant for its Minister for Foreign Affairs.",
+    holding: 'An incumbent Minister for Foreign Affairs enjoys absolute immunity from criminal jurisdiction in foreign States, even for alleged war crimes or crimes against humanity.',
+    judges: 'Guillaume, President (International Court of Justice)',
   },
   {
     id: "avena",
@@ -473,6 +554,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The failure to inform a foreign national of the right to consular assistance under the Vienna Convention on Consular Relations engages State responsibility and requires review and reconsideration.",
     useFor: "applicant",
+    facts: 'Mexico claimed that the United States failed to inform Mexican nationals of their right to consular assistance.',
+    holding: 'The failure to inform a foreign national of the right to consular assistance under the Vienna Convention on Consular Relations engages State responsibility and requires review and reconsideration.',
+    judges: 'Shi, President (International Court of Justice)',
   },
   {
     id: "pulp-mills",
@@ -485,6 +569,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A State must conduct an environmental impact assessment before undertaking activities with a risk of significant transboundary harm, and must notify and consult the affected State.",
     useFor: "applicant",
+    facts: "Argentina claimed that Uruguay's pulp mills caused transboundary environmental harm.",
+    holding: 'A State must conduct an environmental impact assessment before undertaking activities with a risk of significant transboundary harm, and must notify and consult the affected State.',
+    judges: 'Owada, President (International Court of Justice)',
   },
   {
     id: "diallo",
@@ -497,6 +584,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The arbitrary arrest, detention and expulsion of an alien engages State responsibility; reparation includes compensation for material and moral damage.",
     useFor: "applicant",
+    facts: 'Guinea claimed that the DRC arbitrarily arrested, detained and expelled a Guinean national.',
+    holding: 'The arbitrary arrest, detention and expulsion of an alien engages State responsibility; reparation includes compensation for material and moral damage.',
+    judges: 'Owada, President (International Court of Justice)',
   },
   {
     id: "wall",
@@ -509,6 +599,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The construction of the wall in the Occupied Palestinian Territory is contrary to international law; Israel is under an obligation to cease the works and make reparation.",
     useFor: "applicant",
+    facts: 'An advisory opinion on the legal consequences of the construction of a wall in the Occupied Palestinian Territory.',
+    holding: 'The construction of the wall in the Occupied Palestinian Territory is contrary to international law; Israel is under an obligation to cease the works and make reparation.',
+    judges: 'Shi, President (International Court of Justice)',
   },
   {
     id: "nuclear-weapons",
@@ -521,6 +614,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The threat or use of nuclear weapons would generally be contrary to the rules of international law applicable in armed conflict, and in particular the principles of distinction and proportionality.",
     useFor: "applicant",
+    facts: 'An advisory opinion on the legality of the threat or use of nuclear weapons.',
+    holding: 'The threat or use of nuclear weapons would generally be contrary to the rules of international law applicable in armed conflict, and in particular the principles of distinction and proportionality.',
+    judges: 'Bedjaoui, President (International Court of Justice)',
   },
   {
     id: "namibia",
@@ -533,6 +629,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The continued presence of a mandatory power after the termination of the mandate is illegal; States are under a duty not to recognise the illegal situation.",
     useFor: "applicant",
+    facts: "An advisory opinion on the legal consequences of South Africa's continued presence in Namibia.",
+    holding: 'The continued presence of a mandatory power after the termination of the mandate is illegal; States are under a duty not to recognise the illegal situation.',
+    judges: 'Hambro, President (International Court of Justice)',
   },
   {
     id: "western-sahara",
@@ -545,6 +644,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The principle of self-determination applies to all non-self-governing territories; historical ties do not affect the application of the principle.",
     useFor: "applicant",
+    facts: 'An advisory opinion on the status of Western Sahara.',
+    holding: 'The principle of self-determination applies to all non-self-governing territories; historical ties do not affect the application of the principle.',
+    judges: 'Dillard, President (International Court of Justice)',
   },
   {
     id: "oil-platforms",
@@ -557,6 +659,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The use of force in self-defence must be necessary and proportionate; a State may not rely on self-defence where the necessity is not established.",
     useFor: "respondent",
+    facts: 'Iran claimed that the United States unlawfully attacked Iranian oil platforms.',
+    holding: 'The use of force in self-defence must be necessary and proportionate; a State may not rely on self-defence where the necessity is not established.',
+    judges: 'Shi, President (International Court of Justice)',
   },
   {
     id: "armed-activities",
@@ -569,6 +674,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A State is responsible for human-rights violations committed by its armed forces on foreign territory; reparation includes compensation and the obligation to withdraw.",
     useFor: "applicant",
+    facts: 'The DRC claimed that Uganda was responsible for human-rights violations on Congolese territory.',
+    holding: 'A State is responsible for human-rights violations committed by its armed forces on foreign territory; reparation includes compensation and the obligation to withdraw.',
+    judges: 'Shi, President (International Court of Justice)',
   },
   {
     id: "genocide-croatia",
@@ -581,6 +689,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Genocide requires specific intent to destroy a protected group in whole or in part; the failure to prevent or punish genocide engages State responsibility.",
     useFor: "both",
+    facts: 'Croatia claimed that Serbia was responsible for genocide during the Croatian war of independence.',
+    holding: 'Genocide requires specific intent to destroy a protected group in whole or in part; the failure to prevent or punish genocide engages State responsibility.',
+    judges: 'Owada, President (International Court of Justice)',
   },
   {
     id: "jadav",
@@ -593,6 +704,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The denial of consular access under the Vienna Convention on Consular Relations engages State responsibility; the appropriate remedy is review and reconsideration of the conviction and sentence.",
     useFor: "applicant",
+    facts: 'India claimed that Pakistan violated the Vienna Convention on Consular Relations in the case of Kulbhushan Jadhav.',
+    holding: 'The denial of consular access under the Vienna Convention on Consular Relations engages State responsibility; the appropriate remedy is review and reconsideration of the conviction and sentence.',
+    judges: 'Yusuf, President (International Court of Justice)',
   },
 
   // ── WTO (additional) ───────────────────────────────────────────────────
@@ -607,6 +721,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Like products are determined by competitive relationship; a measure protecting human health may be justified under Article XX(b) where necessary and the chapeau is satisfied.",
     useFor: "respondent",
+    facts: 'France banned asbestos and asbestos-containing products.',
+    holding: 'Like products are determined by competitive relationship; a measure protecting human health may be justified under Article XX(b).',
+    judges: 'Appellate Body',
   },
   {
     id: "us-cotton",
@@ -619,6 +736,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Prohibited export subsidies and actionable subsidies that cause adverse effects are inconsistent with the SCM Agreement; the benefit is assessed by reference to market benchmarks.",
     useFor: "applicant",
+    facts: 'The United States provided subsidies to upland cotton producers.',
+    holding: 'Prohibited export subsidies and actionable subsidies that cause adverse effects are inconsistent with the SCM Agreement.',
+    judges: 'Appellate Body',
   },
   {
     id: "brazil-tyres",
@@ -631,6 +751,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A measure protecting human health or the environment may be justified under Article XX(b) where it is necessary and the chapeau is satisfied; the measure must not constitute arbitrary or unjustifiable discrimination.",
     useFor: "respondent",
+    facts: 'Brazil banned imports of retreaded tyres.',
+    holding: 'A measure protecting human health or the environment may be justified under Article XX(b) where it is necessary and the chapeau is satisfied.',
+    judges: 'Appellate Body',
   },
   {
     id: "china-raw",
@@ -643,6 +766,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Export duties and quotas must be consistent with the Member's WTO commitments; general exceptions must be applied without arbitrary or unjustifiable discrimination.",
     useFor: "applicant",
+    facts: 'China imposed export duties and quotas on various raw materials.',
+    holding: "Export duties and quotas must be consistent with the Member's WTO commitments; general exceptions must be applied without arbitrary or unjustifiable discrimination.",
+    judges: 'Appellate Body',
   },
   {
     id: "china-rare",
@@ -655,6 +781,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Export restrictions on raw materials must be justified under the general exceptions; the conservation of exhaustible natural resources must be applied even-handedly.",
     useFor: "applicant",
+    facts: 'China imposed export restrictions on rare earths, tungsten and molybdenum.',
+    holding: 'Export restrictions on raw materials must be justified under the general exceptions; the conservation of exhaustible natural resources must be applied even-handedly.',
+    judges: 'Appellate Body',
   },
   {
     id: "us-cool",
@@ -667,6 +796,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A measure that accords less favourable treatment to imported livestock and meat than to like domestic products is inconsistent with Article 2.1 of the TBT Agreement.",
     useFor: "applicant",
+    facts: 'The United States required country of origin labelling for livestock and meat.',
+    holding: 'A measure that accords less favourable treatment to imported livestock and meat than to like domestic products is inconsistent with Article 2.1 of the TBT Agreement.',
+    judges: 'Appellate Body',
   },
   {
     id: "us-tuna",
@@ -679,6 +811,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A measure that is more trade-restrictive than necessary to fulfil a legitimate objective is inconsistent with Article 2.2 of the TBT Agreement.",
     useFor: "applicant",
+    facts: 'The United States required dolphin-safe labelling for tuna products.',
+    holding: 'A measure that is more trade-restrictive than necessary to fulfil a legitimate objective is inconsistent with Article 2.2 of the TBT Agreement.',
+    judges: 'Appellate Body',
   },
   {
     id: "ec-seals",
@@ -691,6 +826,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A measure protecting animal welfare may be justified under Article XX(a) where it is necessary and the chapeau is satisfied; arbitrary or unjustifiable discrimination is prohibited.",
     useFor: "respondent",
+    facts: 'The EU banned the importation and marketing of seal products.',
+    holding: 'A measure protecting animal welfare may be justified under Article XX(a) where it is necessary and the chapeau is satisfied.',
+    judges: 'Appellate Body',
   },
 
   // ── African (additional) ───────────────────────────────────────────────
@@ -705,6 +843,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The eviction of an indigenous community from its ancestral land without consent or compensation violates the rights to property, culture, religion and natural resources under the African Charter.",
     useFor: "applicant",
+    facts: 'The Endorois community was evicted from its ancestral land in the Lake Bogoria area.',
+    holding: 'The eviction of an indigenous community from its ancestral land without consent or compensation violates the rights to property, culture, religion and natural resources under the African Charter.',
+    judges: "African Commission on Human and Peoples' Rights",
   },
   {
     id: "konate",
@@ -717,6 +858,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Criminal defamation with custodial sentences is disproportionate and violates the right to freedom of expression; civil remedies are the appropriate response.",
     useFor: "applicant",
+    facts: 'A journalist was convicted of criminal defamation and sentenced to imprisonment.',
+    holding: 'Criminal defamation with custodial sentences is disproportionate and violates the right to freedom of expression; civil remedies are the appropriate response.',
+    judges: "African Court on Human and Peoples' Rights",
   },
   {
     id: "zongo",
@@ -729,6 +873,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The State must conduct an effective investigation into the assassination of a journalist; failure to do so violates the right to life and to freedom of expression.",
     useFor: "applicant",
+    facts: 'A journalist was assassinated and the State failed to investigate.',
+    holding: 'The State must conduct an effective investigation into the assassination of a journalist; failure to do so violates the right to life and to freedom of expression.',
+    judges: "African Court on Human and Peoples' Rights",
   },
   {
     id: "alex-thomas",
@@ -741,6 +888,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The right to a fair trial includes the right to be tried within a reasonable time; excessive delay violates the Charter.",
     useFor: "applicant",
+    facts: 'A detainee claimed violation of the right to a fair trial within a reasonable time.',
+    holding: 'The right to a fair trial includes the right to be tried within a reasonable time; excessive delay violates the Charter.',
+    judges: "African Court on Human and Peoples' Rights",
   },
   {
     id: "anudo",
@@ -753,6 +903,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The arbitrary deprivation of nationality violates the right to nationality and to recognition before the law; the State must provide an effective remedy.",
     useFor: "applicant",
+    facts: 'A person was arbitrarily deprived of his Tanzanian nationality.',
+    holding: 'The arbitrary deprivation of nationality violates the right to nationality and to recognition before the law; the State must provide an effective remedy.',
+    judges: "African Court on Human and Peoples' Rights",
   },
   {
     id: "apdh",
@@ -765,6 +918,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The composition of an electoral commission must be independent and impartial; a commission dominated by the executive violates the right to participate in public affairs.",
     useFor: "applicant",
+    facts: "A challenge to the composition of the electoral commission in Côte d'Ivoire.",
+    holding: 'The composition of an electoral commission must be independent and impartial; a commission dominated by the executive violates the right to participate in public affairs.',
+    judges: "African Court on Human and Peoples' Rights",
   },
   {
     id: "amnesty-zambia",
@@ -777,6 +933,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The detention of journalists and the closure of newspapers violate the right to freedom of expression and to receive information under the Charter.",
     useFor: "applicant",
+    facts: 'Journalists were detained and a newspaper was closed.',
+    holding: 'The detention of journalists and the closure of newspapers violate the right to freedom of expression and to receive information under the Charter.',
+    judges: "African Commission on Human and Peoples' Rights",
   },
 
   // ── European privacy (additional) ──────────────────────────────────────
@@ -791,6 +950,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A dynamic IP address constitutes personal data where the controller has legal means to identify the data subject with additional information held by the ISP.",
     useFor: "applicant",
+    facts: 'A challenge to the retention of dynamic IP addresses by a German federal institution.',
+    holding: 'A dynamic IP address constitutes personal data where the controller has legal means to identify the data subject with additional information held by the ISP.',
+    judges: 'Court of Justice of the European Union',
   },
   {
     id: "la-quadrature",
@@ -803,6 +965,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "General and indiscriminate retention of traffic and location data is prohibited; targeted retention is permitted only to combat serious crime and terrorism, subject to strict safeguards.",
     useFor: "applicant",
+    facts: 'A challenge to French data retention legislation.',
+    holding: 'General and indiscriminate retention of traffic and location data is prohibited; targeted retention is permitted only to combat serious crime and terrorism, subject to strict safeguards.',
+    judges: 'Court of Justice of the European Union',
   },
   {
     id: "privacy-intl-cjeu",
@@ -815,6 +980,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "National legislation requiring providers to retain traffic data for security purposes must comply with Union law; general retention is incompatible with fundamental rights.",
     useFor: "applicant",
+    facts: 'A challenge to UK legislation requiring providers to retain communications data.',
+    holding: 'National legislation requiring providers to retain traffic data for security purposes must comply with Union law; general retention is incompatible with fundamental rights.',
+    judges: 'Court of Justice of the European Union',
   },
   {
     id: "planet49",
@@ -827,6 +995,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Consent to the storage of cookies must be active, specific and informed; pre-ticked boxes do not constitute valid consent.",
     useFor: "applicant",
+    facts: 'A challenge to the use of pre-ticked boxes for cookie consent.',
+    holding: 'Consent to the storage of cookies must be active, specific and informed; pre-ticked boxes do not constitute valid consent.',
+    judges: 'Court of Justice of the European Union',
   },
   {
     id: "google-cnil",
@@ -839,6 +1010,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The right to be forgotten does not automatically require de-referencing on all versions of a search engine; the assessment is made on a case-by-case basis.",
     useFor: "both",
+    facts: 'A request for global de-referencing of search results.',
+    holding: 'The right to be forgotten does not automatically require de-referencing on all versions of a search engine; the assessment is made on a case-by-case basis.',
+    judges: 'Court of Justice of the European Union',
   },
   {
     id: "fashion-id",
@@ -851,6 +1025,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A website operator that embeds a social plugin is a joint controller for the collection and transmission of visitors' personal data to the plugin provider.",
     useFor: "applicant",
+    facts: 'A challenge to the embedding of a Facebook Like button on a website.',
+    holding: "A website operator that embeds a social plugin is a joint controller for the collection and transmission of visitors' personal data to the plugin provider.",
+    judges: 'Court of Justice of the European Union',
   },
   {
     id: "bridges-uk",
@@ -863,6 +1040,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The use of automated facial recognition in public spaces engages Article 8 and must be necessary, proportionate and subject to an adequate legal framework.",
     useFor: "applicant",
+    facts: 'A challenge to the use of automated facial recognition by the police.',
+    holding: 'The use of automated facial recognition in public spaces engages Article 8 and must be necessary, proportionate and subject to an adequate legal framework.',
+    judges: 'Court of Appeal of England and Wales',
   },
   {
     id: "barbulescu",
@@ -875,6 +1055,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The monitoring of an employee's electronic communications must be proportionate; the employer must provide adequate safeguards and the employee must be informed.",
     useFor: "applicant",
+    facts: 'An employee was dismissed after his employer monitored his electronic communications.',
+    holding: "The monitoring of an employee's electronic communications must be proportionate; the employer must provide adequate safeguards and the employee must be informed.",
+    judges: 'European Court of Human Rights (Grand Chamber)',
   },
   {
     id: "lopez-ribalda",
@@ -887,6 +1070,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Covert video surveillance of employees is a serious intrusion into private life; it must be justified by a legitimate aim and be proportionate, with adequate safeguards.",
     useFor: "applicant",
+    facts: 'Employees were subjected to covert video surveillance at work.',
+    holding: 'Covert video surveillance of employees is a serious intrusion into private life; it must be justified by a legitimate aim and be proportionate, with adequate safeguards.',
+    judges: 'European Court of Human Rights (Grand Chamber)',
   },
   {
     id: "klass",
@@ -899,6 +1085,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Secret surveillance of communications is permissible only where it is in accordance with law, necessary in a democratic society and subject to adequate safeguards against abuse.",
     useFor: "applicant",
+    facts: 'A challenge to secret surveillance of telecommunications in Germany.',
+    holding: 'Secret surveillance of communications is permissible only where it is in accordance with law, necessary in a democratic society and subject to adequate safeguards against abuse.',
+    judges: 'European Court of Human Rights',
   },
   {
     id: "halford",
@@ -911,6 +1100,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The interception of telephone calls on an office extension engages Article 8 where the employee has a reasonable expectation of privacy.",
     useFor: "applicant",
+    facts: "A senior police officer's telephone calls were intercepted.",
+    holding: 'The interception of telephone calls on an office extension engages Article 8 where the employee has a reasonable expectation of privacy.',
+    judges: 'European Court of Human Rights',
   },
   {
     id: "malone",
@@ -923,6 +1115,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The interception of communications must be in accordance with law; a system that is not prescribed by law with sufficient precision violates Article 8.",
     useFor: "applicant",
+    facts: 'A challenge to the interception of telephone communications in the UK.',
+    holding: 'The interception of communications must be in accordance with law; a system that is not prescribed by law with sufficient precision violates Article 8.',
+    judges: 'European Court of Human Rights',
   },
   {
     id: "rotaru",
@@ -935,6 +1130,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The storage of personal data by a public authority engages Article 8 where the data is used to build a personal profile, even if not disclosed.",
     useFor: "applicant",
+    facts: 'A challenge to the storage of personal data by the Romanian intelligence service.',
+    holding: 'The storage of personal data by a public authority engages Article 8 where the data is used to build a personal profile, even if not disclosed.',
+    judges: 'European Court of Human Rights',
   },
   {
     id: "weber",
@@ -947,6 +1145,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Strategic monitoring of telecommunications must be subject to adequate safeguards, including independent authorisation and oversight, to be compatible with Article 8.",
     useFor: "applicant",
+    facts: 'A challenge to strategic monitoring of telecommunications in Germany.',
+    holding: 'Strategic monitoring of telecommunications must be subject to adequate safeguards, including independent authorisation and oversight, to be compatible with Article 8.',
+    judges: 'European Court of Human Rights',
   },
   {
     id: "copland",
@@ -959,6 +1160,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The monitoring of an employee's telephone, email and internet use engages Article 8 where the employee has a reasonable expectation of privacy.",
     useFor: "applicant",
+    facts: "A challenge to the monitoring of an employee's telephone, email and internet use.",
+    holding: "The monitoring of an employee's telephone, email and internet use engages Article 8 where the employee has a reasonable expectation of privacy.",
+    judges: 'European Court of Human Rights',
   },
   {
     id: "khan",
@@ -971,6 +1175,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Covert surveillance that is not in accordance with law violates Article 8; the law must be accessible and foreseeable.",
     useFor: "applicant",
+    facts: 'A challenge to covert surveillance by the police.',
+    holding: 'Covert surveillance that is not in accordance with law violates Article 8; the law must be accessible and foreseeable.',
+    judges: 'European Court of Human Rights',
   },
   {
     id: "uzun",
@@ -983,6 +1190,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The use of GPS tracking to monitor a suspect's movements engages Article 8; it must be necessary and proportionate to a legitimate aim.",
     useFor: "applicant",
+    facts: 'A challenge to the use of GPS tracking to monitor a suspect.',
+    holding: "The use of GPS tracking to monitor a suspect's movements engages Article 8; it must be necessary and proportionate to a legitimate aim.",
+    judges: 'European Court of Human Rights',
   },
   {
     id: "i-finland",
@@ -995,6 +1205,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "The disclosure of a patient's medical data by a health authority without consent violates Article 8; medical data is a special category entitled to enhanced protection.",
     useFor: "applicant",
+    facts: "A challenge to the disclosure of a patient's medical data.",
+    holding: "The disclosure of a patient's medical data by a health authority without consent violates Article 8; medical data is a special category entitled to enhanced protection.",
+    judges: 'European Court of Human Rights',
   },
   {
     id: "lloyd-google",
@@ -1007,6 +1220,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A claim for damages under data protection law requires proof of material damage or distress; loss of control of data alone is insufficient.",
     useFor: "respondent",
+    facts: 'A claim for damages for loss of control of personal data by Google.',
+    holding: 'A claim for damages under data protection law requires proof of material damage or distress; loss of control of data alone is insufficient.',
+    judges: 'Lord Leggatt (Supreme Court)',
   },
   {
     id: "vidal-hall",
@@ -1019,6 +1235,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Damages for distress are available for breach of data protection law without proof of pecuniary loss.",
     useFor: "applicant",
+    facts: 'A claim for damages for misuse of private information by Google.',
+    holding: 'Damages for distress are available for breach of data protection law without proof of pecuniary loss.',
+    judges: 'Hughes LJ (Court of Appeal)',
   },
 
   // ── ICC (additional) ───────────────────────────────────────────────────
@@ -1033,6 +1252,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Direct perpetration and indirect co-perpetration require proof of a common plan and an essential contribution; the Court assesses the evidence as a whole.",
     useFor: "both",
+    facts: 'Bosco Ntaganda was charged with war crimes and crimes against humanity in the Democratic Republic of the Congo.',
+    holding: 'Direct perpetration and indirect co-perpetration require proof of a common plan and an essential contribution; the Court assesses the evidence as a whole.',
+    judges: 'International Criminal Court (Trial Chamber VI)',
   },
   {
     id: "ruto-sang",
@@ -1045,6 +1267,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "A case may be terminated where the prosecution's evidence is insufficient to sustain a conviction; the burden of proof remains on the prosecution throughout.",
     useFor: "respondent",
+    facts: 'William Ruto and Joshua Sang were charged with crimes against humanity during the post-election violence in Kenya.',
+    holding: "A case may be terminated where the prosecution's evidence is insufficient to sustain a conviction; the burden of proof remains on the prosecution throughout.",
+    judges: 'International Criminal Court (Trial Chamber V(A))',
   },
   {
     id: "kenyatta-icc",
@@ -1057,6 +1282,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Charges may be withdrawn where the prosecution lacks sufficient evidence; the Court retains jurisdiction to ensure accountability for the most serious crimes.",
     useFor: "respondent",
+    facts: 'Uhuru Kenyatta was charged with crimes against humanity during the post-election violence in Kenya.',
+    holding: 'Charges may be withdrawn where the prosecution lacks sufficient evidence; the Court retains jurisdiction to ensure accountability for the most serious crimes.',
+    judges: 'International Criminal Court (Trial Chamber V(B))',
   },
   {
     id: "abd-al-rahman",
@@ -1069,6 +1297,9 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "War crimes and crimes against humanity committed in Darfur engage individual criminal responsibility; the Court assesses the evidence as a whole and applies the beyond-reasonable-doubt standard.",
     useFor: "both",
+    facts: 'Ali Muhammad Ali Abd-Al-Rahman (Ali Kushayb) was charged with war crimes and crimes against humanity in Darfur.',
+    holding: 'War crimes and crimes against humanity committed in Darfur engage individual criminal responsibility; the Court assesses the evidence as a whole and applies the beyond-reasonable-doubt standard.',
+    judges: 'International Criminal Court (Trial Chamber I)',
   },
   {
     id: "yekatom",
@@ -1081,5 +1312,8 @@ export const EXPANSION_AUTHORITIES: Authority[] = [
     principle:
       "Crimes against humanity and war crimes committed in the Central African Republic engage individual criminal responsibility under the Rome Statute.",
     useFor: "both",
+    facts: 'Alfred Yekatom and Patrice-Edouard Ngaïssona were charged with crimes against humanity and war crimes in the Central African Republic.',
+    holding: 'Crimes against humanity and war crimes committed in the Central African Republic engage individual criminal responsibility under the Rome Statute.',
+    judges: 'International Criminal Court (Trial Chamber V)',
   },
 ];

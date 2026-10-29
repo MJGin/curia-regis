@@ -58,6 +58,12 @@ export interface Authority {
   note?: string;
   /** Official source (Kenya Law / BAILII / WTO / ICJ), where available. */
   sourceUrl?: string;
+  /** Brief facts of the case (1-3 sentences). */
+  facts?: string;
+  /** Brief holding / ratio (1-3 sentences). */
+  holding?: string;
+  /** Judges who decided the case. */
+  judges?: string;
 }
 
 export interface Para {
@@ -195,6 +201,9 @@ export interface LegalResource {
   official?: boolean;
   note: string;
   provisions?: string[];
+  facts?: string;
+  holding?: string;
+  judges?: string;
 }
 
 export type PersonaId = "textualist" | "diplomat" | "commander";

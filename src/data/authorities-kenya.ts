@@ -20,6 +20,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
     useFor: "respondent",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/1979/30/eng@1979-01-29",
     note: "Frequently cited as (1979) KLR 154. Kenya Law records the decision as a High Court judgment.",
+    facts: 'A constitutional petition challenging detention; the petitioner alleged violations of fundamental rights but the petition lacked precision.',
+    holding: 'A constitutional petition must set out, with reasonable precision, the provision infringed, the manner of infringement and the relief sought, so the respondent can answer the case.',
+    judges: 'Trevelyan J (High Court)',
   },
   {
     id: "karume",
@@ -33,6 +36,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Where the Constitution prescribes a specific procedure or forum, that procedure must be followed; the court will not permit a party to achieve indirectly, through a different route, what the Constitution requires to be done another way.",
     useFor: "respondent",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/1992/42/eng@1992-05-29",
+    facts: 'The Speaker of the National Assembly challenged a High Court order; the Court of Appeal was asked to interpret constitutional procedure.',
+    holding: 'Where the Constitution prescribes a specific procedure or forum, that procedure must be followed; courts will not imply a different route to circumvent the constitutional text.',
+    judges: 'Gachuhi, Cockar and Omolo JJA (Court of Appeal)',
   },
   {
     id: "trusted-society",
@@ -46,6 +52,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Constitutional interpretation begins with the text and structure and is informed by the values in Article 10; substantive review asks whether the process and outcome comport with the Constitution, not merely whether legal power existed.",
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2012/2480/eng@2012-09-20",
+    facts: 'A challenge to the appointment of the chairperson of the Ethics and Anti-Corruption Commission on grounds of integrity and process.',
+    holding: 'Constitutional interpretation moves from the text and structure to the values in Article 10; substantive review asks whether the process and outcome comport with the Constitution, not merely whether power existed.',
+    judges: 'Majanja J (High Court)',
   },
   {
     id: "mumo-matemu",
@@ -59,6 +68,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "A constitutional challenge must be pleaded with precision and proved by evidence; where the Constitution entrusts a decision to another organ, the court reviews legality and process rather than substituting its own assessment of merit.",
     useFor: "respondent",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/2013/445/eng@2013-07-26",
+    facts: "Appeal from the High Court's decision quashing the appointment of the EACC chairperson.",
+    holding: 'A constitutional challenge must be pleaded with precision and proved by evidence; where the Constitution entrusts a decision to another organ, the court reviews legality and process rather than substituting its own assessment of merit.',
+    judges: 'Koome, Kihara and Murgor JJA (Court of Appeal)',
   },
   {
     id: "iiec-advisory",
@@ -72,6 +84,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "The Supreme Court's advisory jurisdiction is a special jurisdiction, exercisable only within Article 163(6) and confined to matters of public importance concerning devolved government; it is not a general consultative power.",
     useFor: "respondent",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kesc/2011/1/eng@2011-12-20",
+    facts: 'The Interim Independent Electoral Commission sought an advisory opinion on the conduct of by-elections.',
+    holding: "The Supreme Court's advisory jurisdiction is a special jurisdiction, exercisable only within Article 163(6) and confined to matters of public importance concerning devolved government.",
+    judges: "Mutunga CJ, Tunoi, Ibrahim, Ojwang, Wanjala and Ndung'u SCJJ (Supreme Court)",
   },
   {
     id: "gender-advisory",
@@ -86,6 +101,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Article 81(b) creates a binding constitutional obligation to secure the two-thirds gender principle; its realisation is progressive and requires legislative and policy measures, not judicial legislation.",
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kesc/2012/5/eng@2012-12-11",
+    facts: 'Reference on the principle of gender representation in the National Assembly and the Senate.',
+    holding: 'Article 81(b) creates a binding constitutional obligation to secure the two-thirds gender principle; its realisation is progressive and requires legislative and policy measures, not judicial legislation.',
+    judges: "Mutunga CJ, Tunoi, Ibrahim, Ojwang, Wanjala and Ndung'u SCJJ (Supreme Court)",
   },
   {
     id: "royal-media",
@@ -101,6 +119,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Regulatory action affecting media freedom must be anchored in law and pursue a legitimate aim; the Court emphasised pluralism and freedom of expression while affirming the regulator's statutory mandate.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kesc/2014/53/eng@2014-09-29",
+    facts: 'Dispute over the migration from analogue to digital television broadcasting and the allocation of frequencies.',
+    holding: "Regulatory action affecting media freedom must be anchored in law and pursue a legitimate aim; the Court emphasised pluralism and freedom of expression while affirming the regulator's statutory mandate.",
+    judges: "Mutunga CJ, Ibrahim, Ojwang, Wanjala and Ndung'u SCJJ (Supreme Court)",
   },
   {
     id: "fida",
@@ -114,6 +135,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Customary law is subordinate to the Constitution; customary practices that deny women equal protection in succession and family matters cannot survive the guarantees of equality and non-discrimination.",
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2011/2099/eng@2011-08-25",
+    facts: 'A petition challenging customary law provisions on succession that discriminated against women.',
+    holding: 'Customary law is subordinate to the Constitution; customary practices that deny women equal protection in succession and family matters cannot survive the guarantees of equality and non-discrimination.',
+    judges: 'Mwilu J (High Court)',
   },
   {
     id: "creaw",
@@ -127,6 +151,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Articles 27 and 81(b) permit, and in appropriate circumstances require, temporary special measures to remedy structural inequality; administrative inconvenience does not justify indefinite delay.",
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2011/4297/eng@2011-02-03",
+    facts: 'A petition seeking the implementation of the two-thirds gender principle in public appointments.',
+    holding: 'Articles 27 and 81(b) permit, and in appropriate circumstances require, temporary special measures to remedy structural inequality; administrative inconvenience does not justify indefinite delay.',
+    judges: 'Mwilu J (High Court)',
   },
   {
     id: "nubian",
@@ -141,6 +168,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "A national biometric identification programme requires a clear statutory basis, a data protection impact assessment, safeguards against function creep and meaningful public participation before rollout; privacy limits must be necessary and proportionate.",
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2020/8772/eng@2020-01-30",
+    facts: 'Consolidated petitions challenging the Huduma Namba (National Integrated Identity Management System) biometric registration programme.',
+    holding: 'A national biometric identification programme requires a clear statutory basis, a data protection impact assessment, safeguards against function creep and meaningful public participation before rollout.',
+    judges: 'Mwita J (High Court)',
   },
   {
     id: "worldcoin",
@@ -155,6 +185,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Processing of biometric and financial data must satisfy the Data Protection Act's lawful-basis, transparency, security and transfer safeguards; the Commissioner may take enforcement action where the controller has not demonstrated compliance.",
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2024/312/eng@2024-01-25",
+    facts: 'The ODPC sought enforcement orders against Tools for Humanity (Worldcoin) for biometric data collection.',
+    holding: "Processing of biometric and financial data must satisfy the Data Protection Act's lawful-basis, transparency, security and transfer safeguards; the Commissioner may take enforcement action where the controller has not demonstrated compliance.",
+    judges: 'Mugambi J (High Court)',
   },
   {
     id: "lillian-s",
@@ -168,6 +201,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Jurisdiction is everything: a court must satisfy itself of jurisdiction at the threshold, because a decision reached without jurisdiction is a nullity however well reasoned.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/1989/48/eng@1989-11-17",
+    facts: 'A preliminary objection on jurisdiction in a maritime dispute.',
+    holding: 'Jurisdiction is everything: a court must satisfy itself of jurisdiction at the threshold; a decision reached without jurisdiction is a nullity however well reasoned.',
+    judges: 'Nyarangi, Gachuhi and Cockar JJA (Court of Appeal)',
   },
   {
     id: "ndii",
@@ -183,6 +219,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2021/9746/eng@2021-05-13",
     note: "Popularly known as the BBI judgment. Verify the current appellate status before relying on it.",
+    facts: 'Consolidated petitions challenging the Building Bridges Initiative (BBI) constitutional amendment process.',
+    holding: "A constitutional amendment process must comply with the Constitution's own architecture, including public participation and the allocation of constituent power; a process that bypasses those requirements is invalid.",
+    judges: "Mwita, Ong'udi and Ngaah JJ (High Court)",
   },
   {
     id: "mukisa",
@@ -196,6 +235,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "A preliminary objection must raise a pure point of law capable of disposing of the matter without contesting the facts; anything requiring evidence is not a proper preliminary objection.",
     useFor: "both",
     note: "Pre-dates Kenya Law's neutral-citation collection; ex tempore ruling, reported in the East Africa Law Reports.",
+    facts: 'A preliminary objection in a commercial dispute.',
+    holding: 'A preliminary objection must raise a pure point of law capable of disposing of the matter without contesting the facts; anything requiring evidence is not a proper preliminary objection.',
+    judges: 'Spry VP, Newbold and Law JJA (East African Court of Appeal)',
   },
 
   {
@@ -209,6 +251,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "The failure to give written reasons for an adverse administrative decision breaches the right to a fair hearing; natural justice requires that the affected person know the case against them.",
     useFor: "applicant",
+    facts: 'A petition by the former Chief Registrar of the Judiciary challenging her removal.',
+    holding: 'The failure to give written reasons for an adverse administrative decision breaches the right to a fair hearing; natural justice requires that the affected person know the case against them.',
+    judges: "Mwilu, Ibrahim, Ojwang, Wanjala and Ndung'u SCJJ (Supreme Court)",
   },
   {
     id: "muhammad-fugicha",
@@ -221,6 +266,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "Even where there is no explicit harmful intent, a measure whose effect is exclusion or disadvantage can constitute indirect discrimination; the state must strike a balance that does not disadvantage a protected group.",
     useFor: "applicant",
+    facts: 'An appeal against the expulsion of a student from a school on religious grounds.',
+    holding: 'Even where there is no explicit harmful intent, a measure whose effect is exclusion or disadvantage can constitute indirect discrimination.',
+    judges: 'Karanja, Murgor and Mohammed JJA (Court of Appeal)',
   },
   {
     id: "po-dpp",
@@ -233,6 +281,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "It is not in the best interests of the child to be held together with adults, as this may inflict a bruise that endures for life; children require separation and humane conditions.",
     useFor: "applicant",
+    facts: 'A petition by a child offender challenging detention with adults.',
+    holding: 'It is not in the best interests of the child to be held together with adults, as this may inflict a bruise that endures for life.',
+    judges: 'Mumbi Ngugi J (High Court)',
   },
   {
     id: "katiba-president",
@@ -245,6 +296,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "Security concerns cannot be used as a blanket justification for curtailing constitutional rights; the state must show a reasonable and proportionate nexus between the measure and the security aim.",
     useFor: "applicant",
+    facts: "A petition challenging the President's appointment of Cabinet Secretaries without parliamentary vetting.",
+    holding: 'Security concerns cannot be used as a blanket justification for curtailing constitutional rights; the state must show a reasonable and proportionate nexus.',
+    judges: 'Mwita J (High Court)',
   },
   {
     id: "lsk-cs-health",
@@ -257,6 +311,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "Restrictions on rights during a public-health emergency must be reasonable and proportionate; the state cannot use a crisis to impose indefinite or arbitrary limitations.",
     useFor: "applicant",
+    facts: 'A petition challenging the COVID-19 curfew and related restrictions.',
+    holding: 'Restrictions on rights during a public-health emergency must be reasonable and proportionate; the state cannot use a crisis to impose indefinite or arbitrary limitations.',
+    judges: 'Mumbi Ngugi, Ngaah and Mrima JJ (High Court)',
   },
   {
     id: "hakim-sharia",
@@ -269,6 +326,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "A curfew or security order is reasonable only where it is proportionate to the threat and does not disproportionately burden an identifiable group; blanket measures require justification.",
     useFor: "applicant",
+    facts: 'A petition challenging a curfew order imposed in Garissa, Wajir and Mandera counties.',
+    holding: 'A curfew or security order is reasonable only where it is proportionate to the threat and does not disproportionately burden an identifiable group.',
+    judges: 'Mwita J (High Court)',
   },
   {
     id: "mubel-welfare",
@@ -281,6 +341,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "Forced relocation that strips individuals of shelter, basic humanity and decency violates the right to dignity; resource constraints cannot excuse indignity.",
     useFor: "applicant",
+    facts: 'A petition by evicted residents of Mitumba village seeking redress.',
+    holding: 'Forced relocations that strip individuals of shelter, basic humanity and decency violate the right to dignity; resource constraints cannot excuse indignity.',
+    judges: "Mwilu DCJ, Ibrahim, Wanjala, Ndung'u and Lenaola SCJJ (Supreme Court)",
   },
   {
     id: "ao-ag",
@@ -293,6 +356,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "Children are the most vulnerable within society and require special protection; the state must protect children from any sort of harm.",
     useFor: "applicant",
+    facts: 'A petition concerning the protection of children.',
+    holding: 'Children are the most vulnerable within society and require special protection; the state must protect children from any sort of harm.',
+    judges: 'Mumbi Ngugi J (High Court)',
   },
   {
     id: "tk-lithuania",
@@ -319,6 +385,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Jurisdiction is everything: a court must satisfy itself of its jurisdiction at the threshold; a decision reached without jurisdiction is a nullity. Jurisdiction flows from the Constitution or statute, not from consent or convenience.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kesc/2012/8/eng@2012-10-23",
+    facts: 'An application challenging the jurisdiction of the Supreme Court.',
+    holding: 'Jurisdiction is everything: a court must satisfy itself of its jurisdiction at the threshold; jurisdiction flows from the Constitution or statute, not from consent or convenience.',
+    judges: "Mutunga CJ, Tunoi, Ibrahim, Ojwang, Wanjala and Ndung'u SCJJ (Supreme Court)",
   },
   {
     id: "mitu-bell-hc",
@@ -332,6 +401,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Forced evictions must be carried out with dignity and in accordance with the law; the State must provide adequate notice, consultation and resettlement.",
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2012/4070/eng@2012-06-13",
+    facts: 'A petition by evicted residents seeking redress for forced eviction from Mitumba village.',
+    holding: 'Forced evictions must be carried out with dignity and in accordance with the law; the State must provide adequate notice, consultation and resettlement.',
+    judges: 'Mwita J (High Court)',
   },
   {
     id: "kaa-mitu-bell",
@@ -371,6 +443,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "A constitutional petition must be brought by a person with sufficient interest; public interest litigation is permitted where the matter is of general public importance.",
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2012/5947/eng@2012-10-04",
+    facts: 'A petition challenging government action; the petitioner sought to enforce constitutional rights.',
+    holding: 'A constitutional petition must be brought by a person with sufficient interest; public interest litigation is permitted where the matter is of general public importance.',
+    judges: 'Mumbi Ngugi J (High Court)',
   },
   {
     id: "el-mann",
@@ -384,6 +459,9 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "The common law as received in Kenya applies subject to local circumstances; English precedents are persuasive only where they fit the Kenyan context.",
     useFor: "both",
     note: "Pre-dates Kenya Law's neutral-citation collection; reported in the East Africa Law Reports.",
+    facts: 'A criminal appeal touching on the reception of common law in Kenya.',
+    holding: 'The common law as received in Kenya applies subject to local circumstances; English precedents are persuasive only where they fit the Kenyan context.',
+    judges: 'Trevelyan J (High Court)',
   },
   {
     id: "apollo-mboya",

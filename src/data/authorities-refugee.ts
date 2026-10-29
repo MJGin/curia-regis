@@ -17,6 +17,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     principle:
       "Administrative action must be lawful, reasonable and procedurally fair; the analysis asks whether the decision was unreasonable, unlawful or disproportionate.",
     useFor: "respondent",
+    facts: 'A challenge to the registration of an NGO advocating for LGBTQ+ rights.',
+    holding: 'Administrative action must be lawful, reasonable and procedurally fair; the analysis asks whether the decision was unreasonable, unlawful or disproportionate.',
+    judges: 'Supreme Court of Kenya',
   },
   {
     id: "mbalu-mutava",
@@ -29,6 +32,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     principle:
       "Procedural fairness is preserved where the affected person is heard, reasons are given and independent review is available; fairness is balanced with the wider public interest.",
     useFor: "respondent",
+    facts: 'A challenge to the removal of a member of the Judicial Service Commission.',
+    holding: 'Procedural fairness is preserved where the affected person is heard, reasons are given and independent review is available.',
+    judges: 'Court of Appeal of Kenya',
   },
   {
     id: "saisi",
@@ -41,6 +47,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     principle:
       "Fairness is secured where parties retain meaningful access to remedies capable of review; an administrative process is not unfair merely because it is efficient.",
     useFor: "respondent",
+    facts: "A challenge to the DPP's decision to charge public officials.",
+    holding: 'Fairness is secured where parties retain meaningful access to remedies capable of review; an administrative process is not unfair merely because it is efficient.',
+    judges: 'Supreme Court of Kenya',
   },
   {
     id: "john-florence",
@@ -53,6 +62,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     principle:
       "The justiciable elements of a fair hearing are an opportunity to be heard that is reasonable; administrative determinations are governed by Article 47, not the full trial guarantees of Article 50.",
     useFor: "respondent",
+    facts: 'A challenge to the refusal of a maritime licence.',
+    holding: 'The justiciable elements of a fair hearing are an opportunity to be heard that is reasonable; administrative determinations are governed by Article 47.',
+    judges: 'Supreme Court of Kenya',
   },
   {
     id: "kandie",
@@ -65,6 +77,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     principle:
       "The test for limiting rights is one of reasonableness and justification, requiring a balancing of competing interests rather than a mechanical approach.",
     useFor: "respondent",
+    facts: 'A challenge to the deportation of a foreign national on security grounds.',
+    holding: 'The test for limiting rights is one of reasonableness and justification, requiring a balancing of competing interests rather than a mechanical approach.',
+    judges: 'Supreme Court of Kenya',
   },
   {
     id: "mutheu-khimulu",
@@ -77,6 +92,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     principle:
       "The best interests of the child enshrine the right to parental care; the concept is a primary, not exclusive, consideration to be balanced against competing interests.",
     useFor: "respondent",
+    facts: "A custody dispute involving a child's best interests.",
+    holding: 'The best interests of the child enshrine the right to parental care; the concept is a primary, not exclusive, consideration to be balanced against competing interests.',
+    judges: 'High Court of Kenya',
   },
   {
     id: "kituo-sheria",
@@ -90,6 +108,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
       "A security measure must be supported by concrete evidence; an encampment directive that is speculative and unsupported by evidence is unlawful.",
     useFor: "applicant",
     adverse: true,
+    facts: 'A challenge to an encampment directive for refugees.',
+    holding: 'A security measure must be supported by concrete evidence; an encampment directive that is speculative and unsupported by evidence is unlawful.',
+    judges: 'Court of Appeal of Kenya',
   },
   {
     id: "rck-refugee",
@@ -102,6 +123,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     principle:
       "The best interests of the child are not an absolute bar to implementing legitimate national security and refugee control measures; they are a primary consideration to be balanced.",
     useFor: "respondent",
+    facts: 'A challenge to the detention and deportation of refugee children.',
+    holding: 'The best interests of the child are not an absolute bar to implementing legitimate national security and refugee control measures; they are a primary consideration to be balanced.',
+    judges: 'High Court of Kenya',
   },
   {
     id: "chahal",
@@ -114,6 +138,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     principle:
       "Non-refoulement under the European Convention is absolute, but the narrower protection under the Refugee Convention permits derogations on security grounds where procedural safeguards are respected.",
     useFor: "respondent",
+    facts: 'A challenge to the deportation of a Sikh activist to India.',
+    holding: 'Non-refoulement under the European Convention is absolute, but the narrower protection under the Refugee Convention permits derogations on security grounds where procedural safeguards are respected.',
+    judges: 'European Court of Human Rights',
   },
   {
     id: "suresh",
@@ -126,6 +153,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     principle:
       "States may exclude individuals from refugee protection where they are implicated in terrorism or serious threats to national security, provided procedural safeguards are respected.",
     useFor: "respondent",
+    facts: 'A challenge to the deportation of a suspected terrorist to Sri Lanka.',
+    holding: 'States may exclude individuals from refugee protection where they are implicated in terrorism or serious threats to national security, provided procedural safeguards are respected.',
+    judges: 'Supreme Court of Canada',
   },
   {
     id: "ihrrda-angola",
@@ -139,6 +169,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
       "Expulsions and adverse immigration decisions must be subject to effective review mechanisms; the absence of review renders the measure unlawful.",
     useFor: "applicant",
     adverse: true,
+    facts: 'A challenge to the expulsion of aliens from Angola.',
+    holding: 'Expulsions and adverse immigration decisions must be subject to effective review mechanisms; the absence of review renders the measure unlawful.',
+    judges: "African Commission on Human and Peoples' Rights",
   },
   {
     id: "mss-belgium",
@@ -152,6 +185,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
       "International protection systems must be practical and effective rather than theoretical or illusory; meaningful access to protection is the governing standard.",
     useFor: "applicant",
     adverse: true,
+    facts: 'A challenge to the detention and living conditions of an asylum seeker in Belgium and Greece.',
+    holding: 'International protection systems must be practical and effective rather than theoretical or illusory; meaningful access to protection is the governing standard.',
+    judges: 'European Court of Human Rights',
   },
   {
     id: "maaouia",
@@ -164,6 +200,9 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
     principle:
       "Disputes concerning the entry, stay and deportation of aliens do not generally fall within the scope of the right to a fair hearing, provided that effective remedies exist elsewhere in the legal system.",
     useFor: "respondent",
+    facts: 'A challenge to the refusal of a residence permit to an alien.',
+    holding: 'Disputes concerning the entry, stay and deportation of aliens do not generally fall within the scope of the right to a fair hearing, provided that effective remedies exist elsewhere in the legal system.',
+    judges: 'European Court of Human Rights',
   },
   {
     id: "kudla",
@@ -177,5 +216,8 @@ export const REFUGEE_AUTHORITIES: Authority[] = [
       "Overcrowding and poor conditions of detention may amount to inhuman or degrading treatment where they exceed the threshold of severity, taking account of duration and cumulative effect.",
     useFor: "applicant",
     adverse: true,
+    facts: 'A challenge to overcrowded and poor prison conditions.',
+    holding: 'Overcrowding and poor conditions of detention may amount to inhuman or degrading treatment where they exceed the threshold of severity, taking account of duration and cumulative effect.',
+    judges: 'European Court of Human Rights (Grand Chamber)',
   },
 ];

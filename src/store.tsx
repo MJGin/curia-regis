@@ -21,6 +21,9 @@ export interface LibraryEntry {
   official?: boolean;
   summary: string;
   tags: string[];
+  facts?: string;
+  holding?: string;
+  judges?: string;
   sourceType: "case" | "statute" | "treaty" | "regulation" | "rules" | "guidance" | "citation" | "database" | "secondary" | "instrument";
 }
 
@@ -37,6 +40,9 @@ function authorityToEntry(a: Authority): LibraryEntry {
     url: a.sourceUrl,
     official: a.system === "INSTRUMENT",
     summary: a.principle + (a.note ? " " + a.note : ""),
+    facts: a.facts,
+    holding: a.holding,
+    judges: a.judges,
     tags: a.tags,
     sourceType: a.system === "INSTRUMENT" ? "instrument" : "case",
   };
@@ -55,6 +61,9 @@ function resourceToEntry(r: LegalResource): LibraryEntry {
     url: r.url,
     official: r.official,
     summary: r.note + (r.provisions ? " " + r.provisions.join("; ") : ""),
+    facts: r.facts,
+    holding: r.holding,
+    judges: r.judges,
     tags: r.competitions === "all" ? [] : r.competitions,
     sourceType: r.kind as any,
   };

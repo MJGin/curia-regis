@@ -64,6 +64,24 @@ export default function BrowseTab() {
                 {selected.court}{selected.year ? " · " + selected.year : ""} · {selected.type}
               </div>
               <div className="auth-principle" style={{ marginBottom: 10 }}>{selected.summary}</div>
+              {selected.facts && (
+                <div style={{ marginBottom: 8 }}>
+                  <div style={{ fontSize: 11.5, fontWeight: 600, color: "var(--teal-dark)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 2 }}>Facts</div>
+                  <div style={{ fontSize: 12.5, color: "var(--ink-soft)", lineHeight: 1.5 }}>{selected.facts}</div>
+                </div>
+              )}
+              {selected.holding && (
+                <div style={{ marginBottom: 8 }}>
+                  <div style={{ fontSize: 11.5, fontWeight: 600, color: "var(--teal-dark)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 2 }}>Holding</div>
+                  <div style={{ fontSize: 12.5, color: "var(--ink-soft)", lineHeight: 1.5 }}>{selected.holding}</div>
+                </div>
+              )}
+              {selected.judges && (
+                <div style={{ marginBottom: 8 }}>
+                  <div style={{ fontSize: 11.5, fontWeight: 600, color: "var(--teal-dark)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 2 }}>Judges</div>
+                  <div style={{ fontSize: 12.5, color: "var(--ink-soft)", lineHeight: 1.5 }}>{selected.judges}</div>
+                </div>
+              )}
               <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 10 }}>
                 {selected.tags.map((t) => <Badge key={t} tone="neutral">{t}</Badge>)}
               </div>
