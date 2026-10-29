@@ -4,7 +4,7 @@ import { SectionHeader, Button, Card, EmptyState } from "../ui";
 import { PERSONA_LABEL } from "../../lib/orals";
 
 export default function OralsTab() {
-  const { state, setPersona, generateOrals } = useApp();
+  const { state, setPersona, setOralIssueIndices, generateOrals } = useApp();
   const o = state.orals;
 
   return (
@@ -29,7 +29,36 @@ export default function OralsTab() {
             </button>
           ))}
         </div>
-        <div style={{ marginTop: 12, display: "flex", gap: 10, flexWrap: "wrap" }}>
+        {state.parsed && state.parsed.issues.length > 0 && (
+          <div style={{ marginTop: 12, marginBottom: 12 }}>
+            <div style={{ fontSize: 12, color: "var(--ink-muted)", marginBottom: 6, fontWeight: 600, letterSpacing: "0.1em", textTransform: "uppercase" }}>Tackle which issues?</div>
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+              {state.parsed.issues.map((iss, i) => {
+                const selected = state.oralIssueIndices.length === 0 || state.oralIssueIndices.includes(i);
+                return (
+                  <button
+                    key={i}
+                    onClick={() => {
+                      const cur = state.oralIssueIndices.length ? [...state.oralIssueIndices] : state.parsed!.issues.map((_, j) => j);
+                      const next = selected ? cur.filter((x) => x !== i) : [...cur, i];
+                      // if all selected, store empty (means all)
+                      const all = state.parsed!.issues.map((_, j) => j);
+                      const isAll = next.length === all.length;
+                      setOralIssueIndices(isAll ? [] : next);
+                    }}
+                    className={`btn btn-sm ${selected ? "btn-primary" : "btn-ghost"}`}
+                  >
+                    Issue {i + 1}{selected ? " ✓" : ""}
+                  </button>
+                );
+              })}
+            </div>
+            <p style={{ fontSize: 11.5, color: "var(--ink-faint)", marginTop: 6, marginBottom: 0 }}>
+              {state.oralIssueIndices.length === 0 ? "All issues selected." : `Selected: ${state.oralIssueIndices.map((i) => i + 1).join(", ")}.`}
+            </p>
+          </div>
+        )}
+        <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
           <Button onClick={generateOrals} variant="primary" disabled={!state.parsed}>Generate oral script</Button>
           {!state.parsed && <span style={{ fontSize: 12, color: "var(--ink-400)" }}>Parse a compromis first.</span>}
         </div>

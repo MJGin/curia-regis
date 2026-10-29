@@ -43,6 +43,7 @@ interface State {
   activeOralStyleId: string | null;
   persona: PersonaId;
   orals: OralScript | null;
+  oralIssueIndices: number[];
   bench: BenchState;
 }
 
@@ -69,6 +70,7 @@ const defaultState: State = {
   activeOralStyleId: null,
   persona: "diplomat",
   orals: null,
+  oralIssueIndices: [],
   bench: { questions: [], turns: [], index: 0, started: false, finished: false },
 };
 
@@ -94,6 +96,7 @@ interface Ctx {
   setActiveStyle: (id: string | null) => void;
   setActiveOralStyle: (id: string | null) => void;
   setPersona: (p: PersonaId) => void;
+  setOralIssueIndices: (idx: number[]) => void;
   generateOrals: () => void;
   startBench: () => void;
   recordBenchAnswer: (answer: string, ms: number) => void;
@@ -179,9 +182,10 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const generateOralsBoth = useCallback(() => {
     setState((s) => {
       if (!s.parsed) return s;
+      const oralIssues = s.oralIssueIndices.length ? s.oralIssueIndices.map((i) => s.parsed!.issues[i]).filter(Boolean) : s.parsed.issues;
       const oralProfile = s.styleProfiles.find((p) => p.id === s.activeOralStyleId) ?? null;
-      const app = buildOrals({ competition: s.competition, issues: s.parsed.issues, side: "applicant", persona: s.persona, styleProfile: oralProfile });
-      const resp = buildOrals({ competition: s.competition, issues: s.parsed.issues, side: "respondent", persona: s.persona, styleProfile: oralProfile });
+      const app = buildOrals({ competition: s.competition, issues: oralIssues.length ? oralIssues : s.parsed.issues, side: "applicant", persona: s.persona, styleProfile: oralProfile });
+      const resp = buildOrals({ competition: s.competition, issues: oralIssues.length ? oralIssues : s.parsed.issues, side: "respondent", persona: s.persona, styleProfile: oralProfile });
       // store applicant orals as primary; respondent stored by overwriting? Keep applicant, note respondent in console? 
       // We'll store applicant; user can switch side and regenerate. Simpler: store applicant.
       return { ...s, orals: app, side: "applicant" };
@@ -202,13 +206,18 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   const setActiveOralStyle = useCallback((id: string | null) => setState((s) => ({ ...s, activeOralStyleId: id })), []);
   const setPersona = useCallback((p: PersonaId) => setState((s) => ({ ...s, persona: p })), []);
 
+  const setOralIssueIndices = useCallback((idx: number[]) => setState((s) => ({ ...s, oralIssueIndices: idx })), []);
+
   const generateOrals = useCallback(() => {
     setState((s) => {
       if (!s.parsed) return s;
+      const issues = s.oralIssueIndices.length
+        ? s.oralIssueIndices.map((i) => s.parsed!.issues[i]).filter(Boolean)
+        : s.parsed.issues;
       const profile = s.styleProfiles.find((p) => p.id === s.activeOralStyleId) ?? null;
       const o = buildOrals({
         competition: s.competition,
-        issues: s.parsed.issues,
+        issues: issues.length ? issues : s.parsed.issues,
         side: s.side,
         persona: s.persona,
         styleProfile: profile,
@@ -313,6 +322,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     setActiveStyle,
     setActiveOralStyle,
     setPersona,
+    setOralIssueIndices,
     generateOrals,
     startBench,
     recordBenchAnswer,
