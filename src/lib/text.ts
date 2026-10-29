@@ -184,3 +184,24 @@ export function extractSignaturePhrases(text: string, n = 6): string[] {
   const lower = text.toLowerCase();
   return phrases.filter((p) => lower.includes(p)).slice(0, n);
 }
+
+
+export async function extractTextFromFile(file: File): Promise<string> {
+  const name = file.name.toLowerCase();
+  if (name.endsWith(".txt") || name.endsWith(".md")) return await file.text();
+  if (name.endsWith(".pdf")) {
+    const pdfjs = await import("pdfjs-dist");
+    const worker = await import("pdfjs-dist/build/pdf.worker.min.mjs?url");
+    (pdfjs as any).GlobalWorkerOptions.workerSrc = worker.default;
+    const buf = await file.arrayBuffer();
+    const doc = await (pdfjs as any).getDocument({ data: buf }).promise;
+    let out = "";
+    for (let i = 1; i <= doc.numPages; i++) {
+      const page = await doc.getPage(i);
+      const content = await page.getTextContent();
+      out += content.items.map((it: any) => it.str).join(" ") + "\n\n";
+    }
+    return out;
+  }
+  throw new Error("Unsupported file type. Use .txt, .md or .pdf.");
+}

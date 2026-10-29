@@ -9,7 +9,7 @@ import type {
   Side,
   StyleProfile,
 } from "./types";
-import { competitionById } from "./data/competitions";
+import { competitionById, detectCompetition } from "./data/competitions";
 import { parseCompromis, analyseFacts } from "./lib/compromis";
 import { buildMemorial } from "./lib/memorial";
 import { buildOrals } from "./lib/orals";
@@ -97,6 +97,7 @@ interface Ctx {
   recordBenchAnswer: (answer: string, ms: number) => void;
   resetBench: () => void;
   resetAll: () => void;
+  runPipeline: () => void;
   loadSample: (id: string) => void;
   seedBenchmarks: () => void;
 }
@@ -215,6 +216,34 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
 
   const resetBench = useCallback(() => setState((s) => ({ ...s, bench: { questions: [], turns: [], index: 0, started: false, finished: false } })), []);
 
+  const runPipeline = useCallback(() => {
+    setState((s) => {
+      if (!s.compromisText.trim()) return s;
+      const parsed = parseCompromis(s.compromisText);
+      const comp = detectCompetition(s.compromisText);
+      const analyses = {
+        applicant: analyseFacts(parsed, "applicant", comp),
+        respondent: analyseFacts(parsed, "respondent", comp),
+      };
+      const profile = s.styleProfiles.find((p) => p.id === s.activeStyleId) ?? null;
+      const memorial = buildMemorial({ competition: comp, side: s.side, parsed, styleProfile: profile, counsel: s.counsel });
+      const oralProfile = s.styleProfiles.find((p) => p.id === s.activeOralStyleId) ?? null;
+      const orals = buildOrals({ competition: comp, issues: parsed.issues, side: s.side, persona: s.persona, styleProfile: oralProfile });
+      const bench = { questions: generateBench(comp, parsed.issues), turns: [], index: 0, started: false, finished: false };
+      return {
+        ...s,
+        competition: comp,
+        parsed,
+        analyses,
+        memorials: [memorial, ...s.memorials].slice(0, 12),
+        activeMemorialId: memorial.id,
+        orals,
+        bench,
+        tab: "memorial",
+      };
+    });
+  }, []);
+
   const resetAll = useCallback(() => {
     try { localStorage.removeItem(STORAGE_KEY); } catch {}
     setState(defaultState);
@@ -259,6 +288,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     recordBenchAnswer,
     resetBench,
     resetAll,
+    runPipeline,
     loadSample,
     seedBenchmarks,
   };

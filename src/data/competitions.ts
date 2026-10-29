@@ -273,5 +273,18 @@ export const COMPETITIONS: Competition[] = [
   CUSTOM,
 ];
 
+
+export function detectCompetition(text: string): CompetitionId {
+  const t = text.toLowerCase();
+  if (/rome statute|icc|international criminal|international humanitarian|war crime|genocide|crimes against humanity/.test(t)) return "ihl";
+  if (/wto|gatt|gats|dsu|tariff|subsid|sps|tbt/.test(t)) return "jackson";
+  if (/data protection|gdpr|privacy|personal data|cross.border transfer|odpc/.test(t)) return "odpc";
+  if (/african charter|achpr|african court|african commission/.test(t)) return "african";
+  if (/refugee|non.refoulement|asylum/.test(t)) return "kenya-sc";
+  if (/icj|international court of justice|vclt|customary international/.test(t)) return "jessup";
+  if (/constitution of kenya|article 10|article 22|article 159|article 163/.test(t)) return "kenya-sc";
+  return "kenya-sc";
+}
+
 export const competitionById = (id: CompetitionId): Competition =>
   COMPETITIONS.find((c) => c.id === id) ?? JESSUP;

@@ -4,12 +4,15 @@ import { matchAuthorities, issueTags } from "../data/authorities";
 import { splitParagraphs, sentences, words } from "./text";
 
 const SECTION_KEYS: { key: string; title: string; test: (l: string) => boolean }[] = [
-  { key: "agreed", title: "Agreed statement of facts", test: (l) => /agreed/.test(l) && /fact/.test(l) },
+  { key: "agreed", title: "Agreed statement of facts", test: (l) => /agreed/.test(l) },
   { key: "disputed", title: "Disputed facts", test: (l) => /disputed/.test(l) },
   { key: "procedural", title: "Procedural history", test: (l) => /procedural|history/.test(l) },
   { key: "issues", title: "Questions presented", test: (l) => /question|issue|presented/.test(l) },
-  { key: "prayers", title: "Prayers for relief", test: (l) => /prayer|relief|reliefs/.test(l) },
+  { key: "prayers", title: "Prayers for relief", test: (l) => /prayer|relief/.test(l) },
   { key: "facts", title: "Statement of facts", test: (l) => /statement of facts|facts\b/.test(l) },
+  { key: "jurisdiction", title: "Jurisdiction", test: (l) => /jurisdiction/.test(l) },
+  { key: "abbrev", title: "Abbreviations", test: (l) => /abbrev/.test(l) },
+  { key: "authorities", title: "Index of authorities", test: (l) => /authorit|index of/.test(l) },
 ];
 
 function sectionKey(header: string): string | null {
@@ -27,15 +30,21 @@ function stripNumber(p: string): { n: number | null; text: string } {
 export function parseCompromis(raw: string): ParsedCompromis {
   const paras = splitParagraphs(raw);
   const parties = { applicant: "", respondent: "" };
-  const pm = raw.match(/Between:\s*(.+?)\s*\((?:Applicant|Petitioner|Complainant)\)\s*and\s*(.+?)\s*\((?:Respondent|Respondents)\)/i);
+  const pm = raw.match(/Between:\s*(.+?)\s*\((?:Applicant|Petitioner|Complainant|Appellants?)\)\s*(?:and|v\.?|versus)\s*(.+?)\s*\((?:Respondent|Respondents|Defendant)\)/i);
   if (pm) {
     parties.applicant = pm[1].trim();
     parties.respondent = pm[2].trim();
   } else {
-    const pm2 = raw.match(/Between:\s*(.+?)\s+and\s+(.+?)(?:\n|$)/i);
-    if (pm2) {
+    const pm2 = raw.match(/(.+?)\s+v\.?\s+(.+?)(?:\n|$)/i);
+    if (pm2 && pm2[1].length < 80 && pm2[2].length < 80) {
       parties.applicant = pm2[1].trim();
       parties.respondent = pm2[2].trim();
+    } else {
+      const pm3 = raw.match(/Between:\s*(.+?)\s+and\s+(.+?)(?:\n|$)/i);
+      if (pm3) {
+        parties.applicant = pm3[1].trim();
+        parties.respondent = pm3[2].trim();
+      }
     }
   }
   if (!parties.applicant) parties.applicant = "the Applicant";
@@ -47,10 +56,11 @@ export function parseCompromis(raw: string): ParsedCompromis {
   const sections: { key: string; title: string; paras: { n: number; text: string }[] }[] = [];
   let current: { key: string; title: string; paras: { n: number; text: string }[] } | null = null;
   let autoN = 0;
+  let headerSeen = false;
   for (const p of paras) {
     const headerMatch = p.match(/^([IVXLC]+)\.\s+(.+)$/s);
     const isHeader = !!headerMatch && sectionKey(headerMatch[2]) !== null && p.length < 120;
-    if (isHeader) {
+    if (isHeader) { headerSeen = true;
       const key = sectionKey(headerMatch![2])!;
       current = { key, title: headerMatch![2].trim(), paras: [] };
       sections.push(current);
@@ -65,6 +75,13 @@ export function parseCompromis(raw: string): ParsedCompromis {
     current.paras.push({ n: autoN, text });
   }
 
+  if (!headerSeen || sections.length === 0) {
+    sections.length = 0;
+    sections.push({ key: "facts", title: "Statement of facts", paras: paras.map((p, i) => {
+      const { n, text } = stripNumber(p);
+      return { n: n ?? i + 1, text };
+    }) });
+  }
   const byKey = (k: string) => sections.filter((s) => s.key === k).flatMap((s) => s.paras);
   const agreed = byKey("agreed");
   const disputed = byKey("disputed");
