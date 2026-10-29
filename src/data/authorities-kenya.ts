@@ -53,8 +53,8 @@ export const KENYA_AUTHORITIES: Authority[] = [
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2012/2480/eng@2012-09-20",
     facts: 'The Trusted Society of Human Rights Alliance challenged the appointment of Mumo Matemu as chairperson of the Ethics and Anti-Corruption Commission. The petitioner alleged that the appointment process was flawed and that the appointee lacked the requisite integrity. The case raised questions of substantive review of public appointments under the 2010 Constitution.',
-    holding: 'Constitutional interpretation moves from the text and structure to the values in Article 10; substantive review asks whether the process and outcome comport with the Constitution, not merely whether power existed.',
-    judges: 'Majanja J (High Court)',
+    holding: 'The Court held it had jurisdiction; the petitioner had locus standi; the petition was not moot. On the merits, the appointment of the interested party passed constitutional muster: the process followed the Constitution and the Ethics and Anti-Corruption Act, and the integrity issue was adequately considered by Parliament. The petition was dismissed with no order as to costs.',
+    judges: 'Joel Ngugi, Mumbi Ngugi and G.V. Odunga JJ (High Court)',
   },
   {
     id: "mumo-matemu",
