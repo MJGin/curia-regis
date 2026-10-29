@@ -3,10 +3,10 @@ import { useApp } from "../store";
 import type { TabId } from "../store";
 
 const TABS: { id: TabId; label: string }[] = [
-  { id: "start", label: "1 · Start" },
-  { id: "results", label: "2 · Results" },
-  { id: "practice", label: "3 · Practice" },
-  { id: "tools", label: "4 · Tools (optional)" },
+  { id: "home", label: "Home" },
+  { id: "browse", label: "Browse" },
+  { id: "saved", label: "Saved" },
+  { id: "about", label: "About" },
 ];
 
 export function TabRail({ active, onChange }: { active: TabId; onChange: (t: TabId) => void }) {

@@ -1,9 +1,9 @@
 {
-  "name": "curia-regis",
+  "name": "kenya-law-library",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Curia Regis — Moot Court Advocacy & Championship AI Platform",
+  "description": "Kenya Law Library \u2014 categorized authorities, statutes, treaties and notes",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",

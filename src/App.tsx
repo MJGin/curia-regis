@@ -1,38 +1,29 @@
 import React, { useEffect } from "react";
 import { useApp } from "./store";
-import { COMPETITIONS, competitionById } from "./data/competitions";
 import { TopBar } from "./components/TopBar";
 import { TabRail } from "./components/TabRail";
-import SetupTab from "./components/tabs/SetupTab";
-import ResultsTab from "./components/ResultsTab";
-import SparringTab from "./components/tabs/SparringTab";
-import ToolsTab from "./components/ToolsTab";
+import HomeTab from "./components/tabs/HomeTab";
+import BrowseTab from "./components/tabs/BrowseTab";
+import SavedTab from "./components/tabs/SavedTab";
+import AboutTab from "./components/tabs/AboutTab";
 
 export default function App() {
-  const { state, setTab, setCompetition, seedBenchmarks } = useApp();
-  useEffect(() => { seedBenchmarks(); }, [seedBenchmarks]);
-
-  // keep custom competition fields in sync when custom mode selected
-  const comp = competitionById(state.competition);
-
+  const { state, setTab } = useApp();
+  useEffect(() => {}, []);
   return (
     <div className="app-shell">
-      <TopBar
-        competition={state.competition}
-        onChange={setCompetition}
-        custom={state.custom}
-      />
+      <TopBar />
       <TabRail active={state.tab} onChange={setTab} />
       <main className="main">
         <div className="tab-content" key={state.tab}>
-          {state.tab === "start" && <SetupTab />}
-          {state.tab === "results" && <ResultsTab />}
-          {state.tab === "practice" && <SparringTab />}
-          {state.tab === "tools" && <ToolsTab />}
+          {state.tab === "home" && <HomeTab />}
+          {state.tab === "browse" && <BrowseTab />}
+          {state.tab === "saved" && <SavedTab />}
+          {state.tab === "about" && <AboutTab />}
         </div>
       </main>
       <footer className="footnote">
-        Curia Regis — Moot Court Advocacy &amp; Championship Chambers · Synthetic, educational use only · No legal advice
+        Kenya Law Library · Curated authorities, statutes, treaties and notes · Synthetic/educational use · Verify every citation against the original source
       </footer>
     </div>
   );
