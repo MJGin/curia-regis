@@ -103,7 +103,7 @@ export default function BrowseTab() {
               </div>
               {showReader && selected.url && (
                 <div style={{ marginTop: 12 }}>
-                  <Reader url={selected.url} title={selected.title} />
+                  <Reader url={selected.url} title={selected.title} entryId={selected.id} />
                 </div>
               )}
             </Card>
