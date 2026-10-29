@@ -15,7 +15,7 @@ import { buildMemorial } from "./lib/memorial";
 import { buildOrals } from "./lib/orals";
 import { generateBench } from "./lib/bench";
 import { extractStyle } from "./lib/style";
-import { BENCHMARK_MEMORIAL, BENCHMARK_ORAL, BENCHMARK_ORAL_EAC } from "./data/samples";
+import { BENCHMARK_MEMORIAL, BENCHMARK_ORAL, BENCHMARK_ORAL_EAC, BENCHMARK_ORAL_ICC } from "./data/samples";
 
 export type TabId = "setup" | "vault" | "memorial" | "authorities" | "orals" | "sparring";
 
@@ -262,7 +262,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       const m = extractStyle("Championship Memorial (demo)", "memorial", BENCHMARK_MEMORIAL, true);
       const o = extractStyle("Championship Oralist (demo)", "oral", BENCHMARK_ORAL, true);
       const e = extractStyle("EAC Oral Round (demo)", "oral", BENCHMARK_ORAL_EAC, true);
-      return { ...s, styleProfiles: [m, o, e, ...s.styleProfiles] };
+      const i = extractStyle("ICC Moot Round (demo)", "oral", BENCHMARK_ORAL_ICC, true);
+      return { ...s, styleProfiles: [m, o, e, i, ...s.styleProfiles] };
     });
   }, []);
 

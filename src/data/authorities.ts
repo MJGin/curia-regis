@@ -6,8 +6,9 @@ import { AUTHORITIES_B } from "./authorities-b";
 import { REFUGEE_AUTHORITIES } from "./authorities-refugee";
 import { IHL_AUTHORITIES } from "./authorities-ihl";
 import { EAC_AUTHORITIES } from "./authorities-eac";
+import { ICC_AUTHORITIES } from "./authorities-icc";
 
-export const AUTHORITIES: Authority[] = [...AUTHORITIES_A, ...KENYA_AUTHORITIES, ...AUTHORITIES_B, ...REFUGEE_AUTHORITIES, ...IHL_AUTHORITIES, ...EAC_AUTHORITIES];
+export const AUTHORITIES: Authority[] = [...AUTHORITIES_A, ...KENYA_AUTHORITIES, ...AUTHORITIES_B, ...REFUGEE_AUTHORITIES, ...IHL_AUTHORITIES, ...EAC_AUTHORITIES, ...ICC_AUTHORITIES];
 
 export const authorityById = (id: string): Authority | undefined =>
   AUTHORITIES.find((a) => a.id === id);

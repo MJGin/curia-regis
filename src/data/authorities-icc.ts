@@ -1,0 +1,126 @@
+import type { Authority } from "../types";
+
+export const ICC_AUTHORITIES: Authority[] = [
+  {
+    id: "akayesu",
+    title: "The Prosecutor v Jean-Paul Akayesu",
+    citation: "ICTR-96-4-T, Trial Chamber, Judgment (2 September 1998)",
+    court: "International Criminal Tribunal for Rwanda",
+    year: 1998,
+    system: "ICJ",
+    tags: ["human-rights", "evidence", "legality", "jurisdiction"],
+    principle:
+      "Direct and public incitement to commit genocide requires both an actus reus (direct and public incitement) and a mens rea (intent to commit genocide and to provoke others to commit it); genocidal intent may be inferred from the content and implications of the language used.",
+    useFor: "both",
+  },
+  {
+    id: "bikindi",
+    title: "The Prosecutor v Simon Bikindi",
+    citation: "ICTR-01-72-T, Trial Chamber, Judgment (2 December 2008)",
+    court: "International Criminal Tribunal for Rwanda",
+    year: 2008,
+    tags: ["human-rights", "evidence", "legality"],
+    system: "ICJ",
+    principle:
+      "In assessing directness, what matters is the context in which the words were spoken and how the audience understood the message; implicit remarks may constitute direct incitement where the context makes the call unmistakable.",
+    useFor: "both",
+  },
+  {
+    id: "nahima",
+    title: "The Prosecutor v Hassan Ngeze, Ferdinand Nahimana and Jean-Bosco Barayagwiza (Media Case)",
+    citation: "ICTR-99-52-T, Trial Chamber, Judgment (3 December 2003)",
+    court: "International Criminal Tribunal for Rwanda",
+    year: 2003,
+    system: "ICJ",
+    tags: ["human-rights", "evidence", "expression", "legality"],
+    principle:
+      "Direct and public incitement is an inchoate offence; a resolve to destroy in whole or in part may be inferred from the content and implications of the language used, including dehumanising language and the portrayal of a group as a threat.",
+    useFor: "both",
+  },
+  {
+    id: "nahima-appeals",
+    title: "The Prosecutor v Ferdinand Nahimana, Jean-Bosco Barayagwiza and Hassan Ngeze (Appeals)",
+    citation: "ICTR-99-52-A, Appeals Chamber, Judgment (28 November 2007)",
+    court: "International Criminal Tribunal for Rwanda (Appeals Chamber)",
+    year: 2007,
+    system: "ICJ",
+    tags: ["evidence", "legality", "human-rights"],
+    principle:
+      "A failure to act to prevent attacks, or the giving of moral support, is more akin to aiding and abetting than to direct and public incitement; the latter requires a direct effect on the commission of the crime.",
+    useFor: "respondent",
+    adverse: true,
+  },
+  {
+    id: "muvunyi",
+    title: "The Prosecutor v Tharcisse Muvunyi",
+    citation: "ICTR-00-55A-T, Trial Chamber, Judgment (12 September 2006)",
+    court: "International Criminal Tribunal for Rwanda",
+    year: 2006,
+    system: "ICJ",
+    tags: ["human-rights", "evidence", "legality"],
+    principle:
+      "Implicit remarks may constitute direct incitement where the specific statement made was widely understood in its cultural and linguistic context as a call to exterminate the targeted group.",
+    useFor: "both",
+  },
+  {
+    id: "al-hassan",
+    title: "The Prosecutor v Al Hassan Ag Abdoul Aziz Ag Mohamed Ag Mahmoud",
+    citation: "ICC-01/12-01/18, Trial Chamber X, Judgment (26 June 2024)",
+    court: "International Criminal Court",
+    year: 2024,
+    system: "ICJ",
+    tags: ["human-rights", "evidence", "legality", "remedy"],
+    principle:
+      "Crimes against humanity and war crimes require proof beyond reasonable doubt; the Court weighs the evidence as a whole and acquits where the prosecution has not discharged its burden.",
+    useFor: "respondent",
+    adverse: true,
+  },
+  {
+    id: "abuganda",
+    title: "The Prosecutor v Dominic Ongwen",
+    citation: "ICC-02/04-01/15, Trial Chamber IX, Judgment (4 February 2021)",
+    court: "International Criminal Court",
+    year: 2021,
+    system: "ICJ",
+    tags: ["human-rights", "evidence", "legality", "remedy"],
+    principle:
+      "Individual criminal responsibility under Article 25(3)(a) requires that the accused made a substantial contribution to the crime with knowledge of the group's criminal intention.",
+    useFor: "both",
+  },
+  {
+    id: "gaddafi-senussi",
+    title: "The Prosecutor v Saif Al-Islam Gaddafi and Abdullah Al-Senussi",
+    citation: "ICC-01/11-01/11, Pre-Trial Chamber I, Decision on the admissibility challenge (31 May 2013)",
+    court: "International Criminal Court",
+    year: 2013,
+    system: "ICJ",
+    tags: ["jurisdiction", "legality", "human-rights", "remedy"],
+    principle:
+      "A case is inadmissible where the accused has already been tried for substantially the same conduct, unless the national proceedings lacked independence or impartiality or were designed to shield the accused.",
+    useFor: "respondent",
+  },
+  {
+    id: "congo-bemba",
+    title: "The Prosecutor v Jean-Pierre Bemba Gombo",
+    citation: "ICC-01/05-01/08, Trial Chamber III, Judgment (21 March 2016)",
+    court: "International Criminal Court",
+    year: 2016,
+    system: "ICJ",
+    tags: ["human-rights", "evidence", "legality"],
+    principle:
+      "A commander is criminally responsible under Article 28 where he knew or should have known that forces under his control were committing crimes and failed to take all necessary and reasonable measures to prevent or repress them.",
+    useFor: "both",
+  },
+  {
+    id: "nahima-appeals-icc",
+    title: "The Prosecutor v Ferdinand Nahimana, Jean-Bosco Barayagwiza and Hassan Ngeze (Appeals)",
+    citation: "ICTR-99-52-A, Appeals Chamber, Judgment (28 November 2007)",
+    court: "International Criminal Tribunal for Rwanda (Appeals Chamber)",
+    year: 2007,
+    system: "ICJ",
+    tags: ["evidence", "legality", "human-rights"],
+    principle:
+      "The destruction of a representative fraction of a group, such as its religious leaders, may support an inference of genocidal intent.",
+    useFor: "applicant",
+  },
+];

@@ -306,3 +306,69 @@ REBUTTAL
 
 The Respondent has kept mentioning sovereignty, sovereignty, sovereignty. However, Article 27 of the Vienna Convention on the Law of Treaties provides that a State cannot invoke its internal law or sovereignty to defend a breach of a treaty obligation. With that, we rest our case. Much obliged.
 `;
+
+
+export const BENCHMARK_ORAL_ICC = `BENCHMARK ORAL SCRIPT EXCERPT (demo, ICC-style — replace with a real mooter's transcript)
+
+OPENING APPEARANCE AND ROADMAP
+
+Presiding judge, your excellencies, may it please this honourable court. Good evening. My name is Michael Mushamba. It is an honour to appear before you today as first counsel for the prosecution. With me is my colleague and friend Tracy Jerop. I shall take ten minutes to address the second merit on admissibility. My colleague will then step in for fifteen minutes to address the first and third merits. We respectfully reserve five minutes for rebuttals. Thank you.
+
+Thank you very much. And now, please, defence. Mr President, your excellencies, and may it please the court. It is an honour to represent the defence for Mr Jasper before your honourable court. Today I am Vagisha Mandler, first counsel for the defence. I will address the bench on the first and second issues for the initial fifteen minutes, and my co-counsel Mr Aayush Mishra will address the bench on the third issue for the remaining ten minutes. We reserve five minutes for sur-rebuttals. Please.
+
+CONTEXTUALISING AND ISSUE FRAMING
+
+Presiding judge, your excellencies, may it please this honourable court. As I had earlier introduced myself, my name is Michael Mushamba. I now proceed to make the substantive arguments for our case, starting with the second merit on admissibility. But before then, your excellencies, allow me to contextualise the case and the matters before you today. Your excellencies, the case before you today is quite monumental, as for the first time in history since the establishment of this court, it is faced with a standalone charge of direct and public incitement to commit genocide. But at the heart of these proceedings lies a great injustice inflicted upon the Adrenalin people by the accused person, Mr Roads. Through policies and insightful words, he unleashed a decade-long campaign to erase the Adrenalin religion, encouraging hate, harm and their permanent destruction. Your excellencies, throughout our submissions, we respectfully request this court to reaffirm the fundamental principle that never again will the most serious crimes of international concern go unpunished.
+
+JUDICIAL INTERACTION AND CONCESSIONS
+
+Your excellencies, at this point we anticipate that the defence may attempt to dissect each and every measure in isolation, but as confirmed in the 2024 pre-trial decision in Prosecutor v Coney at paragraph 56, these measures should not be assessed in isolation. They must be viewed together. And in the present case, newspapers must be read alongside podcasts and social media alongside diplomatic channels. We must recall that the law does not demand perfection. It demands reasonability.
+
+Yes. You say you anticipate the defence may try to deal with matters individually. Are you suggesting that the fact that each measure in itself, if inadequate, nonetheless taken together makes an adequate measure?
+
+Your Excellency, our argument is that when taken together they do amount to reasonable steps, and even when picked apart they still amount to reasonable steps, given that none of the individual measures is inadequate.
+
+DISTINGUISHING AND AUTHORITY
+
+We submit that the previous trials conducted in Raspia were conducted with an intent to shield Mr Roads from criminal responsibility. Pre-Trial Chamber One's 2013 decision in Prosecutor v Gaddafi and Al-Senussi, at paragraph 200, stated that national trials conducted with an intent to shield should be assessed on a case-by-case basis. Neither the Rome Statute nor judicial decisions give further guidance on what amounts to shielding. We rely on the preparatory works: the 1996 ILC Draft Code and the Surakusa Draft, which stated that factors such as inadequate sentences that do not commensurate the gravity of the crime can indicate an element of shielding.
+
+TIME MANAGEMENT
+
+Your excellencies, as my time is up, can I finish answering this? Thank you. In the 2023 decision of Prosecutor v Coney at paragraph 69, the court found that the passing of time cannot in and of itself justify holding a confirmation hearing in absentia. And therefore the question I would pose to the bench, in exercising your discretion, would be: for how much longer should we wait before justice delayed becomes justice denied? And considering that all reasonable steps have been taken, we ask you to find that three years would constitute reasonable time. And seeing as my time is up, it has been a pleasure submitting before this honourable court. Thank you.
+
+REBUTTAL
+
+Presiding judge, your excellencies, it is a pleasure to appear before you once again. In the next five minutes, the prosecution rises on three points of rebuttal: first, on the admissibility challenge; second, on the issue of direct and public incitement to commit genocide. On the first point, our learned friend argued that a reduction of sentence alone is not enough to demonstrate an intent to shield. However, the prosecution's case does not rest on a reduction of sentence alone. We draw attention to the surrounding circumstances upon which this sentence was imposed, specifically the discriminatory appointment of judges on religious grounds. Taken together, we ask this court to find these factors to form sufficiently compelling evidence that goes beyond mere theory or suspicion.
+
+CLOSING
+
+Your excellencies, the words of Mr Roads were not the words of a leader seeking to protect his people. These were not cautious warnings, nor were they the measured words of a president navigating crisis. They were deliberate, calculated, and charged with the intent to destroy. We therefore ask this court to find that these were not words of leadership but rather weapons charged at ordinary Adrenalin civilians. Consequently, we ask this court to find that, first, this case is admissible; second, that the requirements for a confirmation hearing in absentia have been met; and third, that there are substantial grounds to believe that Mr Roads is criminally liable for the crime of direct and public incitement to commit genocide. It has been an honour submitting before this honourable court. Thank you for your attention.
+
+DEFENCE OPENING AND TIME ALLOCATION
+
+Mr President, your excellencies, and may it please the court. This case is based on uncertain evidence and a procedure that fails to meet this court's standards. I will address the bench on the first and second issues for the initial fifteen minutes, and my co-counsel will address the bench on the third issue for the remaining ten minutes. We reserve five minutes for sur-rebuttals. Please.
+
+JUDICIAL INTERRUPTIONS AND CONCESSIONS
+
+Your excellencies, we submit that the prosecution has not contested the fulfilment of the requirements under Article 17(1)(c). We submit this on the basis of three grounds: first, that the suspect has already been tried by another court and the decision is final; second, that the suspect is being charged for substantially the same conduct; and third, that the present case does not fall within the exceptions of the ne bis in idem principle.
+
+Council, can you please explain? You just said that the conduct is substantially the same. Could you please give us what are the main characteristics making the conduct substantially the same?
+
+Your excellencies, his speech acts form the crux of the allegations against him before your excellencies, and his speech acts are exactly the conduct for which he has already been convicted by the domestic court. Therefore, there is a substantial overlap. If that answers your excellency's query, allow me to proceed.
+
+CONCESSION AND PIVOT
+
+We do acknowledge that the reduction of the sentence to the time that the suspect has already undergone detention is a general practice across various legal systems. However, we submit that since the judiciary was impartial and independent, and the domestic proceedings were not to shield Mr Roads, the exceptions of the ne bis in idem principle under Article 20(3)(a) and (b) do not apply.
+
+DISTINGUISHING
+
+We submit that the reduction of the sentence cannot indicate shielding of Mr Roads. The appellate court upheld his conviction. If they were so loyal, they could have acquitted him, but they convicted him. And the penalty imposed upon him of two months aligns with the penalties ordinarily imposed for the same crimes across various national jurisdictions.
+
+CLOSING AND PRAYERS
+
+Having submitted our prayers, I would like to urge this honourable court to adopt the appropriate legal propositions presented by the respondent in order to precisely evaluate and determine the present dispute. It has been an honour submitting before this honourable court. Much obliged, and may it please this court. Finally, what do you want the court to do for you? Oh, much obliged, your excellency. We ask this honourable court to dismiss the present petition. If that suffices, much obliged, and may it please this court.
+
+JUDGE FEEDBACK (PATTERNS TO EMULATE)
+
+Be concise, be precise. Don't lecture; make your case. Be flexible with time. You are not the future of the law; you are the present. Keep the flame of international criminal law alive.
+`;
