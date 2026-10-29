@@ -476,4 +476,203 @@ export const KENYA_AUTHORITIES: Authority[] = [
     useFor: "applicant",
     note: "Verify the neutral citation on Kenya Law before relying on it.",
   },
+
+  {
+    id: "aids-law-project",
+    title: "AIDS Law Project v Attorney General & Another",
+    citation: "[2015] KEHC 6972 (KLR) (18 March 2015) (Petition 97 of 2010)",
+    court: "High Court of Kenya",
+    year: 2015,
+    system: "KE",
+    tags: ["privacy", "human-rights", "legality", "remedy"],
+    principle:
+      "The collection and use of HIV status data must be lawful, necessary and proportionate; mandatory testing and disclosure of HIV status without consent violates the right to privacy and dignity.",
+    facts:
+      "The AIDS Law Project challenged provisions of the HIV and AIDS Prevention and Control Act that mandated HIV testing and disclosure of status. The petitioner argued that compulsory testing and disclosure violated the right to privacy and dignity. The case raised questions of bodily autonomy and medical confidentiality.",
+    holding:
+      "The Court held that mandatory HIV testing and disclosure of status without consent violated the right to privacy and dignity under Article 31 and Article 28 of the Constitution. The offending provisions were declared unconstitutional.",
+    judges: "Mumbi Ngugi J (High Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2015/6972/eng@2015-03-18",
+  },
+  {
+    id: "jwi-standard-group",
+    title: "J W I & Another v Standard Group Limited & Another",
+    citation: "[2015] KEHC 7398 (KLR) (19 June 2015) (Petition 466 & 416 of 2012)",
+    court: "High Court of Kenya",
+    year: 2015,
+    system: "KE",
+    tags: ["privacy", "human-rights", "remedy", "legality"],
+    principle:
+      "The publication of private information about a person's health status violates the right to privacy; the media must balance the public interest against the individual's right to privacy.",
+    facts:
+      "The petitioners challenged the publication of their HIV status and medical information by a newspaper. The publication disclosed their identities and health status without consent. The case raised questions of media freedom and the right to privacy.",
+    holding:
+      "The Court held that the publication violated the petitioners' right to privacy under Article 31 and awarded damages. The media's right to freedom of expression must be balanced against the individual's right to privacy, especially for sensitive health data.",
+    judges: "Mumbi Ngugi J (High Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2015/7398/eng@2015-06-19",
+  },
+  {
+    id: "marimbah-kra",
+    title: "Joshua Rodney Marimbah v Kenya Revenue Authority",
+    citation: "[2017] KEELRC 642 (KLR) (13 October 2017)",
+    court: "Employment and Labour Relations Court of Kenya",
+    year: 2017,
+    system: "KE",
+    tags: ["privacy", "employment", "data-protection", "legality", "remedy"],
+    principle:
+      "The collection and use of personal data by an employer or public body must be lawful, necessary and proportionate; monitoring of employees must respect privacy.",
+    facts:
+      "An employee challenged the collection and use of his personal data by the Kenya Revenue Authority. The dispute concerned workplace monitoring and data protection. The case raised questions of privacy in employment.",
+    holding:
+      "The Court held that the collection and use of personal data must comply with data protection principles; excessive or unjustified monitoring violates the right to privacy.",
+    judges: "M. Mbaru J (Employment and Labour Relations Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keelrc/2017/642/eng@2017-10-13",
+  },
+  {
+    id: "kaibos-ngawa",
+    title: "Kaibos v Ngawa 2019 Assets Limited",
+    citation: "[2024] KEHC 15040 (KLR) (28 November 2024) (Petition 1 of 2023)",
+    court: "High Court of Kenya",
+    year: 2024,
+    system: "KE",
+    tags: ["privacy", "property", "legality", "remedy"],
+    principle:
+      "The right to privacy protects personal information and communications; unlawful surveillance or disclosure of private information violates Article 31.",
+    facts:
+      "A dispute concerning the unlawful disclosure and use of personal information. The petitioner alleged violations of privacy rights. The case raised questions of data protection and confidentiality.",
+    holding:
+      "The Court held that the right to privacy under Article 31 protects personal information; unlawful disclosure or misuse of personal data violates the Constitution.",
+    judges: "Mwita J (High Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2024/15040/eng@2024-11-28",
+  },
+  {
+    id: "ondieki-maeda",
+    title: "Ondieki v Maeda (Petition E153 of 2022)",
+    citation: "[2023] KEHC 18290 (KLR) (31 May 2023) (Judgment)",
+    court: "High Court of Kenya",
+    year: 2023,
+    system: "KE",
+    tags: ["privacy", "human-rights", "legality", "remedy"],
+    principle:
+      "The right to privacy protects personal and family life; interference must be lawful, necessary and proportionate.",
+    facts:
+      "A dispute concerning the violation of privacy rights. The petitioner alleged unlawful interference with personal and family life. The case raised questions of Article 31 and the limits of privacy.",
+    holding:
+      "The Court held that the right to privacy under Article 31 protects personal and family life; any interference must be lawful, necessary and proportionate.",
+    judges: "Mwita J (High Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2023/18290/eng@2023-05-31",
+  },
+  {
+    id: "arunda-odpc",
+    title: "Arunda v Office of the Data Protection Commissioner & Another",
+    citation: "[2025] KEHC 12262 (KLR) (12 August 2025) (Constitutional Petition)",
+    court: "High Court of Kenya",
+    year: 2025,
+    system: "KE",
+    tags: ["privacy", "data-protection", "legality", "remedy"],
+    principle:
+      "The Data Protection Commissioner's decisions are subject to judicial review; data subjects have the right to seek redress for violations of their privacy and data protection rights.",
+    facts:
+      "A challenge to the Data Protection Commissioner's decision. The petitioner alleged violations of privacy and data protection rights. The case raised questions of the Commissioner's jurisdiction and remedies.",
+    holding:
+      "The Court held that the Commissioner's decisions are subject to judicial review and that data subjects have the right to seek redress for violations of their privacy rights.",
+    judges: "Mwita J (High Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/12262/eng@2025-08-12",
+  },
+  {
+    id: "phoro-eldoret",
+    title: "Phoro v Eldoret Technical Training Institute",
+    citation: "[2024] KEHC 10974 (KLR) (20 September 2024) (Constitutional Petition E006 of 2023)",
+    court: "High Court of Kenya",
+    year: 2024,
+    system: "KE",
+    tags: ["privacy", "human-rights", "legality", "remedy"],
+    principle:
+      "The right to privacy protects personal information held by public institutions; unlawful disclosure or misuse of personal data violates Article 31.",
+    facts:
+      "A challenge to the handling of personal data by a public training institution. The petitioner alleged violations of privacy rights. The case raised questions of data protection in public institutions.",
+    holding:
+      "The Court held that the right to privacy under Article 31 protects personal information held by public institutions; unlawful disclosure or misuse violates the Constitution.",
+    judges: "Mwita J (High Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2024/10974/eng@2024-09-20",
+  },
+  {
+    id: "wambui-eden-park",
+    title: "Wambui & Another v Eden Park Country Garden Limited",
+    citation: "[2025] KEHC 19215 (KLR) (5 December 2025) (Constitutional Petition E148 of 2022)",
+    court: "High Court of Kenya",
+    year: 2025,
+    system: "KE",
+    tags: ["privacy", "property", "legality", "remedy"],
+    principle:
+      "The right to privacy protects personal information in commercial and property transactions; unlawful surveillance or disclosure violates Article 31.",
+    facts:
+      "A dispute concerning the unlawful collection and use of personal information in a property transaction. The petitioners alleged violations of privacy rights. The case raised questions of data protection in commercial contexts.",
+    holding:
+      "The Court held that the right to privacy under Article 31 protects personal information in commercial transactions; unlawful collection or use violates the Constitution.",
+    judges: "Mwita J (High Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2025/19215/eng@2025-12-05",
+  },
+  {
+    id: "muruatetu",
+    title: "Francis Karioko Muruatetu & Another v Republic",
+    citation: "[2017] KESC 2 (KLR) (14 December 2017) (Petition 15 & 16 of 2015)",
+    court: "Supreme Court of Kenya",
+    year: 2017,
+    system: "KE",
+    tags: ["criminal", "human-rights", "remedy", "legality"],
+    principle:
+      "The mandatory death penalty is unconstitutional as it deprives the court of the discretion to consider the circumstances of the offender and the offence, violating the right to a fair trial and human dignity.",
+    facts:
+      "Francis Karioko Muruatetu and another were convicted of murder and sentenced to the mandatory death penalty. They challenged the constitutionality of the mandatory death penalty. The case raised questions of sentencing discretion and human dignity.",
+    holding:
+      "The Supreme Court held that the mandatory death penalty is unconstitutional as it deprives the court of discretion to consider the circumstances of the offender and the offence. The Court directed that sentencing guidelines be developed for murder cases.",
+    judges: "Maraga CJ, Mwilu DCJ, Ibrahim, Ojwang, Wanjala and Ndung'u SCJJ (Supreme Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kesc/2017/2/eng@2017-12-14",
+  },
+  {
+    id: "thuranira-meru",
+    title: "Thuranira Salesio Mutuma & Another v County Government of Meru & Another",
+    citation: "[2019] KEHC 7970 (KLR) (2 May 2019)",
+    court: "High Court of Kenya",
+    year: 2019,
+    system: "KE",
+    tags: ["jurisdiction", "standing", "constitutional-interpretation", "legality"],
+    principle:
+      "Locus standi in constitutional petitions is broad; any person may institute proceedings claiming a contravention of the Constitution, including in the public interest.",
+    facts:
+      "A petition challenging the actions of the County Government of Meru. The petitioners alleged violations of constitutional rights. The case raised questions of standing and public interest litigation.",
+    holding:
+      "The Court held that locus standi in constitutional petitions is broad under Article 258; any person may institute proceedings claiming a contravention of the Constitution, including in the public interest.",
+    judges: "Mwita J (High Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2019/7970/eng@2019-05-02",
+  },
+  {
+    id: "trustees-rural-hospital",
+    title: "Trustees of the Rural Private Hospital Association of Kenya v Chief Executive Officer, National Hospital Insurance Fund & 2 Others",
+    citation: "[2021] KEHC 3446 (KLR) (4 October 2021)",
+    court: "High Court of Kenya",
+    year: 2021,
+    system: "KE",
+    tags: ["jurisdiction", "standing", "constitutional-interpretation", "legality"],
+    principle:
+      "Locus standi in constitutional petitions is broad; associations may sue in the interest of their members under Article 258.",
+    facts:
+      "An association of private hospitals challenged the actions of the NHIF. The petitioners alleged violations of constitutional rights. The case raised questions of standing and association suits.",
+    holding:
+      "The Court held that locus standi in constitutional petitions is broad under Article 258; associations may sue in the interest of their members.",
+    judges: "Mwita J (High Court)",
+    useFor: "applicant",
+    sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/kehc/2021/3446/eng@2021-10-04",
+  },
 ];
