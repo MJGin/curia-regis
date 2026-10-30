@@ -12,6 +12,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["jurisdiction", "human-rights", "legality", "evidence"],
     principle:
       "The Court has jurisdiction over genocide, crimes against humanity, war crimes and aggression; guilt must be proved beyond reasonable doubt, and the accused enjoys the rights in Articles 66 and 67.",
+
+    facts: 'Rome Statute of the International Criminal Court concerned the court has jurisdiction over genocide, crimes against humanity, war crimes and aggression; guilt must be proved beyond reasonable doubt, and the accused enjoys the rights in articles 66 and 67. The dispute raised questions of jurisdiction, human-rights, legality, evidence. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -25,6 +27,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["human-rights", "use-of-force", "legality"],
     principle:
       "In non-international armed conflicts, each party must treat humanely persons taking no active part in hostilities; violence to life and person, cruel treatment and outrages upon personal dignity are prohibited.",
+
+    facts: 'Geneva Conventions, Common Article 3 concerned in non-international armed conflicts, each party must treat humanely persons taking no active part in hostilities; violence to life and person, cruel treatment and outrages upon personal dignity are prohibited. The dispute raised questions of human-rights, use-of-force, legality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -38,6 +42,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["human-rights", "use-of-force", "legality"],
     principle:
       "Extends Common Article 3 protections in non-international armed conflicts of sufficient intensity between State forces and organised armed groups.",
+
+    facts: 'Additional Protocol II to the Geneva Conventions concerned extends common article 3 protections in non-international armed conflicts of sufficient intensity between state forces and organised armed groups. The dispute raised questions of human-rights, use-of-force, legality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -50,6 +56,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["jurisdiction", "evidence", "human-rights"],
     principle:
       "An armed conflict exists where there is protracted violence between governmental authorities and organised armed groups; organisation and intensity are assessed case by case, and a sufficient degree of organisation does not require an established responsible command.",
+
+    facts: 'The Prosecutor v Thomas Lubanga Dyilo concerned an armed conflict exists where there is protracted violence between governmental authorities and organised armed groups; organisation and intensity are assessed case by case, and a sufficient degree of organisation does not require an established responsible command. The dispute raised questions of jurisdiction, evidence, human-rights. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -62,6 +70,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["evidence", "jurisdiction", "human-rights"],
     principle:
       "The intensity and organisation criteria distinguish an armed conflict from banditry, unorganised and short-lived insurrections, or terrorist activities, which are not subject to IHL.",
+
+    facts: 'The Prosecutor v Germain Katanga concerned the intensity and organisation criteria distinguish an armed conflict from banditry, unorganised and short-lived insurrections, or terrorist activities, which are not subject to ihl. The dispute raised questions of evidence, jurisdiction, human-rights. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -74,6 +84,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["evidence", "jurisdiction", "legality"],
     principle:
       "At the confirmation stage, sufficient evidence means concrete and tangible evidence demonstrating a clear line of reasoning underpinning the specific allegations.",
+
+    facts: 'The Prosecutor v Germain Katanga and Mathieu Ngudjolo Chui concerned at the confirmation stage, sufficient evidence means concrete and tangible evidence demonstrating a clear line of reasoning underpinning the specific allegations. The dispute raised questions of evidence, jurisdiction, legality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -86,6 +98,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["jurisdiction", "evidence", "human-rights"],
     principle:
       "It is not required to prove an established responsible command over an organisation, nor control over part of the territory, for the organisation criterion to be satisfied.",
+
+    facts: 'The Prosecutor v Jean-Pierre Bemba Gombo concerned it is not required to prove an established responsible command over an organisation, nor control over part of the territory, for the organisation criterion to be satisfied. The dispute raised questions of jurisdiction, evidence, human-rights. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -98,6 +112,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["jurisdiction", "human-rights", "legality"],
     principle:
       "An armed conflict exists whenever there is protracted armed violence between governmental authorities and organised armed groups or between such groups within a State.",
+
+    facts: 'The Prosecutor v Duško Tadić concerned an armed conflict exists whenever there is protracted armed violence between governmental authorities and organised armed groups or between such groups within a state. The dispute raised questions of jurisdiction, human-rights, legality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -110,6 +126,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["evidence", "human-rights"],
     principle:
       "The intensity of an armed conflict is decided on a case-by-case basis, taking account of the seriousness and frequency of attacks and the mobilisation of armed forces.",
+
+    facts: 'The Prosecutor v George Rutaganda concerned the intensity of an armed conflict is decided on a case-by-case basis, taking account of the seriousness and frequency of attacks and the mobilisation of armed forces. The dispute raised questions of evidence, human-rights. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -122,6 +140,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["jurisdiction", "evidence"],
     principle:
       "The existence of an armed conflict of sufficient intensity requires more than internal disturbances, tensions and isolated acts of violence.",
+
+    facts: 'The Prosecutor v Callixte Mbarushimana concerned the existence of an armed conflict of sufficient intensity requires more than internal disturbances, tensions and isolated acts of violence. The dispute raised questions of jurisdiction, evidence. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -134,6 +154,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["evidence", "human-rights", "remedy"],
     principle:
       "Attacking protected objects, including cultural heritage, is a war crime where the objects are not military objectives; the accused's guilty plea and cooperation may mitigate sentence.",
+
+    facts: 'The Prosecutor v Ahmad Al Faqi Al Mahdi concerned attacking protected objects, including cultural heritage, is a war crime where the objects are not military objectives; the accused\'s guilty plea and cooperation may mitigate sentence. The dispute raised questions of evidence, human-rights, remedy. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -147,6 +169,8 @@ export const IHL_AUTHORITIES: Authority[] = [
     tags: ["human-rights", "legality", "proportionality"],
     principle:
       "Freedom of movement may be restricted only where provided by law and necessary to protect national security, public order, public health or morals, or the rights of others.",
+
+    facts: 'International Covenant on Civil and Political Rights, Article 12 concerned freedom of movement may be restricted only where provided by law and necessary to protect national security, public order, public health or morals, or the rights of others. The dispute raised questions of human-rights, legality, proportionality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
 ];

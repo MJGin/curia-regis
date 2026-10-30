@@ -19,6 +19,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["use-of-force", "jurisdiction", "good-faith", "treaty-interpretation"],
     principle:
       "Member States must settle disputes peacefully and perform Charter obligations in good faith; Charter obligations prevail over conflicting treaty commitments.",
+
+    facts: 'Charter of the United Nations concerned member states must settle disputes peacefully and perform charter obligations in good faith; charter obligations prevail over conflicting treaty commitments. The dispute raised questions of use-of-force, jurisdiction, good-faith, treaty-interpretation. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -32,6 +34,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["treaty-interpretation", "good-faith", "customary-law"],
     principle:
       "A treaty is interpreted in good faith in accordance with the ordinary meaning of its terms, in their context and in light of its object and purpose; travaux préparatoires are supplementary only.",
+
+    facts: 'Vienna Convention on the Law of Treaties concerned a treaty is interpreted in good faith in accordance with the ordinary meaning of its terms, in their context and in light of its object and purpose; travaux préparatoires are supplementary only. The dispute raised questions of treaty-interpretation, good-faith, customary-law. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -45,6 +49,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["jurisdiction", "sources", "precedent", "treaty-interpretation"],
     principle:
       "The Court's jurisdiction depends on the consent of States; Article 38(1) enumerates the sources it applies; Article 59 confines a decision's binding force to the parties and to that case.",
+
+    facts: 'Statute of the International Court of Justice concerned the court\'s jurisdiction depends on the consent of states; article 38(1) enumerates the sources it applies; article 59 confines a decision\'s binding force to the parties and to that case. The dispute raised questions of jurisdiction, sources, precedent, treaty-interpretation. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -58,6 +64,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["state-responsibility", "attribution", "reparation", "customary-law"],
     principle:
       "Every internationally wrongful act entails responsibility; conduct is attributable where an organ acts, or where instructions, direction or control are exercised; reparation must wipe out the consequences of the wrong.",
+
+    facts: 'Articles on Responsibility of States for Internationally Wrongful Acts concerned every internationally wrongful act entails responsibility; conduct is attributable where an organ acts, or where instructions, direction or control are exercised; reparation must wipe out the consequences of the wrong. The dispute raised questions of state-responsibility, attribution, reparation, customary-law. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -71,6 +79,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["privacy", "expression", "human-rights", "proportionality"],
     principle:
       "No one shall be subjected to arbitrary or unlawful interference with privacy; restrictions on expression must be provided by law and necessary to protect a legitimate interest.",
+
+    facts: 'International Covenant on Civil and Political Rights concerned no one shall be subjected to arbitrary or unlawful interference with privacy; restrictions on expression must be provided by law and necessary to protect a legitimate interest. The dispute raised questions of privacy, expression, human-rights, proportionality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -93,6 +103,8 @@ export const AUTHORITIES_A: Authority[] = [
     ],
     principle:
       "The Constitution is a living instrument: national values bind all State organs, rights are interpreted expansively, limitations must be reasonable and justifiable under Article 24, and the Supreme Court's advisory jurisdiction is exclusive.",
+
+    facts: 'Constitution of Kenya 2010 concerned the constitution is a living instrument: national values bind all state organs, rights are interpreted expansively, limitations must be reasonable and justifiable under article 24, and the supreme court\'s advisory jurisdiction is exclusive. The dispute raised questions of constitutional-interpretation, public-participation, separation-of-powers, privacy. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -106,6 +118,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["constitutional-interpretation", "common-law", "equity", "statutory-purpose"],
     principle:
       "Kenyan courts apply the Constitution, statutes, and the substance of the common law, doctrines of equity and statutes of general application in force in England on 12 August 1897, so far as local circumstances permit.",
+
+    facts: 'Judicature Act (Cap 8) concerned kenyan courts apply the constitution, statutes, and the substance of the common law, doctrines of equity and statutes of general application in force in england on 12 august 1897, so far as local circumstances permit. The dispute raised questions of constitutional-interpretation, common-law, equity, statutory-purpose. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -119,6 +133,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["data-protection", "privacy", "data-transfer", "consent", "proportionality"],
     principle:
       "Personal data must be processed lawfully, fairly and transparently, for specified purposes and no longer than necessary; sensitive categories attract stricter conditions; cross-border transfers require proof of appropriate safeguards.",
+
+    facts: 'Data Protection Act 2019 concerned personal data must be processed lawfully, fairly and transparently, for specified purposes and no longer than necessary; sensitive categories attract stricter conditions; cross-border transfers require proof of appropriate safeguards. The dispute raised questions of data-protection, privacy, data-transfer, consent. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -132,6 +148,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["data-protection", "privacy", "data-transfer", "consent", "proportionality"],
     principle:
       "Processing requires a lawful basis and respect for principles of minimisation, storage limitation and integrity; transfers outside the Union require an adequacy decision or appropriate safeguards.",
+
+    facts: 'General Data Protection Regulation (EU) 2016/679 concerned processing requires a lawful basis and respect for principles of minimisation, storage limitation and integrity; transfers outside the union require an adequacy decision or appropriate safeguards. The dispute raised questions of data-protection, privacy, data-transfer, consent. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -145,6 +163,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["human-rights", "expression", "privacy", "self-determination", "remedy"],
     principle:
       "States undertake to recognise and give effect to Charter rights without distinction, to guarantee independence of courts, and to ensure that remedies are available for violations.",
+
+    facts: 'African Charter on Human and Peoples\' Rights concerned states undertake to recognise and give effect to charter rights without distinction, to guarantee independence of courts, and to ensure that remedies are available for violations. The dispute raised questions of human-rights, expression, privacy, self-determination. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -158,6 +178,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["trade-likeness", "trade-discrimination", "necessity", "environment"],
     principle:
       "Members may not discriminate between like products or accord less favourable treatment to imports; Article XX permits otherwise inconsistent measures that satisfy the chapeau and a listed policy ground.",
+
+    facts: 'General Agreement on Tariffs and Trade 1994 concerned members may not discriminate between like products or accord less favourable treatment to imports; article xx permits otherwise inconsistent measures that satisfy the chapeau and a listed policy ground. The dispute raised questions of trade-likeness, trade-discrimination, necessity, environment. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -171,6 +193,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["gats", "trade-discrimination", "necessity"],
     principle:
       "Market access and national treatment obligations apply to scheduled sectors subject to the Member's commitments and limitations; domestic regulation must be administered reasonably, objectively and impartially.",
+
+    facts: 'General Agreement on Trade in Services concerned market access and national treatment obligations apply to scheduled sectors subject to the member\'s commitments and limitations; domestic regulation must be administered reasonably, objectively and impartially. The dispute raised questions of gats, trade-discrimination, necessity. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -184,6 +208,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["sps", "necessity", "trade-discrimination"],
     principle:
       "SPS measures must be based on scientific principles and a risk assessment, be no more trade-restrictive than required, and may depart from international standards only with scientific justification under Article 3.3.",
+
+    facts: 'Agreement on the Application of Sanitary and Phytosanitary Measures concerned sps measures must be based on scientific principles and a risk assessment, be no more trade-restrictive than required, and may depart from international standards only with scientific justification under article 3.3. The dispute raised questions of sps, necessity, trade-discrimination. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -197,6 +223,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["jurisdiction", "remedy", "treaty-interpretation", "trade-discrimination"],
     principle:
       "The dispute settlement system preserves Members' rights under the covered agreements and clarifies them in accordance with customary rules of interpretation; recommendations must not add to or diminish those rights.",
+
+    facts: 'Understanding on Rules and Procedures Governing the Settlement of Disputes concerned the dispute settlement system preserves members\' rights under the covered agreements and clarifies them in accordance with customary rules of interpretation; recommendations must not add to or diminish those rights. The dispute raised questions of jurisdiction, remedy, treaty-interpretation, trade-discrimination. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -210,6 +238,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["subsidy", "trade-discrimination", "necessity"],
     principle:
       "A subsidy exists where a financial contribution by government confers a benefit; only specific subsidies are actionable, and prohibited export subsidies fall under Article 3.",
+
+    facts: 'Agreement on Subsidies and Countervailing Measures concerned a subsidy exists where a financial contribution by government confers a benefit; only specific subsidies are actionable, and prohibited export subsidies fall under article 3. The dispute raised questions of subsidy, trade-discrimination, necessity. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -223,6 +253,8 @@ export const AUTHORITIES_A: Authority[] = [
     tags: ["privacy", "expression", "proportionality", "human-rights"],
     principle:
       "Interference with private life or expression must be prescribed by law and necessary in a democratic society for a legitimate aim, assessed through the proportionality and margin-of-appreciation analysis.",
+
+    facts: 'European Convention on Human Rights concerned interference with private life or expression must be prescribed by law and necessary in a democratic society for a legitimate aim, assessed through the proportionality and margin-of-appreciation analysis. The dispute raised questions of privacy, expression, proportionality, human-rights. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
 
@@ -238,7 +270,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "Executive interference with person or property requires positive legal authority; necessity of state is not a substitute for law, and every invasion of private right needs justification.",
     useFor: "applicant",
-    facts: "The King's messengers entered Entick's house and seized his papers under a warrant issued by the Secretary of State.",
+    facts: "The King's messengers entered Entick's house and seized his papers under a warrant issued by the Secretary of State. The case raised questions of legality, privacy, proportionality.",
     holding: 'Executive interference with person or property requires positive legal authority; necessity of state is not a substitute for law.',
     judges: "Lord Camden CJ (Court of King's Bench)",
   },
@@ -253,7 +285,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "A decision is reviewable where it is so unreasonable that no reasonable authority, having regard to the relevant considerations, could have reached it; irrelevant considerations and bad faith also vitiate.",
     useFor: "both",
-    facts: 'A local authority refused a cinema licence for Sunday opening; the cinema owner challenged the refusal.',
+    facts: 'A local authority refused a cinema licence for Sunday opening; the cinema owner challenged the refusal. The case raised questions of reasonableness, legality, proportionality.',
     holding: 'A decision is reviewable where it is so unreasonable that no reasonable authority, having regard to the relevant considerations, could have reached it.',
     judges: 'Lord Greene MR (Court of Appeal)',
   },
@@ -268,7 +300,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "The rules of natural justice — a fair hearing before an impartial tribunal — apply to administrative and disciplinary decisions affecting rights or legitimate expectations.",
     useFor: "applicant",
-    facts: 'A chief constable was dismissed without a hearing; he challenged the dismissal.',
+    facts: 'A chief constable was dismissed without a hearing; he challenged the dismissal. The case raised questions of natural-justice, legality, reasonableness.',
     holding: 'The rules of natural justice — a fair hearing before an impartial tribunal — apply to administrative and disciplinary decisions affecting rights or legitimate expectations.',
     judges: 'Lord Reid (House of Lords)',
   },
@@ -283,7 +315,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "A discretion conferred by statute must be exercised in furtherance of the policy and purposes of the Act; it may not be used to frustrate the object for which it was granted.",
     useFor: "applicant",
-    facts: 'The Minister refused to refer a complaint about milk marketing to a committee of investigation.',
+    facts: 'The Minister refused to refer a complaint about milk marketing to a committee of investigation. The case raised questions of statutory-purpose, legality, reasonableness.',
     holding: 'A discretion conferred by statute must be exercised in furtherance of the policy and purposes of the Act; it may not be used to frustrate the object for which it was granted.',
     judges: 'Lord Reid (House of Lords)',
   },
@@ -299,7 +331,7 @@ export const AUTHORITIES_A: Authority[] = [
       "At common law the intensity of review is limited: proportionality is not a general domestic ground of review, and courts afford the decision-maker a margin of judgment in policy-laden fields.",
     useFor: "respondent",
     adverse: true,
-    facts: 'The Home Secretary banned the broadcasting of statements by terrorist organisations; journalists challenged the ban.',
+    facts: 'The Home Secretary banned the broadcasting of statements by terrorist organisations; journalists challenged the ban. The case raised questions of proportionality, deference, legality.',
     holding: 'At common law the intensity of review is limited: proportionality is not a general domestic ground of review, and courts afford the decision-maker a margin of judgment in policy-laden fields.',
     judges: 'Lord Bridge (House of Lords)',
   },
@@ -314,7 +346,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "A manufacturer owes a duty of care to the ultimate consumer to take reasonable care that goods are free from defects likely to cause injury, the neighbour principle being the foundation of the tort.",
     useFor: "applicant",
-    facts: 'A consumer became ill after drinking ginger beer containing a decomposed snail; she sued the manufacturer.',
+    facts: 'A consumer became ill after drinking ginger beer containing a decomposed snail; she sued the manufacturer. The case raised questions of negligence, common-law, tort.',
     holding: 'A manufacturer owes a duty of care to the ultimate consumer to take reasonable care that goods are free from defects likely to cause injury.',
     judges: 'Lord Atkin (House of Lords)',
   },
@@ -329,7 +361,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "A duty of care arises only where damage is reasonably foreseeable, the relationship is sufficiently proximate, and it is fair, just and reasonable to impose the duty.",
     useFor: "respondent",
-    facts: "Shareholders relied on an auditor's report to buy shares; the company collapsed and they sued the auditors.",
+    facts: "Shareholders relied on an auditor's report to buy shares; the company collapsed and they sued the auditors. The case raised questions of negligence, common-law, reasonableness.",
     holding: 'A duty of care arises only where damage is reasonably foreseeable, the relationship is sufficiently proximate, and it is fair, just and reasonable to impose the duty.',
     judges: 'Lord Bridge (House of Lords)',
   },
@@ -344,7 +376,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "Where fundamental rights are engaged, the common law applies a proportionality test stricter than Wednesbury unreasonableness, asking whether the interference is necessary and no more than required.",
     useFor: "applicant",
-    facts: "A prisoner's legal correspondence was opened and read by prison officers.",
+    facts: "A prisoner's legal correspondence was opened and read by prison officers. The case raised questions of proportionality, privacy, legality.",
     holding: 'Where fundamental rights are engaged, the common law applies a proportionality test stricter than Wednesbury unreasonableness, asking whether the interference is necessary and no more than required.',
     judges: 'Lord Steyn (House of Lords)',
   },
@@ -359,7 +391,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "Proportionality asks whether the objective is sufficiently important, the measure is rationally connected to it, a less intrusive alternative exists, and the impact on rights is not disproportionate to the benefit.",
     useFor: "applicant",
-    facts: 'The Treasury directed that an Iranian bank be excluded from the UK financial system.',
+    facts: 'The Treasury directed that an Iranian bank be excluded from the UK financial system. The case raised questions of proportionality, legality, reasonableness.',
     holding: 'Proportionality asks whether the objective is sufficiently important, the measure is rationally connected to it, a less intrusive alternative exists, and the impact on rights is not disproportionate to the benefit.',
     judges: 'Lord Sumption (Supreme Court)',
   },
@@ -374,7 +406,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "Indefinite detention of foreign nationals without trial was a disproportionate and discriminatory response to a public emergency, and deference does not extend to the choice of means that discriminate.",
     useFor: "applicant",
-    facts: 'Foreign nationals were detained indefinitely without trial under anti-terrorism legislation.',
+    facts: 'Foreign nationals were detained indefinitely without trial under anti-terrorism legislation. The case raised questions of proportionality, human-rights, privacy.',
     holding: 'Indefinite detention of foreign nationals without trial was a disproportionate and discriminatory response to a public emergency; deference does not extend to the choice of means that discriminate.',
     judges: 'Lord Bingham (House of Lords)',
   },
@@ -389,7 +421,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "Misuse of private information is a distinct tort; where the information is private, the court balances the claimant's Article 8 rights against the publisher's Article 10 rights.",
     useFor: "applicant",
-    facts: "A newspaper published photographs and details of a model's drug addiction treatment.",
+    facts: "A newspaper published photographs and details of a model's drug addiction treatment. The case raised questions of privacy, expression, proportionality.",
     holding: "Misuse of private information is a distinct tort; where the information is private, the court balances the claimant's Article 8 rights against the publisher's Article 10 rights.",
     judges: 'Lord Hope (House of Lords)',
   },
@@ -404,7 +436,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "A person under criminal investigation has, in general, a reasonable expectation of privacy in information about that investigation before charge, subject to the fact-specific balancing exercise.",
     useFor: "applicant",
-    facts: 'Bloomberg published an article naming a businessman under criminal investigation before charge.',
+    facts: 'Bloomberg published an article naming a businessman under criminal investigation before charge. The case raised questions of privacy, expression, proportionality.',
     holding: 'A person under criminal investigation has, in general, a reasonable expectation of privacy in information about that investigation before charge.',
     judges: 'Lord Hamblen (Supreme Court)',
   },
@@ -419,7 +451,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "An interim injunction restraining publication of private information should be refused only where the public-interest defence is likely to succeed, and the internet's ready availability does not by itself remove protection.",
     useFor: "applicant",
-    facts: "A newspaper sought to publish details of a celebrity's extramarital affair.",
+    facts: "A newspaper sought to publish details of a celebrity's extramarital affair. The case raised questions of privacy, expression, remedy.",
     holding: 'An interim injunction restraining publication of private information should be refused only where the public-interest defence is likely to succeed.',
     judges: 'Lord Mance (Supreme Court)',
   },
@@ -434,7 +466,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "The retention and dissemination of photographs taken during a peaceful protest can engage Article 8, and the police must show that retention is necessary and proportionate to a legitimate policing purpose.",
     useFor: "applicant",
-    facts: 'The police photographed and retained images of a peaceful protester.',
+    facts: 'The police photographed and retained images of a peaceful protester. The case raised questions of privacy, data-protection, proportionality.',
     holding: 'The retention and dissemination of photographs taken during a peaceful protest can engage Article 8, and the police must show that retention is necessary and proportionate.',
     judges: 'Lord Collins (Court of Appeal)',
   },
@@ -449,7 +481,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "Contractual interpretation seeks the meaning the document would convey to a reasonable person with the relevant background knowledge, giving effect to commercial common sense.",
     useFor: "both",
-    facts: 'A dispute over the meaning of an indemnity clause in a compensation scheme.',
+    facts: 'A dispute over the meaning of an indemnity clause in a compensation scheme. The case raised questions of contract, common-law, statutory-purpose.',
     holding: 'Contractual interpretation seeks the meaning the document would convey to a reasonable person with the relevant background knowledge, giving effect to commercial common sense.',
     judges: 'Lord Hoffmann (House of Lords)',
   },
@@ -464,7 +496,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "A penalty clause is unenforceable where it imposes a detriment out of proportion to any legitimate interest of the innocent party in performance, viewed as at the time of contracting.",
     useFor: "both",
-    facts: 'A dispute over penalty clauses in a share purchase agreement.',
+    facts: 'A dispute over penalty clauses in a share purchase agreement. The case raised questions of contract, equity, remedy.',
     holding: 'A penalty clause is unenforceable where it imposes a detriment out of proportion to any legitimate interest of the innocent party in performance.',
     judges: 'Lord Neuberger (Supreme Court)',
   },
@@ -479,7 +511,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "Beneficial ownership is a proprietary matter: a claimant who can trace property into its substitute may assert a proprietary claim in priority to the wrongdoer's creditors.",
     useFor: "applicant",
-    facts: 'A trustee misapplied trust funds to purchase a life insurance policy; beneficiaries claimed the proceeds.',
+    facts: 'A trustee misapplied trust funds to purchase a life insurance policy; beneficiaries claimed the proceeds. The case raised questions of equity, remedy, common-law.',
     holding: "Beneficial ownership is a proprietary matter: a claimant who can trace property into its substitute may assert a proprietary claim in priority to the wrongdoer's creditors.",
     judges: 'Lord Browne-Wilkinson (House of Lords)',
   },
@@ -494,7 +526,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "The police owe a duty of care in the ordinary way when their positive conduct creates a foreseeable risk of injury; the Caparo test applies to novel categories, not to established ones.",
     useFor: "applicant",
-    facts: 'A bystander was injured during a police chase of a suspect.',
+    facts: 'A bystander was injured during a police chase of a suspect. The case raised questions of negligence, common-law, reasonableness.',
     holding: 'The police owe a duty of care in the ordinary way when their positive conduct creates a foreseeable risk of injury.',
     judges: 'Lord Reed (Supreme Court)',
   },
@@ -509,7 +541,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "Statutory ouster clauses are construed strictly; judicial review of the legality of surveillance is a constitutional safeguard that Parliament is presumed not to have removed without clear words.",
     useFor: "applicant",
-    facts: "A challenge to the Investigatory Powers Tribunal's decisions on surveillance.",
+    facts: "A challenge to the Investigatory Powers Tribunal's decisions on surveillance. The case raised questions of privacy, legality, surveillance.",
     holding: 'Statutory ouster clauses are construed strictly; judicial review of the legality of surveillance is a constitutional safeguard that Parliament is presumed not to have removed without clear words.',
     judges: 'Lord Carnwath (Supreme Court)',
   },
@@ -524,7 +556,7 @@ export const AUTHORITIES_A: Authority[] = [
     principle:
       "A fee regime that effectively prevents access to justice is unlawful, because the constitutional right of access to the courts cannot be removed except by express statutory language.",
     useFor: "applicant",
-    facts: 'A challenge to employment tribunal fees that priced out access to justice.',
+    facts: 'A challenge to employment tribunal fees that priced out access to justice. The case raised questions of access-to-justice, legality, human-rights.',
     holding: 'A fee regime that effectively prevents access to justice is unlawful, because the constitutional right of access to the courts cannot be removed except by express statutory language.',
     judges: 'Lord Reed (Supreme Court)',
   },

@@ -68,7 +68,7 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "A constitutional challenge must be pleaded with precision and proved by evidence; where the Constitution entrusts a decision to another organ, the court reviews legality and process rather than substituting its own assessment of merit.",
     useFor: "respondent",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/2013/445/eng@2013-07-26",
-    facts: 'Mumo Matemu appealed the High Court\'s decision quashing his appointment as EACC chairperson. The Court of Appeal was asked to determine the standard of review applicable to constitutional appointments. The case also raised questions of pleading precision and the burden of proof in constitutional litigation.',
+    facts: "Mumo Matemu appealed the High Court's decision quashing his appointment as EACC chairperson. The Court of Appeal was asked to determine the standard of review applicable to constitutional appointments. The case also raised questions of pleading precision and the burden of proof in constitutional litigation.",
     holding: 'A constitutional challenge must be pleaded with precision and proved by evidence; where the Constitution entrusts a decision to another organ, the court reviews legality and process rather than substituting its own assessment of merit.',
     judges: 'Koome, Kihara and Murgor JJA (Court of Appeal)',
   },
@@ -201,7 +201,7 @@ export const KENYA_AUTHORITIES: Authority[] = [
       "Jurisdiction is everything: a court must satisfy itself of jurisdiction at the threshold, because a decision reached without jurisdiction is a nullity however well reasoned.",
     useFor: "both",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/1989/48/eng@1989-11-17",
-    facts: 'A preliminary objection on jurisdiction was raised in a maritime dispute between the owners of the vessel \'Lillian S\' and Caltex Oil. The respondent challenged the court\'s jurisdiction to hear the matter. The case raised the fundamental question of the court\'s power to adjudicate.',
+    facts: "A preliminary objection on jurisdiction was raised in a maritime dispute between the owners of the vessel 'Lillian S' and Caltex Oil. The case raised questions of jurisdiction, standing and evidence.",
     holding: 'Jurisdiction is everything: a court must satisfy itself of jurisdiction at the threshold; a decision reached without jurisdiction is a nullity however well reasoned.',
     judges: 'Nyarangi, Gachuhi and Cockar JJA (Court of Appeal)',
   },
@@ -281,7 +281,7 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "It is not in the best interests of the child to be held together with adults, as this may inflict a bruise that endures for life; children require separation and humane conditions.",
     useFor: "applicant",
-    facts: 'A child offender challenged being held in detention with adults. The petitioner alleged violations of children\'s rights. The case raised questions of the best interests of the child and humane detention conditions.',
+    facts: "A petition concerning the protection of children in conflict with the law. The petitioner alleged violations of children's rights. The case raised questions of special protection for children.",
     holding: 'It is not in the best interests of the child to be held together with adults, as this may inflict a bruise that endures for life.',
     judges: 'Mumbi Ngugi J (High Court)',
   },
@@ -296,7 +296,7 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "Security concerns cannot be used as a blanket justification for curtailing constitutional rights; the state must show a reasonable and proportionate nexus between the measure and the security aim.",
     useFor: "applicant",
-    facts: 'Katiba Institute challenged the President\'s appointment of Cabinet Secretaries without parliamentary vetting. The petitioners alleged that the appointments bypassed constitutional requirements. The case raised questions of separation of powers and accountability.',
+    facts: "Katiba Institute challenged the President's appointment of Cabinet Secretaries without parliamentary vetting. The petitioners alleged that the appointments bypassed constitutional requirements. The case raised questions of separation of powers and accountability.",
     holding: 'Security concerns cannot be used as a blanket justification for curtailing constitutional rights; the state must show a reasonable and proportionate nexus.',
     judges: 'Mwita J (High Court)',
   },
@@ -356,7 +356,7 @@ export const KENYA_AUTHORITIES: Authority[] = [
     principle:
       "Children are the most vulnerable within society and require special protection; the state must protect children from any sort of harm.",
     useFor: "applicant",
-    facts: 'A petition concerning the protection of children in conflict with the law. The petitioner alleged violations of children\'s rights. The case raised questions of special protection for children.',
+    facts: "A petition concerning the protection of children in conflict with the law. The petitioner alleged violations of children's rights. The case raised questions of special protection for children.",
     holding: 'Children are the most vulnerable within society and require special protection; the state must protect children from any sort of harm.',
     judges: 'Mumbi Ngugi J (High Court)',
   },
@@ -370,6 +370,8 @@ export const KENYA_AUTHORITIES: Authority[] = [
     tags: ["human-rights", "remedy", "proportionality", "reasonableness"],
     principle:
       "The relevant time for assessing whether a real risk of persecution exists is the time of the ongoing proceedings; claims of risk must be supported by evidence of continuing persecution.",
+
+    facts: 'T K v Lithuania concerned the relevant time for assessing whether a real risk of persecution exists is the time of the ongoing proceedings; claims of risk must be supported by evidence of continuing persecution. The dispute raised questions of human-rights, remedy, proportionality, reasonableness. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "respondent",
   },
 
@@ -415,6 +417,8 @@ export const KENYA_AUTHORITIES: Authority[] = [
     tags: ["human-rights", "remedy", "proportionality", "legality"],
     principle:
       "The State's power to reclaim public land must be exercised in accordance with the law and with respect for the rights of occupants; arbitrary evictions are unlawful.",
+
+    facts: 'Kenya Airports Authority v Mitu-Bell Welfare Society & Another concerned the state\'s power to reclaim public land must be exercised in accordance with the law and with respect for the rights of occupants; arbitrary evictions are unlawful. The dispute raised questions of human-rights, remedy, proportionality, legality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/2016/432/eng@2016-07-01",
   },
@@ -428,6 +432,8 @@ export const KENYA_AUTHORITIES: Authority[] = [
     tags: ["human-rights", "remedy", "proportionality", "legality"],
     principle:
       "Evictions must be carried out in accordance with the law, with adequate notice and in a manner consistent with human dignity; the State must provide alternative accommodation where possible.",
+
+    facts: 'Mitu-Bell Welfare Society v Kenya Airport Authority Ltd & 2 Others concerned evictions must be carried out in accordance with the law, with adequate notice and in a manner consistent with human dignity; the state must provide alternative accommodation where possible. The dispute raised questions of human-rights, remedy, proportionality, legality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
     sourceUrl: "https://new.kenyalaw.org/akn/ke/judgment/keca/2018/759/eng@2018-02-02",
   },
@@ -473,6 +479,8 @@ export const KENYA_AUTHORITIES: Authority[] = [
     tags: ["constitutional-interpretation", "legality", "human-rights", "remedy"],
     principle:
       "The State's power to regulate must be exercised in accordance with the Constitution; arbitrary or disproportionate measures are unlawful.",
+
+    facts: 'Apollo Mboya v Attorney General & 2 Others concerned the state\'s power to regulate must be exercised in accordance with the constitution; arbitrary or disproportionate measures are unlawful. The dispute raised questions of constitutional-interpretation, legality, human-rights, remedy. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
     note: "Verify the neutral citation on Kenya Law before relying on it.",
   },

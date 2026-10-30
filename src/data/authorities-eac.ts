@@ -12,6 +12,8 @@ export const EAC_AUTHORITIES: Authority[] = [
     tags: ["jurisdiction", "legality", "trade-discrimination", "human-rights", "proportionality", "reasonableness", "remedy"],
     principle:
       "The Treaty establishes the Community's objectives (art 5), fundamental principles (art 6) and operational principles (art 7); partner states undertake to abstain from measures likely to jeopardise achievement of the objectives (art 8(1)(c)) and to cooperate in good faith.",
+
+    facts: 'Treaty for the Establishment of the East African Community concerned the treaty establishes the community\'s objectives (art 5), fundamental principles (art 6) and operational principles (art 7); partner states undertake to abstain from measures likely to jeopardise achievement of the objectives (art 8(1)(c)) and to cooperate in good faith. The dispute raised questions of jurisdiction, legality, trade-discrimination, human-rights. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -25,6 +27,8 @@ export const EAC_AUTHORITIES: Authority[] = [
     tags: ["trade-discrimination", "human-rights", "legality", "proportionality"],
     principle:
       "Partner states guarantee free movement of goods, services, labour and capital, and undertake to promote science and technology through the protection of intellectual property (art 103, read with art 43 of the Protocol).",
+
+    facts: 'Protocol on the Establishment of the East African Community Common Market concerned partner states guarantee free movement of goods, services, labour and capital, and undertake to promote science and technology through the protection of intellectual property (art 103, read with art 43 of the protocol). The dispute raised questions of trade-discrimination, human-rights, legality, proportionality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -38,7 +42,7 @@ export const EAC_AUTHORITIES: Authority[] = [
     principle:
       "The Court will not abdicate its jurisdiction to interpret the Treaty merely because the dispute touches on human rights; the simple answer to whether it has jurisdiction over human-rights violations is no, but it will still interpret the Treaty.",
     useFor: "both",
-    facts: 'James Katabazi and 21 others challenged their detention by the Ugandan government before the EACJ.',
+    facts: 'James Katabazi and 21 others challenged their detention by the Ugandan government before the EACJ. The case raised questions of jurisdiction, human-rights, legality.',
     holding: 'The Court will not abdicate its jurisdiction to interpret the Treaty merely because the dispute touches on human rights; the simple answer to whether it has jurisdiction over human-rights violations is no, but it will still interpret the Treaty.',
     judges: 'East African Court of Justice',
   },
@@ -53,7 +57,7 @@ export const EAC_AUTHORITIES: Authority[] = [
     principle:
       "Differential treatment does not necessarily constitute unlawful discrimination; discrimination requires that like products be treated differently without reasonable justification.",
     useFor: "both",
-    facts: 'British American Tobacco challenged Ugandan tax measures before the EACJ.',
+    facts: 'British American Tobacco challenged Ugandan tax measures before the EACJ. The case raised questions of trade-discrimination, human-rights, reasonableness.',
     holding: 'Differential treatment does not necessarily constitute unlawful discrimination; discrimination requires that like products be treated differently without reasonable justification.',
     judges: 'East African Court of Justice',
   },
@@ -68,7 +72,7 @@ export const EAC_AUTHORITIES: Authority[] = [
     principle:
       "States retain a discretionary latitude in the implementation of policy decisions; public participation must be informed and prior, but the Treaty prescribes no fixed timeline or method.",
     useFor: "respondent",
-    facts: 'The Democratic Party challenged the EAC Secretary General over public participation in the admission of South Sudan.',
+    facts: 'The Democratic Party challenged the EAC Secretary General over public participation in the admission of South Sudan. The case raised questions of public-participation, reasonableness, legality.',
     holding: 'States retain a discretionary latitude in the implementation of policy decisions; public participation must be informed and prior, but the Treaty prescribes no fixed timeline or method.',
     judges: 'East African Court of Justice',
   },
@@ -83,7 +87,7 @@ export const EAC_AUTHORITIES: Authority[] = [
     principle:
       "Where a partner state violates a treaty obligation, the Court may award compensation; the violation of rights under the Treaty attracts a remedy.",
     useFor: "applicant",
-    facts: 'Martha Karua challenged the Kenyan government before the EACJ.',
+    facts: 'Martha Karua challenged the Kenyan government before the EACJ. The case raised questions of human-rights, remedy, access-to-justice.',
     holding: 'Where a partner state violates a treaty obligation, the Court may award compensation; the violation of rights under the Treaty attracts a remedy.',
     judges: 'East African Court of Justice',
   },
@@ -98,7 +102,7 @@ export const EAC_AUTHORITIES: Authority[] = [
     principle:
       "Parliamentary oversight mechanisms are legitimate and sufficient to rubber-stamp government functions where the process is transparent and accountable.",
     useFor: "respondent",
-    facts: 'A petition by the Trusted Society challenging the appointment of Mumo Matemu as EACC chairperson.',
+    facts: 'A petition by the Trusted Society challenging the appointment of Mumo Matemu as EACC chairperson. The case raised questions of reasonableness, public-participation, legality.',
     holding: 'Parliamentary oversight mechanisms are legitimate and sufficient to rubber-stamp government functions where the process is transparent and accountable.',
     judges: 'Koome, Kihara and Murgor JJA (Court of Appeal)',
   },
@@ -113,7 +117,7 @@ export const EAC_AUTHORITIES: Authority[] = [
     principle:
       "For public participation to be meaningful it must be informed and prior; the adequacy of participation is assessed on the facts of each case.",
     useFor: "applicant",
-    facts: 'British American Tobacco challenged tobacco control regulations in Kenya.',
+    facts: 'British American Tobacco challenged tobacco control regulations in Kenya. The case raised questions of public-participation, reasonableness, legality.',
     holding: 'For public participation to be meaningful it must be informed and prior; the adequacy of participation is assessed on the facts of each case.',
     judges: 'Supreme Court of Kenya',
   },
@@ -128,7 +132,7 @@ export const EAC_AUTHORITIES: Authority[] = [
     principle:
       "Confidentiality in respect of sensitive commercial information is a valid consideration where disclosure would undermine the implementation of a lawful transaction.",
     useFor: "respondent",
-    facts: 'A challenge to the confidentiality of commercial information in a toll road concession.',
+    facts: 'A challenge to the confidentiality of commercial information in a toll road concession. The case raised questions of reasonableness, legality, proportionality.',
     holding: 'Confidentiality in respect of sensitive commercial information is a valid consideration where disclosure would undermine the implementation of a lawful transaction.',
     judges: 'Constitutional Court of South Africa',
   },
@@ -143,7 +147,7 @@ export const EAC_AUTHORITIES: Authority[] = [
     principle:
       "Access to information is not absolute; limitations must satisfy legality, legitimate aim and proportionality, and custodial sentences for expression are disproportionate.",
     useFor: "respondent",
-    facts: 'A journalist was convicted of criminal defamation in Burkina Faso.',
+    facts: 'A journalist was convicted of criminal defamation in Burkina Faso. The case raised questions of human-rights, expression, legality.',
     holding: 'Access to information is not absolute; limitations must satisfy legality, legitimate aim and proportionality, and custodial sentences for expression are disproportionate.',
     judges: 'ECOWAS Community Court of Justice',
   },
@@ -159,7 +163,7 @@ export const EAC_AUTHORITIES: Authority[] = [
       "Computer programs are protected as literary works under Article 2(1) of the Berne Convention, read with Article 10(1) of the TRIPS Agreement.",
     useFor: "both",
     note: "Cited in the transcript as 'Solomon v Nigeria'; principle restated as it appears in the EAC round.",
-    facts: 'A challenge to the protection of computer programs under intellectual property law.',
+    facts: 'A challenge to the protection of computer programs under intellectual property law. The case raised questions of human-rights, remedy, legality.',
     holding: 'Computer programs are protected as literary works under Article 2(1) of the Berne Convention, read with Article 10(1) of the TRIPS Agreement.',
     judges: 'ECOWAS Community Court of Justice',
   },
@@ -175,7 +179,7 @@ export const EAC_AUTHORITIES: Authority[] = [
       "The duty to protect requires the State to act diligently; alleging that investigations have commenced is not sufficient — the State must show concrete measures taken.",
     useFor: "applicant",
     adverse: true,
-    facts: 'A challenge to the disappearance of a student in Honduras.',
+    facts: 'A challenge to the disappearance of a student in Honduras. The case raised questions of human-rights, remedy, reasonableness.',
     holding: 'The duty to protect requires the State to act diligently; alleging that investigations have commenced is not sufficient — the State must show concrete measures taken.',
     judges: 'Inter-American Court of Human Rights',
   },
@@ -190,7 +194,7 @@ export const EAC_AUTHORITIES: Authority[] = [
     principle:
       "The Court cannot exercise jurisdiction where the legal interests of an absent third State form the very subject matter of the decision (the indispensable-party principle).",
     useFor: "respondent",
-    facts: 'Italy claimed reparation for gold removed from Rome during World War II.',
+    facts: 'Italy claimed reparation for gold removed from Rome during World War II. The case raised questions of jurisdiction, standing, legality.',
     holding: 'The Court cannot exercise jurisdiction where the legal interests of an absent third State form the very subject matter of the decision (the indispensable-party principle).',
     judges: 'International Court of Justice',
   },
@@ -205,7 +209,7 @@ export const EAC_AUTHORITIES: Authority[] = [
     principle:
       "The security exception (GATT Article XXI) requires an emergency in international relations, an essential security interest and a plausible connection between the measure and that interest.",
     useFor: "respondent",
-    facts: 'Ukraine challenged Russian transit restrictions on Ukrainian goods.',
+    facts: 'Ukraine challenged Russian transit restrictions on Ukrainian goods. The case raised questions of necessity, legality, trade-discrimination.',
     holding: 'The security exception (GATT Article XXI) requires an emergency in international relations, an essential security interest and a plausible connection between the measure and that interest.',
     judges: 'WTO Panel',
   },

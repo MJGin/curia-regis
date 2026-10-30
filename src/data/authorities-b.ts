@@ -15,7 +15,7 @@ export const AUTHORITIES_B: Authority[] = [
     useFor: "respondent",
     adverse: true,
     note: "Often invoked against expansive jurisdictional claims; distinguish where sovereignty arguments are being made.",
-    facts: "A collision between a French and a Turkish vessel on the high seas; France challenged Turkey's jurisdiction to try the Turkish officer.",
+    facts: "A collision between a French and a Turkish vessel on the high seas; France challenged Turkey's jurisdiction to try the Turkish officer. The case raised questions of jurisdiction, state-responsibility, customary-law.",
     holding: 'Restrictions on the exercise of jurisdiction are exceptional: a State is free to exercise jurisdiction unless a permissive rule of international law prohibits it.',
     judges: 'Huber, President (Permanent Court of International Justice)',
   },
@@ -30,7 +30,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Reparation must, as far as possible, wipe out all the consequences of the illegal act and re-establish the situation which would, in all probability, have existed but for it (restitutio in integrum).",
     useFor: "applicant",
-    facts: "Germany claimed reparation for Poland's unlawful expropriation of a nitrate factory.",
+    facts: "Germany claimed reparation for Poland's unlawful expropriation of a nitrate factory. The case raised questions of reparation, state-responsibility, remedy.",
     holding: 'Reparation must, as far as possible, wipe out all the consequences of the illegal act and re-establish the situation which would, in all probability, have existed but for it (restitutio in integrum).',
     judges: 'Huber, President (Permanent Court of International Justice)',
   },
@@ -45,7 +45,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A State may not allow its territory to be used for acts contrary to the rights of other States; circumstantial evidence can establish responsibility where direct proof is unavailable.",
     useFor: "applicant",
-    facts: 'The United Kingdom claimed reparation for damage to its warships in the Corfu Channel.',
+    facts: 'The United Kingdom claimed reparation for damage to its warships in the Corfu Channel. The case raised questions of state-responsibility, evidence, use-of-force.',
     holding: 'A State may not allow its territory to be used for acts contrary to the rights of other States; circumstantial evidence can establish responsibility where direct proof is unavailable.',
     judges: 'Basdevant, President (International Court of Justice)',
   },
@@ -60,7 +60,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A reservation must be compatible with the object and purpose of the treaty; the compatibility test is applied by reference to the treaty's aims, not by the reserving State's unilateral view.",
     useFor: "applicant",
-    facts: 'An advisory opinion on whether reservations to the Genocide Convention were permissible.',
+    facts: 'An advisory opinion on whether reservations to the Genocide Convention were permissible. The case raised questions of treaty-interpretation, reservations, human-rights.',
     holding: "A reservation must be compatible with the object and purpose of the treaty; the compatibility test is applied by reference to the treaty's aims.",
     judges: 'Guerrero, President (International Court of Justice)',
   },
@@ -76,7 +76,7 @@ export const AUTHORITIES_B: Authority[] = [
       "Customary international law requires both widespread and representative State practice and opinio juris; treaty provisions do not automatically crystallise into custom.",
     useFor: "respondent",
     adverse: true,
-    facts: 'A dispute over the delimitation of the continental shelf in the North Sea.',
+    facts: 'A dispute over the delimitation of the continental shelf in the North Sea. The case raised questions of customary-law, treaty-interpretation, state-responsibility.',
     holding: 'Customary international law requires both widespread and representative State practice and opinio juris; treaty provisions do not automatically crystallise into custom.',
     judges: 'Tanaka, Vice-President (International Court of Justice)',
   },
@@ -91,7 +91,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Obligations erga omnes are owed to the international community as a whole; the right to protect them is not confined to the State directly injured.",
     useFor: "applicant",
-    facts: 'Belgium claimed on behalf of Belgian shareholders of a Canadian company expropriated by Spain.',
+    facts: 'Belgium claimed on behalf of Belgian shareholders of a Canadian company expropriated by Spain. The case raised questions of state-responsibility, human-rights, jurisdiction.',
     holding: 'Obligations erga omnes are owed to the international community as a whole; the right to protect them is not confined to the State directly injured.',
     judges: 'Ammoun, Vice-President (International Court of Justice)',
   },
@@ -106,7 +106,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A State is responsible where it exercises effective control over non-State actors; the prohibition on the use of force and the principle of non-intervention are rules of customary international law.",
     useFor: "applicant",
-    facts: 'Nicaragua claimed that the United States was responsible for military and paramilitary activities against it.',
+    facts: 'Nicaragua claimed that the United States was responsible for military and paramilitary activities against it. The case raised questions of state-responsibility, attribution, use-of-force.',
     holding: 'A State is responsible where it exercises effective control over non-State actors; the prohibition on the use of force and the principle of non-intervention are rules of customary international law.',
     judges: 'Nagendra Singh, President (International Court of Justice)',
   },
@@ -121,7 +121,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Necessity may preclude wrongfulness only in exceptional circumstances; a State may not rely on changed circumstances to evade a treaty obligation, and good faith governs performance.",
     useFor: "respondent",
-    facts: 'A dispute over a dam project on the Danube between Hungary and Slovakia.',
+    facts: 'A dispute over a dam project on the Danube between Hungary and Slovakia. The case raised questions of treaty-interpretation, state-responsibility, necessity.',
     holding: 'Necessity may preclude wrongfulness only in exceptional circumstances; a State may not rely on changed circumstances to evade a treaty obligation, and good faith governs performance.',
     judges: 'Schwebel, President (International Court of Justice)',
   },
@@ -136,7 +136,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Provisional measures indicated by the Court under Article 41 of the Statute are binding, and the Court may order measures to preserve rights pending judgment.",
     useFor: "applicant",
-    facts: 'Germany claimed that the United States failed to inform two German nationals of their right to consular assistance.',
+    facts: 'Germany claimed that the United States failed to inform two German nationals of their right to consular assistance. The case raised questions of provisional-measures, treaty-interpretation, remedy.',
     holding: 'Provisional measures indicated by the Court under Article 41 of the Statute are binding, and the Court may order measures to preserve rights pending judgment.',
     judges: 'Guillaume, President (International Court of Justice)',
   },
@@ -151,7 +151,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A State is responsible for genocide where it commits, or is complicit in, acts of genocide; the duty to prevent and punish genocide is an obligation of conduct, not result.",
     useFor: "applicant",
-    facts: 'Bosnia and Herzegovina claimed that Serbia was responsible for genocide during the Bosnian war.',
+    facts: 'Bosnia and Herzegovina claimed that Serbia was responsible for genocide during the Bosnian war. The case raised questions of state-responsibility, attribution, human-rights.',
     holding: 'A State is responsible for genocide where it commits, or is complicit in, acts of genocide; the duty to prevent and punish genocide is an obligation of conduct, not result.',
     judges: 'Higgins, President (International Court of Justice)',
   },
@@ -166,7 +166,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "State immunity is a rule of customary international law; the territorial tort exception does not apply to acts of the armed forces in the conduct of armed conflict.",
     useFor: "respondent",
-    facts: 'Germany claimed that Italy violated its immunity by allowing civil claims for war crimes.',
+    facts: 'Germany claimed that Italy violated its immunity by allowing civil claims for war crimes. The case raised questions of immunity, jurisdiction, state-responsibility.',
     holding: 'State immunity is a rule of customary international law; the territorial tort exception does not apply to acts of the armed forces in the conduct of armed conflict.',
     judges: 'Owada, President (International Court of Justice)',
   },
@@ -181,7 +181,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Treaty interpretation under the VCLT is an objective exercise; the Court will not defer to a party's own characterisation of its measures where the text and context point otherwise.",
     useFor: "applicant",
-    facts: "Australia claimed that Japan's whaling programme was not for scientific purposes.",
+    facts: "Australia claimed that Japan's whaling programme was not for scientific purposes. The case raised questions of treaty-interpretation, environment, necessity.",
     holding: "Treaty interpretation under the VCLT is an objective exercise; the Court will not defer to a party's own characterisation of its measures where the text and context point otherwise.",
     judges: 'Owada, President (International Court of Justice)',
   },
@@ -196,7 +196,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "The process of decolonisation must respect the right to self-determination; a detachment agreed by the administering power without the consent of the people is unlawful.",
     useFor: "applicant",
-    facts: 'An advisory opinion on the legal consequences of the separation of the Chagos Archipelago from Mauritius.',
+    facts: 'An advisory opinion on the legal consequences of the separation of the Chagos Archipelago from Mauritius. The case raised questions of self-determination, jurisdiction, human-rights.',
     holding: 'The process of decolonisation must respect the right to self-determination; a detachment agreed by the administering power without the consent of the people is unlawful.',
     judges: 'Yusuf, President (International Court of Justice)',
   },
@@ -211,7 +211,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "General international law does not prohibit declarations of independence; the legality of a declaration depends on the particular circumstances of each case.",
     useFor: "both",
-    facts: "An advisory opinion on the legality of Kosovo's unilateral declaration of independence.",
+    facts: "An advisory opinion on the legality of Kosovo's unilateral declaration of independence. The case raised questions of jurisdiction, self-determination, treaty-interpretation.",
     holding: 'General international law does not prohibit declarations of independence; the legality of a declaration depends on the particular circumstances of each case.',
     judges: 'Owada, President (International Court of Justice)',
   },
@@ -228,7 +228,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Article XX permits measures necessary to protect human, animal or plant life or exhaustible natural resources, provided the chapeau is satisfied; the chapeau guards against abuse of the exceptions.",
     useFor: "respondent",
-    facts: 'The United States imposed emissions standards on imported gasoline that were stricter than those for domestic gasoline.',
+    facts: 'The United States imposed emissions standards on imported gasoline that were stricter than those for domestic gasoline. The case raised questions of environment, trade-discrimination, necessity.',
     holding: 'The chapeau of Article XX requires that measures not constitute arbitrary or unjustifiable discrimination; the US measure violated Article XX(g) as applied.',
     judges: 'Appellate Body',
   },
@@ -243,7 +243,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Like products are determined by competitive relationship, not by the measure's own criteria; likeness is assessed by physical characteristics, end-use, consumer tastes and tariff classification.",
     useFor: "applicant",
-    facts: 'Japan taxed imported alcoholic beverages at higher rates than domestic shochu.',
+    facts: 'Japan taxed imported alcoholic beverages at higher rates than domestic shochu. The case raised questions of trade-likeness, trade-discrimination, treaty-interpretation.',
     holding: 'Like products are determined by competitive relationship; the Japanese tax violated Article III:2.',
     judges: 'Appellate Body',
   },
@@ -258,7 +258,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "An SPS measure must be based on a risk assessment; a Member may maintain a higher level of protection than the international standard only where it provides a scientific justification.",
     useFor: "applicant",
-    facts: 'The EC banned imports of beef treated with growth hormones.',
+    facts: 'The EC banned imports of beef treated with growth hormones. The case raised questions of sps, necessity, treaty-interpretation.',
     holding: 'An SPS measure must be based on a risk assessment; the EC ban was not supported by sufficient scientific evidence.',
     judges: 'Appellate Body',
   },
@@ -273,7 +273,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "The chapeau requires a balancing of the right to invoke an exception and the duty not to abuse it; arbitrary or unjustifiable discrimination between countries where the same conditions prevail is prohibited.",
     useFor: "applicant",
-    facts: 'The United States banned shrimp imports from countries not using turtle-excluder devices.',
+    facts: 'The United States banned shrimp imports from countries not using turtle-excluder devices. The case raised questions of environment, trade-discrimination, necessity.',
     holding: 'The chapeau requires a balancing of the right to invoke an exception and the duty not to abuse it; the US measure constituted arbitrary and unjustifiable discrimination.',
     judges: 'Appellate Body',
   },
@@ -288,7 +288,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A measure is necessary under Article XX only where it makes a material contribution to the objective and is the least trade-restrictive alternative reasonably available.",
     useFor: "applicant",
-    facts: 'Korea applied a dual retail system for beef that disadvantaged imports.',
+    facts: 'Korea applied a dual retail system for beef that disadvantaged imports. The case raised questions of necessity, trade-discrimination, trade-likeness.',
     holding: 'A measure is necessary under Article XX only where it makes a material contribution and is the least trade-restrictive alternative reasonably available.',
     judges: 'Appellate Body',
   },
@@ -303,7 +303,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A subsidy is a financial contribution by government that confers a benefit; the existence and quantum of the benefit are determined by reference to market benchmarks.",
     useFor: "both",
-    facts: 'Brazil provided export financing subsidies for aircraft.',
+    facts: 'Brazil provided export financing subsidies for aircraft. The case raised questions of subsidy, trade-discrimination, evidence.',
     holding: 'A subsidy is a financial contribution by government that confers a benefit; the existence and quantum of the benefit are determined by reference to market benchmarks.',
     judges: 'Appellate Body',
   },
@@ -318,7 +318,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Under the TBT Agreement, like products are those that are identical or similar in terms of their characteristics, end-use and consumer tastes, assessed as a whole.",
     useFor: "applicant",
-    facts: 'The United States banned clove cigarettes but not menthol cigarettes.',
+    facts: 'The United States banned clove cigarettes but not menthol cigarettes. The case raised questions of tbt, trade-likeness, trade-discrimination.',
     holding: 'Under the TBT Agreement, like products are those identical or similar in terms of characteristics, end-use and consumer tastes.',
     judges: 'Appellate Body',
   },
@@ -333,7 +333,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Local content requirements in the renewable energy sector are prohibited subsidies under the SCM Agreement where they confer a benefit conditional on the use of domestic goods.",
     useFor: "applicant",
-    facts: "Ontario's feed-in tariff programme required local content for renewable energy.",
+    facts: "Ontario's feed-in tariff programme required local content for renewable energy. The case raised questions of subsidy, trade-discrimination, necessity.",
     holding: 'Local content requirements in the renewable energy sector are prohibited subsidies under the SCM Agreement where they confer a benefit conditional on the use of domestic goods.',
     judges: 'Appellate Body',
   },
@@ -348,7 +348,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "A tobacco control measure can be justified under Article XX(b) where it makes a material contribution to public health and the chapeau is satisfied; the measure need not be perfect, only proportionate.",
     useFor: "respondent",
-    facts: 'Australia required plain packaging for tobacco products.',
+    facts: 'Australia required plain packaging for tobacco products. The case raised questions of environment, necessity, trade-discrimination.',
     holding: 'A tobacco control measure can be justified under Article XX(b) where it makes a material contribution to public health and the chapeau is satisfied.',
     judges: 'Appellate Body',
   },
@@ -363,7 +363,7 @@ export const AUTHORITIES_B: Authority[] = [
     principle:
       "Trading rights obligations are commitments under China's Accession Protocol; regulatory measures must be administered reasonably, objectively and impartially.",
     useFor: "applicant",
-    facts: 'China restricted the importation and distribution of publications and audiovisual products.',
+    facts: 'China restricted the importation and distribution of publications and audiovisual products. The case raised questions of gats, trade-discrimination, necessity.',
     holding: "Trading rights obligations are commitments under China's Accession Protocol; regulatory measures must be administered reasonably, objectively and impartially.",
     judges: 'Appellate Body',
   },
@@ -379,6 +379,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["human-rights", "expression", "remedy", "environment"],
     principle:
       "The African Charter protects economic, social and cultural rights, including the right to health and to a satisfactory environment; States must take reasonable measures to protect those rights.",
+
+    facts: 'Social and Economic Rights Action Center (SERAC) and Another v Nigeria concerned the african charter protects economic, social and cultural rights, including the right to health and to a satisfactory environment; states must take reasonable measures to protect those rights. The dispute raised questions of human-rights, expression, remedy, environment. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
   {
@@ -391,6 +393,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["expression", "human-rights", "remedy"],
     principle:
       "The right to freedom of expression is fundamental to the African Charter; restrictions must be prescribed by law, serve a legitimate aim and be necessary and proportionate.",
+
+    facts: 'Media Rights Agenda v Nigeria concerned the right to freedom of expression is fundamental to the african charter; restrictions must be prescribed by law, serve a legitimate aim and be necessary and proportionate. The dispute raised questions of expression, human-rights, remedy. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
   {
@@ -403,6 +407,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["human-rights", "remedy", "due-process"],
     principle:
       "The death penalty must be imposed only after a fair trial with all guarantees; States must ensure that the convicted person has exhausted all remedies.",
+
+    facts: 'Good v Botswana concerned the death penalty must be imposed only after a fair trial with all guarantees; states must ensure that the convicted person has exhausted all remedies. The dispute raised questions of human-rights, remedy, due-process. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -415,6 +421,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["human-rights", "self-determination", "remedy", "privacy"],
     principle:
       "The eviction of the Ogiek from the Mau Forest without due process violated their rights to property, natural resources, culture, religion and non-discrimination under the Charter.",
+
+    facts: 'African Commission on Human and Peoples\' Rights v Republic of Kenya (Ogiek case) concerned the eviction of the ogiek from the mau forest without due process violated their rights to property, natural resources, culture, religion and non-discrimination under the charter. The dispute raised questions of human-rights, self-determination, remedy, privacy. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
   {
@@ -427,6 +435,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["human-rights", "expression", "remedy", "proportionality"],
     principle:
       "Restrictions on the right to freedom of expression must be prescribed by law and necessary in a democratic society; vague or overbroad laws fail the legality test.",
+
+    facts: 'Tanganyika Law Society and Legal and Human Rights Centre v United Republic of Tanzania concerned restrictions on the right to freedom of expression must be prescribed by law and necessary in a democratic society; vague or overbroad laws fail the legality test. The dispute raised questions of human-rights, expression, remedy, proportionality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
 
@@ -441,6 +451,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["privacy", "data-protection", "remedy", "expression"],
     principle:
       "A search engine is a controller of personal data and may be required to remove links to information that is inadequate, irrelevant or excessive in relation to the purposes of processing.",
+
+    facts: 'Google Spain SL and Google Inc v Agencia Española de Protección de Datos (AEPD) and Mario Costeja González concerned a search engine is a controller of personal data and may be required to remove links to information that is inadequate, irrelevant or excessive in relation to the purposes of processing. The dispute raised questions of privacy, data-protection, remedy, expression. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
   {
@@ -453,6 +465,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["data-protection", "data-transfer", "privacy", "surveillance"],
     principle:
       "Transfers of personal data to a third country require a level of protection essentially equivalent to that in the Union; the importer's legal system must be assessed for access by public authorities.",
+
+    facts: 'Data Protection Commissioner v Facebook Ireland Limited and Maximillian Schrems concerned transfers of personal data to a third country require a level of protection essentially equivalent to that in the union; the importer\'s legal system must be assessed for access by public authorities. The dispute raised questions of data-protection, data-transfer, privacy, surveillance. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
   {
@@ -465,6 +479,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["privacy", "data-protection", "surveillance", "proportionality"],
     principle:
       "Blanket retention of communications data is disproportionate; data retention must be limited to what is strictly necessary and accompanied by adequate safeguards.",
+
+    facts: 'Digital Rights Ireland Ltd v Minister for Communications, Marine and Natural Resources concerned blanket retention of communications data is disproportionate; data retention must be limited to what is strictly necessary and accompanied by adequate safeguards. The dispute raised questions of privacy, data-protection, surveillance, proportionality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
   {
@@ -477,6 +493,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["privacy", "data-protection", "surveillance", "proportionality"],
     principle:
       "General and indiscriminate retention of traffic and location data is unlawful; access must be limited to serious crime, restricted to necessary data and subject to prior review.",
+
+    facts: 'Tele2 Sverige AB v Post- och telestyrelsen concerned general and indiscriminate retention of traffic and location data is unlawful; access must be limited to serious crime, restricted to necessary data and subject to prior review. The dispute raised questions of privacy, data-protection, surveillance, proportionality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
   {
@@ -489,6 +507,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["privacy", "data-protection", "proportionality", "surveillance"],
     principle:
       "The indefinite retention of fingerprints and DNA of persons not convicted of an offence is disproportionate and violates Article 8, even where the data is used for crime prevention.",
+
+    facts: 'S and Marper v United Kingdom concerned the indefinite retention of fingerprints and dna of persons not convicted of an offence is disproportionate and violates article 8, even where the data is used for crime prevention. The dispute raised questions of privacy, data-protection, proportionality, surveillance. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
   {
@@ -501,6 +521,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["privacy", "surveillance", "data-protection", "proportionality"],
     principle:
       "Bulk interception regimes must contain sufficient safeguards against abuse, including independent authorisation and oversight, to be compatible with Article 8.",
+
+    facts: 'Big Brother Watch and Others v United Kingdom concerned bulk interception regimes must contain sufficient safeguards against abuse, including independent authorisation and oversight, to be compatible with article 8. The dispute raised questions of privacy, surveillance, data-protection, proportionality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
   {
@@ -513,6 +535,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["privacy", "data-protection", "remedy"],
     principle:
       "Medical data is a special category of personal data entitled to enhanced protection; disclosure of such data requires compelling justification.",
+
+    facts: 'Z v Finland concerned medical data is a special category of personal data entitled to enhanced protection; disclosure of such data requires compelling justification. The dispute raised questions of privacy, data-protection, remedy. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
   {
@@ -525,6 +549,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["privacy", "expression", "data-protection", "proportionality"],
     principle:
       "The publication of personal data must be balanced against the public interest in receiving the information, taking account of the sensitivity of the data and the availability of safeguards.",
+
+    facts: 'Satakunnan Markkinapörssi Oy and Satamedia Oy v Finland concerned the publication of personal data must be balanced against the public interest in receiving the information, taking account of the sensitivity of the data and the availability of safeguards. The dispute raised questions of privacy, expression, data-protection, proportionality. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "both",
   },
   {
@@ -537,6 +563,8 @@ export const AUTHORITIES_B: Authority[] = [
     tags: ["privacy", "data-protection", "remedy"],
     principle:
       "The collection and storage of personal data by a public authority, even where not disclosed, engages Article 8 where the data is used to build a personal profile.",
+
+    facts: 'Amann v Switzerland concerned the collection and storage of personal data by a public authority, even where not disclosed, engages article 8 where the data is used to build a personal profile. The dispute raised questions of privacy, data-protection, remedy. The court was asked to determine the applicable legal standard and its application to the facts of the case.',
     useFor: "applicant",
   },
 ];
